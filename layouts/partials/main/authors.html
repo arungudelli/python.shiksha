@@ -1,11 +1,7 @@
-<div class="mid">
-    <div class="divider">
-      
-      <nav id="single-menu" class="l" data-dir="ltr">
-        
-      </nav>
-  
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10 col-xl-8">
       <article id="list-main" class="m" data-dir="ltr">
+        <h1 class="text-center">{{ .Page.Params.title }}</h1>
         <div class="single" data-display="block">
           <article class="single__contents" data-dir="ltr">
             {{ partial "main/sections/authors-meta.html" . }}
@@ -15,10 +11,6 @@
 
       </article>
       
-      <section id="list-side" class="r" data-dir="ltr">
-        
-      </section>
-  
     </div>
   </div>
 
