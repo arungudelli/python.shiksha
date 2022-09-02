@@ -63,7 +63,9 @@ rel  = "sitemap"
 
 [permalinks]
   blog = "/blog/:title/"
-  docs = "/:sections[1:]/:title/"
+# docs = "/tips/:title/"
+#  docs = "/:sections[1:]/:title/"
+
 # docs = "/docs/1.0/:sections[1:]/:title/"
 
 [minify.tdewolff.html]
@@ -106,6 +108,6 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/mermaid"
     target = "assets/js/vendor/mermaid"
-  #[[module.mounts]]
-  #  source = "node_modules/@hyas/images/layouts"
-  #  target = "layouts"
+  [[module.mounts]]
+    source = "node_modules/@hyas/images/layouts"
+    target = "layouts"

@@ -28,8 +28,14 @@
   identifier = "lorem"
   url = "/tutorial/lorem/"
 
-[[main]]
+  [[main]]
   name = "Tips"
+  url = "/tips/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 10
+
+[[main]]
+  name = "Docs"
   url = "/docs/tips/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
