@@ -2,7 +2,16 @@
 <ul class="list-unstyled collapsible-sidebar">
   {{ $currentPage := . -}}
   {{ $section := $currentPage.Section -}}
+
+  {{ $activePage := .RelPermalink}}
+
   {{ range (where .Site.Sections "Section" "in" $section) }}
+
+
+
+  {{ if eq (len .Sections) 0 }}
+  {{ partial "sidebar/page-menu.html" (dict "context" . "activePage" $activePage) }}
+  {{ end }}
     {{ range .Sections }}
       {{ $active := in $currentPage.RelPermalink .RelPermalink }}
       <li class="mb-1">
