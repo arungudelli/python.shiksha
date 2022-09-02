@@ -1,28 +1,24 @@
 # Python Shiksha
 
 
-## Install Hugo 
-
-Follow the below steps to install Hugo framework
-
-[https://gohugo.io/getting-started/installing/](https://gohugo.io/getting-started/installing/)
-
 ## Clone Python Shiksha 
 
 After installing hugo, clone the repository
 
 ```
-git clone https://github.com/manasa-arun/python.git
+git clone https://github.com/arungudelli/python.shiksha.git
 ```
 
 And navigate to the root folder then type the below command 
 
 ```
-hugo serve
+npm install
 
-or 
+```
+Then run the site using below command.
 
-hugo server
+```
+npm run start
 ```
 
 The site should be running on 
