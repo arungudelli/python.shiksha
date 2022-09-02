@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Python Shiksha"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Step by Step Guide to learn Python language"
+description = "Learn Python from basics to advanced topics with simple detailed tutorials and examples."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -13,20 +13,20 @@ description = "Doks is a Hugo theme for building secure, fast, and SEO-ready doc
 images = ["doks.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+titleHome = "Python Shiksha"
 
 ## Twitter Cards
 twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterCreator = "@arungudelli"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "Python Shiksha"
+schemaAuthor = "Arunkumar Gudelli"
+schemaAuthorTwitter = "https://twitter.com/arungudelli"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/arungudelli/"
+schemaAuthorGitHub = "https://github.com/arungudelli"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -36,7 +36,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/arungudelli/python.shiksha"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -68,7 +68,7 @@ fillImage = "1270x740 Center" # normalize image size
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2021-2022 Arunkumar Gudelli"
 
 # Alert
 alert = false
@@ -80,7 +80,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/arungudelli/python.shiksha"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false
