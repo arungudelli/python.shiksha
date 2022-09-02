@@ -55,3 +55,76 @@
 h2.section-title {
   margin-bottom: 1.25rem;
 }
+
+
+  .author-card {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0,0,0,.05);
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.author-card .portrait {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+	padding-left:10px;
+}
+.mr-3 {
+    margin-right: 1rem!important;
+}
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+.author-card .card-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #007d9c;
+}
+
+.author-card .card-text {
+    color: rgba(0,0,0,.76);
+    font-size: 16px;
+    margin-bottom: 20px;
+	line-height: 1.7;
+}
+
+.card-text a{
+	word-break: break-word;
+}
+
+
+.author-card p {
+    color: rgba(0,0,0,.76);
+    font-size: 16px;
+    margin-bottom: 20px;
+	line-height: 1.7;
+}
+ul.network-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.network-icon svg {
+    height: 30px;
+    fill: #007d9c;
+}
+
+.network-icon li {
+	margin-right: 5px;
+}
