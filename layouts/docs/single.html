@@ -41,6 +41,14 @@
 				{{ end -}}
 			</div>
 			{{ partial "main/docs-navigation.html" . }}
+
+
+			{{ $path := printf "authors/%s/" .Params.author }}
+
+			{{ with .Site.GetPage $path }}
+			{{ partial "main/sections/authors-meta.html" . }}
+			{{ end }}
+
 			<!--
 			{{ if not .Site.Params.options.collapsibleSidebar -}}
 				{{ partial "main/docs-navigation.html" . }}
