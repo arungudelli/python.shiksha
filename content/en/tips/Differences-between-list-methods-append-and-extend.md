@@ -3,8 +3,7 @@ title: "Differences between list methods, append and extend in Python"
 description: "The differences between list methods, append and extend in Python."
 date: "2022-08-09T04:15:05+09:00"
 draft: false
-link: "append vs extend methods"
-author: ""
+author: "shittu"
 ---
 
 ## Overview
