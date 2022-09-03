@@ -4,7 +4,9 @@
         <h1 class="text-center">{{ .Page.Params.title }}</h1>
         <div class="single" data-display="block">
           <article class="single__contents" data-dir="ltr">
+            {{ if not .IsNode }}
             {{ partial "main/sections/authors-meta.html" . }}
+            {{ end }}
             {{ partial "main/sections/authors-post.html" . }}
           </article>
         </div>  
