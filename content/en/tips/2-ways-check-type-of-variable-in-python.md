@@ -5,10 +5,7 @@ date: "2021-07-19T04:15:05+09:00"
 draft: false
 link: "check type of a Variable"
 author: "dmohanty"
-type: docs
-toc: true
-menu:
-  tips:
+
 
 ---
 
