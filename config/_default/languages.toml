@@ -126,7 +126,7 @@ languageTag = "pl"
 
 [pt-br]
 contentDir = "content/pt-br"
-languageName = "Portuguese (Brazilian)"
+languageName = "Portuguese Br"
 weight = 105
 [pt-br.params]
 languageTag = "pt-br"
