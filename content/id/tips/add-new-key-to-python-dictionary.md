@@ -2,7 +2,7 @@
 title: "5 Python methods to add New Keys to a Dictionary"
 description: "Learn how to add new keys to an existing dictionary"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Add keys to Dictionary"
 author: "dmohanty"
 image: "images/featured/addNewKeysPythonDictionary.png"

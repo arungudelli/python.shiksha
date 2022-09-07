@@ -2,7 +2,7 @@
 title: 'Iterate through a Python Dictionary key values using "for" loop'
 description: "Various methods of iterating through a dictionary key values in Python"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Iterating Dictionary"
 author: "dmohanty"
 ---

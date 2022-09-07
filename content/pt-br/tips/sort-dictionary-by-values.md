@@ -2,7 +2,7 @@
 title: "5 ways to sort a dictionary by value in Python"
 description: "How can we Sort a Dictionary by values using different methods ?"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Sort dictionary by value"
 author: "dmohanty"
 ---

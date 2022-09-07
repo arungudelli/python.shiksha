@@ -2,7 +2,7 @@
 title: "3 ways to get the number of elements inside a Python list"
 description: "Different methods and functions to extract the number of elements inside a list"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Get number of elements in a list"
 author: "dmohanty"
 ---

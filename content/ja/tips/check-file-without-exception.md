@@ -2,7 +2,7 @@
 title: "Check if a file exists or not without exception in Python"
 description: "How to check if a file exists without exception in Python."
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "file exists check"
 author: "dmohanty"
 ---

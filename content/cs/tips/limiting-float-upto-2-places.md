@@ -2,7 +2,7 @@
 title: "3 Python ways to Limit float up to two decimal places"
 description: "How to get a float with only up to two decimal places."
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Limiting float upto 2 decimals"
 author: "dmohanty"
 ---

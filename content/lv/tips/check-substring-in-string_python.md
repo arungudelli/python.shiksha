@@ -2,7 +2,7 @@
 title: "5 Python methods to check if a substring exists in a Given string"
 description: "Different methods of checking for a substring inside a string in python."
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Substring Check"
 author: "dmohanty"
 ---
