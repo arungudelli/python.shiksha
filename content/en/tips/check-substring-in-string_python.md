@@ -28,13 +28,13 @@ Examples of Strings in python:
 
 Let's start exploring the various python methods starting with the powerful and most common `in` operator.
 
-## Using the in operator
+## Using the `in` operator
 
 The `in` operator is one of the fastest and most generic method adopted by python programmers as they know the power of the `in` operator and its value in python. 
 
 The `in` operator evaluates the presence of a substring inside a string and return a **boolean** value accordingly.
 
-```
+```python
 main_string = "Python is a good programming language"
 sub_string1 = "good"
 sub_string2 = "not"
@@ -57,13 +57,13 @@ False
 
 Thus, we would now have a fair idea as of why `in` is so valuable in python.
 
-## Using the find() method
+## Using the `find()` method
 
 Python’s default `find()` method is used to check if a substring is present in a string and this method looks for the lowest index at which the substring is found.
 
 It returns the **particular index** if the substring is present else returns `-1` if substring is not present.
 
-```
+```python
 main_string = "Python is a good programming language"
 sub_string1 = "good"
 sub_string2 = "not"
@@ -88,11 +88,11 @@ Other than the generic method of using `find()`, we can also try out some cool i
 The cool feature is that we can specify *starting* and *ending* indices for our search, in case of a multiline main string.
 
 Syntax:
-```
+```python
 print( main_string.find(sub_string , starting index , ending index ))
 ```
 
-```
+```python
 main_string = "Python is a good programming language"
 
 sub_string1 = "good"
@@ -108,13 +108,13 @@ OUTPUT:
 ```
 As discussed, we can clearly see that since the index of *good* is `12` therefore when we specify indices from 1-10, we get `-1` as result but when we search in indices from 10-30, we get the output as `12`.
 
-## Using the count() method
+## Using the `count()` method
 
 The `count()` is one of those generic python programming methods which return binary value as output.
 
 This method searches for the occurrence of a substring inside a string and returns `1` if substring is present else returns `0` when substring is not present.
 
-```
+```python
 main_string = "Python is a good programming language"
 
 sub_string1 = "good"
@@ -144,7 +144,7 @@ Unlike other methods, this doesn't return a value as output but instead it retur
 
 Hence, **Handling exception** is the only way to evaluate the existence of a substring inside of a string. 
 
-```
+```python
 main_string = "Python is a good programming language"
 
 sub_string1 = "good"
@@ -177,7 +177,7 @@ But this method can be effective at times. Implementation of this method require
 
 This method returns a `boolean` value as output depending the presence of a substring inside a string. 
 
-```
+```python
 import operator
 
 main_string = "Python is a good programming language"
@@ -206,7 +206,7 @@ Since, we have discussed all the methods for evaluating the existence of a subst
 
 Now we will see the performance aspects of different methods
 
-```
+```python
 import timeit
 code_setup = """
 main_string = "Python is a good programming language"

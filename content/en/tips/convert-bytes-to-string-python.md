@@ -3,7 +3,6 @@ title: "5 methods to Convert Bytes to String in Python"
 description: "Different methods by which we can convert Byte to String in Python"
 date: "2022-08-02T04:15:05+09:00"
 draft: false
-link: "Convert Bytes to String"
 author: "dmohanty"
 ---
 
@@ -17,8 +16,8 @@ In this article we will be looking at two data types from Python and then we wil
 
 **Byte**: Byte usually refers to an integer between 0 and 255 which can generally be represented using b / B.
 
-```
-byte_string = b’I love coding with python’
+```python
+byte_string = b'I love coding with python'
 ```
 
 **String**: Strings are a continuous literals of Unicode characters that can be used to represent text information by enclosing the data between single quotes and double quotes.

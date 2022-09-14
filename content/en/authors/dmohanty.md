@@ -3,7 +3,7 @@ title: "Dibyanshu Mohanty"
 user: "dmohanty"
 photo: "/images/authors/DM.jpg"
 twitter: "DcodeM"
-linkedin: "dibyanshu-mohanty-37a2b71b8"
+linkedin: "dibyanshu-mohanty"
 github: "dibyanshu-mohanty"
 blog: "https://ddevm.medium.com"
 enableBreadcrumb: false

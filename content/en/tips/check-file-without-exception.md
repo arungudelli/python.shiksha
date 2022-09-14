@@ -60,17 +60,17 @@ For e.g.: While checking for existence, there might be another process running w
 
 There are a few methods by the help of which we can effectively evaluate the existence of a file.
 
-## Using the os module
+## Using the `os` module
 
 We can evaluate the existence of a file/directory by using the `exists()` method of the `os.path` module. 
 
 For better filtering of our results, we can also use the `isfile()` and `isdir()` methods to know if the mentioned path leads to a file or a directory.
 
-`os.path.exists(path)` returns a **boolean** value accordingly if the provided path leads to a *file*, *directory*, valid *symlink* or not.
+`os.path.exists(path)` returns a **`boolean`** value accordingly if the provided path leads to a *file*, *directory*, valid *symlink* or not.
 
-`os.path.isfile(path)`  returns a **boolean** value accordingly if the provided path leads to a *file* or not.
+`os.path.isfile(path)`  returns a **`boolean`** value accordingly if the provided path leads to a *file* or not.
 
-`os.path.isdir(path)`  returns a **boolean** value accordingly if the provided path leads to a *directory* or not.
+`os.path.isdir(path)`  returns a **`boolean`** value accordingly if the provided path leads to a *directory* or not.
 
 ```
 import os.path
@@ -94,13 +94,13 @@ False
 
 This method is a go-to use method if there are no simultaneous actions being performed on the same file like deleting the file or copying the file.
 
-## Using the pathlib module
+## Using the `pathlib` module
 
 This method can only be used by programmers using Python version equivalent or more than *Python 3.4*. 
 
-**Pathlib** is one of the easiest to use and understand module of Python that provides the object-oriented interface to work with the filesystem paths.
+**`Pathlib`** is one of the easiest to use and understand module of Python that provides the object-oriented interface to work with the filesystem paths.
 
-We can install **pathlib** using the following command:
+We can install **`pathlib`** using the following command:
 
 ```
 pip install pathlib
@@ -136,7 +136,7 @@ pip install pathlib2
 
 The main difference between using the **os** and **pathlib** module is that *pathlib* allows the user to work with the filesystem paths as `Path` objects while *os* works with the paths as simple `string` objects.
 
-## Using the glob module
+## Using the `glob` module
 
 Python’s Glob module allows the user to interact with the filesystem. The main advantage of using the **glob** module is because of its **ability to match a pattern**.
 
@@ -159,11 +159,11 @@ File exists
 
 This is how we can use the **Glob** module to evaluate if a file exists or not.
 
-## Different Usecases
+## Different Use cases
 
 Since we have discussed all the different methods of using Python scripting to check if a file exists or not.
 
-Now, it’s the time that we should discuss some *important usecases* of these methods. 
+Now, it’s the time that we should discuss some important use cases of these methods. 
 
 ## Check if all files of a list exist
 
@@ -194,7 +194,7 @@ All files exist
 
 ## Check if a file is empty or not
 
-Sometimes we may come across *usecases* where our provided contains a file which is empty.
+Sometimes we may come across use cases where our provided contains a file which is empty.
 
 For such situations, we need to ensure that file is not empty and is not corrupted.
 
@@ -245,4 +245,4 @@ PowerPoint File doesn’t exist
 
 In this article we discussed in detail about all the various methods that can be used in python scripting to check if a file exists or not.
 
-We also discussed some *important usecases* where these methods can be used to check if a file exists and  reduce the code as well as improve runtime performance.
+We also discussed some *important use cases* where these methods can be used to check if a file exists and  reduce the code as well as improve runtime performance.

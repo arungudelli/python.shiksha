@@ -3,7 +3,6 @@ title: "5 Python methods to add New Keys to a Dictionary"
 description: "Learn how to add new keys to an existing dictionary"
 date: "2021-07-19T04:15:05+09:00"
 draft: false
-link: "Add keys to Dictionary"
 author: "dmohanty"
 image: "images/featured/addNewKeysPythonDictionary.png"
 
@@ -64,7 +63,7 @@ We say how to add a single key-value pair in the previous section, but is that m
 
 Probably No. So, we can add multiple key value pair to a dictionary using Python’s inbuilt `update()` method.
 
-## Using the update() method
+## Using the `update()` method
 
 This method can take in any *iterable* sequence of **length two**.
 
@@ -112,7 +111,7 @@ Output:
 {'cricket': 1, 'football': 2, 'hockey': 3, 'wrestling': 4, 'swimming': 5, 'archery': 6}
 ```
 
-## Using the Merge & Update operator
+## Using the `Merge` & `Update` operator
 
 `Merge` & `Update` operator has now been added to the core module of dict class but it is available only for **Python 3.9+** users.
 
@@ -167,7 +166,7 @@ Output:
 {'cricket': 1, 'football': 2, 'hockey': 3, 'wrestling': 4, 'swimming': 5}
 ```
 
-## Using the * operator
+## Using the `*` operator
 
 The `*` operator is used to merge the old dictionary with the new key value pairs to a new dictionary.
 
