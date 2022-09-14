@@ -66,7 +66,7 @@ In order to achieve our desired output as well we will now use a `try-except` cl
 
 Let’s checkout this awesome method.
 
-```
+```python
 class shiksha:
     pypy = 15.0
     def getPy():
