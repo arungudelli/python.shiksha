@@ -3,7 +3,6 @@
 
 ## Clone Python Shiksha 
 
-After installing hugo, clone the repository
 
 ```
 git clone https://github.com/arungudelli/python.shiksha.git
