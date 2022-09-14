@@ -1,5 +1,5 @@
 ---
-title: "Extract Extension from Filename"
+title: "How extract/get extension from the file name in Python"
 description: "Different methods by which we can extract extension from filename using Python"
 date: "2022-08-02T04:15:05+09:00"
 draft: false

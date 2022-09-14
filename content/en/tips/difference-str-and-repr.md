@@ -2,7 +2,7 @@
 title: "Difference between __str and __repr__"
 description: "Difference between __str and __repr__ in Python"
 date: "2022-08-02T04:15:05+09:00"
-draft: false
+draft: true
 link: "Difference between str and repr"
 author: "dmohanty"
 ---

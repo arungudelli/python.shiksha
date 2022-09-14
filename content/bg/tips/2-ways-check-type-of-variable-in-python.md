@@ -35,7 +35,7 @@ The commonly used data types in python are:
 
 
 Example:
-```
+```python
 # Integer
 a = 10
 
