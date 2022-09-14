@@ -35,7 +35,7 @@ The commonly used data types in python are:
 
 
 Example:
-```
+```python
 # Integer
 a = 10
 
@@ -69,7 +69,7 @@ Python has a built-in `type()` method , which gives the class type of the variab
 
 The `type()` method takes in one argument i.e., the variable whose data type is to be determined, and it outputs the class type of the argument.
 
-```
+```python
 a = 10
 b= 25.56
 c="Hello World"
@@ -108,7 +108,7 @@ The `isinstance()` method takes in two arguments, and returns a Boolean value , 
 
 Let’s define it by the help of a code:
 
-```
+```python
 a = 10
 b= 25.56
 c="Hello World"
@@ -141,7 +141,7 @@ The Variable Type is Float:  False
 
 Since both the methods are equally useful for getting the desired result, we can use either of the method but we should now look at some of the differences between both these methods.
 
-```
+```python
 class Parent:
     pass
 
@@ -162,7 +162,7 @@ Output:
 
 The `type()` returns a True value only if the **exact class type** matches but the `isinstance()` method return true even if the **superclass type** matches.
 
-```
+```python
 class Parent:
     pass
 

@@ -21,7 +21,7 @@ In this article we will discuss briefly about the different methods fetching uni
 List contains a group of elements of a different data type separated by commas, and enclosed inside square brackets `[ ]`. 
 Example of a list:
 
-```
+```python
 sample_list = [1,2,5,2,6,1,4,3,6,3,9,8,2]
 ```
 
@@ -39,7 +39,7 @@ We can simply iterate through the existing `python` list and append the unique v
 
 This is the **novice method** for solving this and probably preferred by the beginners.
 
-```
+```python
 sample_list = [1,2,5,2,6,1,4,3,6,3,9,8,2]
 unique_list = []
 for element in sample_list:
@@ -65,7 +65,7 @@ They have a property that they allow only one occurrence of each element and thu
 
 Thus, converting the `python` list to `set` using `set()` method in order to fetch only unique values and then converting the set to the list using `list()`.
 
-```
+```python
 sample_list = [1,2,5,2,6,1,4,3,6,3,9,8,2]
 
 unique_list = list(set(sample_list))
@@ -90,7 +90,7 @@ We have to explicitly *import* the modules before using them inside of our progr
 
 Using this methods consists of two parts, first being to convert the list into a **numpy array** and then using `numpy.unique`, which returns a list of only unique values from the list.
 
-```
+```python
 import numpy as numpy
 
 sample_list = [1,2,5,2,6,1,4,3,6,3,9,8,2]
@@ -114,7 +114,7 @@ The `collections` module contains a method called `Counter()` which prints all t
 
 We can carry out this functionality with the help of `*` operator.
 
-```
+```python
 from collections import Counter
 
 sample_list = [1,2,5,2,6,1,4,3,6,3,9,8,2]

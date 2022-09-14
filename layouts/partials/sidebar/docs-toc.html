@@ -10,6 +10,7 @@
   <div class="collapse" id="onThisPage">
     <div class="card card-body mt-3 py-1">
       <div class="page-links">
+        hi
         {{ .TableOfContents }}
       </div>
     </div>
@@ -20,7 +21,10 @@
   {{ if eq .Site.Params.options.scrollSpy true -}}
     {{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "<nav id=\"toc\">" | safeHTML }}
   {{ else -}}
-    {{ .TableOfContents }}
+  {{ $toc := replace .TableOfContents "<li>" "<strong><li>" }}
+    {{ $toc := replace $toc "</li>" "</li></strong>" }}
+
+    {{ $toc | safeHTML  }}
   {{ end -}}
 </div>
 {{ end -}}
