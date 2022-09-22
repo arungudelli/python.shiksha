@@ -1,10 +1,9 @@
 ---
 title: "How do i append to a file"
 description: "How you can easily i append to a file in python"
-date: "2022-09-04"
+date: "2022-08-02T04:15:05+09:00"
 draft: false
-link: "How do i append to a file"
-author: "Shittu Olumide"
+author: "shittu"
 ---
 
 In Python, reading, writing, and editing files are common tasks since the language gives us built-in functions to do so. 
