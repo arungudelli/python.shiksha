@@ -1,40 +1,40 @@
 ---
-title: "Generate random integers from 0-9"
+title: "Generate random integers between 0 & 9"
 description: "Different methods by which generate random integers from 0-9 in Python"
 date: "2022-08-02T04:15:05+09:00"
-draft: false
+draft: true
 link: "Generate random integers"
 author: "dmohanty"
 ---
 
 ## Introduction
 
-_Integers_ are pretty much the most common data types inside of every programming language. Data types being the building blocks of a programming language and integer being one of the fundamental data types.
+`Integers` are pretty much the most common data types inside of every programming language. 
 
-Integer basically in python are a category of zero, positive or negative whole numbers without a fractional part and having a never-ending precision. Type cast to integers is also easy as we can convert any data type to integer by using the default constructor for int i.e., `int()`.
+Data types being the building blocks of a programming language and integer being one of the fundamental data types.
 
-Now in this article we will see how we can generate random integers between 0-9 in python using various methods.
+Now in this article we will see how we can generate random integers between 0 and 9 in python using various methods.
 
-## Using randint() method
+## Method 1: Using `randint()` method
 
-Python has a lot of built-in libraries for various tasks in a simplified manner and like the *Math.random() *function in JavaScript, we have the `random` module in python that can be used to generate random integers within a range.
+Python has a lot of built-in libraries for various tasks in a simplified manner and like the `Math.random()` function in JavaScript.
 
-Let’s have a look on its implementation:
+**`random` module in python is used to generate random integers within a range.**
 
-```
+Let's go through an example to understand it further
+
+The below codes prints numbers between 0 and 9 randomly.
+
+```python
 import random
 
 for i in range(0,9):
     random_number = random.randint(0, 9)
     print(random_number)
 
-```
-
+"""
 Output:
 
-In order to get a better understanding of the function, we are calling the loop 10 times and printing the function output 10 times.
-
-```
 1
 3
 2
@@ -44,35 +44,36 @@ In order to get a better understanding of the function, we are calling the loop 
 7
 3
 9
+"""
 
 ```
 
-We can see that we are getting desired output but still the problem is that, in case we want to use a float number inside of range, we would get a **ValueError**.
+In order to get a better understanding of the function, we are calling the loop 10 times and printing the function output 10 times.
+
+We can see that we are getting desired output but still the problem is that, in case we want to use a float number inside of range, we would get a `ValueError`.
 
 So how can we fix it, don’t worry we will try to fix this issue in the upcoming methods but let’s now see another method from the `random` module that can help us achieve the same output.
 
-## Using randrange() method
+## Method 2: Using `randrange()` method
 
 This function belongs to `random` module, and it generates random integers within a given range.
 
-This function usually takes up _three parameters_, start, stop, step.
+This function usually takes up three parameters start, stop, step.
 
 This returns a random integer between the given range. The higher range is not included while calculating the range inside of the function.
 
 Let’s check out the implementation of this method
 
-```
+```python
 import random
 
 for i in range(9):
     random_number = random.randrange(9)
     print(random_number)
 
-```
-
+"""
 Output:
 
-```
 1
 5
 2
@@ -83,9 +84,12 @@ Output:
 1
 2
 
+"""    
+
 ```
 
-We are still getting the same output but, in this case, we want to use a `float` number as a parameter of this function then also we would get a **ValueError**.
+
+
 
 Now let’s look at the last function which is more preferred base on a security and cryptic Point of view.
 
