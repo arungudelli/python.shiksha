@@ -1,5 +1,5 @@
 ---
-title: "How to count occurrences of a list item in Python"
+title: "5 ways to count occurrences of a list item in Python"
 description: "Different methods by which we can count occurrences of a list item using Python"
 date: "2022-08-02T04:15:05+09:00"
 draft: false
