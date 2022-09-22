@@ -12,6 +12,12 @@ Let’s see.
 
 In this article, we will see about all the different methods about how to write a list onto a file in python.
 
+While working with files in python, we need to take care of a few things.
+
+1. Before writing to a file, we have to first open the file using `open()` with write mode `w` parameter.
+2. We can write on to a file using either `write()` or `writelines()`
+3. Most importantly, we have to close the file using `close()`
+
 ## Method 1: Using the `for` loop
 
 This is again one of the many use cases of the `for` loop.

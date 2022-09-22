@@ -2,7 +2,7 @@
 title: "Specify new lines while writing to file"
 description: "How to write and append new lines to a file"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Write to a file"
 author: "dmohanty"
 ---

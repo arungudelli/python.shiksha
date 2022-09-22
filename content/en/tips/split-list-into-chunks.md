@@ -2,7 +2,7 @@
 title: "Split a list into equally sized chunks"
 description: "Different methods by which we can split a list into equally sized chunks in Python"
 date: "2022-08-02T04:15:05+09:00"
-draft: false
+draft: true
 link: "Split a list into equally sized chunks"
 author: "dmohanty"
 ---

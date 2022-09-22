@@ -2,7 +2,7 @@
 title: "Remove a key from a Python dictionary"
 description: "Different methods by which we can remove a key from a Python dictionary in Python"
 date: "2022-08-02T04:15:05+09:00"
-draft: false
+draft: true
 link: "Remove a key from a dictionary"
 author: "dmohanty"
 ---

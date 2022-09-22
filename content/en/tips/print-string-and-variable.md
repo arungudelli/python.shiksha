@@ -2,7 +2,7 @@
 title: "Print String and Variable"
 description: "How to print string and variable on same line in python"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Print string-variable on same line"
 author: "dmohanty"
 ---
