@@ -1,6 +1,6 @@
 ---
 title: "How to Define a 2-D (2-dimensional) List in Python"
-description: "How to initialize a 2-D list in python"
+description: "Learn how to define & initialize a 2-D list in python"
 date: "2021-07-19T04:15:05+09:00"
 draft: false
 author: "dmohanty"
@@ -95,4 +95,4 @@ Well , the **third** method is the most effective method of creating a 2-D list 
 
 ## Conclusion
 
-In this article, we briefly discussed about the various few methods that can be used to create a 2-D list in python and we also discussed about the most **effective** method for achieving this result. 
+In this article, we briefly discussed about the various methods that can be used to create a 2-D list in python and we also discussed about the most **effective** method for achieving this result. 

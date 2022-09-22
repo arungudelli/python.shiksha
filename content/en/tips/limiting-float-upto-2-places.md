@@ -14,13 +14,11 @@ In this article we will discuss about the a very popular use case of the floatin
 
 Python has a variety of Data Types which are used to specify the category of the value that can be stored inside a variable.
 
-Out of these numerous data types, *float* is a data type that hold both *decimals* and integers.
+Out of these numerous data types, `float` is a data type that hold both `decimals` and `integers`.
 
-Unless and until value assigned to a variable isn’t in the form of *decimals*, Python interprets it as an integer. 
+Unless and until value assigned to a variable isn't in the form of `decimals`, Python interprets it as an `integer`. 
 
-For converting Numerical strings and integers to floating-point numbers, we can take the help of the `float()` constructor.
-
-Examples of floating-point numbers:
+Examples of floating-point numbers in Python:
 
 ```python
 a= 13.5
@@ -34,7 +32,7 @@ Output:
 13.5  &  25.758
 ```
 
-## Methods of limiting float up to 2 decimal places in Python
+## Limiting float up to 2 decimal places in Python
 
 Now let's dive deep into detail of the methods
 
@@ -78,7 +76,7 @@ Pretty simple and a go-to method in order to constraint our floats up to two dec
 
 ## Method 2: Using the `%` operator
 
-If you come from a **C language** background, then you must be very familiar with using the `%` operator in print statements. 
+If you come from a `C language` background, then you must be very familiar with using the `%` operator in print statements. 
 
 But we can also use this `%` operator in Python print statements in order to restrict our floats up to two decimal places.
 
@@ -117,19 +115,14 @@ Output:
 19.57
 ```
 
-We have successfully completed discussing all the methods
-
-Such a important use case but with only 3 methods ? 
-
-**Yes**, because all the three methods are self-sufficient of providing user desirable output.
 
 ## Conclusion
 
-In this article, we briefly discussed about the few different methods about how to constrain floating-point numbers up to two decimal points. 
+In this article, we briefly discussed about the few different methods about how to limit floating-point numbers up to two decimal points. 
 
 First, we started with python’s inbuilt `round()` method followed by the `%` operator and lastly about using the `str.format()` method. 
 
-Again, I would state that all the three methods are self sufficient of providing **user desirable** output individually and ne one method should be adopted while programming.
+Again, I would state that all the three methods are self sufficient of providing **user desirable** output individually and we can use any one of them while programming.
 
 
 
