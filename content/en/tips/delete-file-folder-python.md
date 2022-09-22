@@ -281,7 +281,7 @@ Oops ! Something went Wrong
 
 ## Method 5: Using `pathlib` module
 
-`Path` object from the Python 3.4+ `pathlib` module have two methods which are used to delete a file or folder. 
+`Path` object from the Python 3.4+ `pathlib` module, contains two methods which can be used to delete a file or folder in Python. 
 
 1. `pathlib.Path.unlink()` 
 2. `pathlib.Path.rmdir()` :  

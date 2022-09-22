@@ -1,5 +1,5 @@
 ---
-title: "How extract/get extension from the file name in Python"
+title: "2 ways to extract/get extension from the file name in Python"
 description: "Different methods by which we can extract extension from file name using Python"
 date: "2022-08-02T04:15:05+09:00"
 draft: false
@@ -14,7 +14,7 @@ According to the file extension only, the operating system is notified to perfor
 
 In case we are using a **remote file** somewhere in a big codebase, where we don’t know the file extension of the generated file, in that case we are required to extract the extension from the file name using Python and then perform the required action.
 
-## Using `os.path()` method
+## Method 1: Using `os.path()` method
 
 File Path manipulation is enhanced by the usage of the `os.path()` method in python.
 
@@ -44,7 +44,7 @@ Output:
 
 Easy and compact to use module and as we can see that it extracts both the file path as well as the extension name, which can be helpful in achieving some particular result.
 
-## Using `pathlib.Path()` function
+## Method 2: Using `pathlib.Path()` function
 
 `Pathlib` is one of the most used python modules when it comes to playing around with the file paths.
 
