@@ -1,61 +1,63 @@
 ---
-title: "Fastest way to check if a value exists in a list"
+title: "7 ways to check if an element is in a list in Python"
 description: "Comparing different methods to check for the fastest method"
-date: "2021-07-19T04:15:05+09:00"
+date: "2022-09-21T00:00:00+00:00"
 draft: false
-link: "Fastest method to check if value exists"
 author: "dmohanty"
 ---
 
-Sometime or other while coding, we surely require to assure ourselves that the value we are searching exists in a list or not in order to continue our code.
+Sometime or other while coding in Python, we surely require to assure ourselves that the value we are searching exists in a list or not in order to continue our code.
 
-**Lists** being an important Data structure in Python are used in almost every field where python is used. 
+Lists being an important Data structure in Python are used in almost every field where python is used. 
 
-Thus checking for a value being an important use case , let’s start exploring about the methods to check for a value inside a list and which method is the fastest among them, that can help us achieve our solution.
+Thus checking for a value being an important use case, If the list is large, we need to be very careful to search the elements inside of a list to avoid performance issues. 
+
+let's start exploring about the methods to check for a value inside a list and which method is the fastest among them.
 
 ## Overview of Lists
 
-List contains a group of elements of a different data type separated by commas, and enclosed inside square brackets ‘[ ]’. 
+List contains a group of elements of a different data type separated by commas, and enclosed inside square brackets `[ ]`.
+
 Example of a list:
-```
+
+```python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 ```
 
-## Methods to check for a value
+## Methods to check if an element exists in a Python List
 
-After having a brief idea of what a list is, now let’s start to discuss about the different methods that we can use.
+After having a brief idea of what a list is, now let’s start to discuss about the different methods to check if an element is in a list or not.
 
-### Using the for loop
 
-The **novice method** of solving this problem that can be easily adopted by any beginner is by using the `for` loop. 
-The mighty `for` loop helps us to iterate through the whole list and check if our desired value is present inside the list or not.
+## Method 1: Using the `for` loop
 
-```
+The novice method of solving this problem that can be easily adopted by any beginner is by using the `for` loop. 
+
+The mighty `for` loop helps us to iterate through the whole list and check if our element is present inside the list or not.
+
+```python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 required_word = "Bombay"
 for i in sample_list:
     if (i==required_word):
         print("Value Found")
 ```
-Output:
-```
-Value Found
-```
 
 Thus we can easily achieve our output , but is this the fastest and most optimized way of doing it ?
 
 Maybe, we will discuss about it in the upcoming sections.
 
-### Using the in operator
+## Method 2: Using the `in` operator
 
-`in` operator is one of the **most valuable** operators in Python having a wide range of use case in almost every data structure in python.
+`in` operator is one of the most valuable operators in Python having a wide range of use case in almost every data structure in python.
+
 It is one of the most useful and liked keyword in python.
 
-In operator returns a *bool* as result depending upon if the value is present or not.
+`in` operator returns a `bool` as result depending upon if the value is exist or not in a list.
 
-How can we check for the presence of a value using the powerful `in` operator ?
+How can we check for the presence of a value using the powerful `in` operator?
 
-```
+```python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 
 required_word = "Chennai"
@@ -65,26 +67,21 @@ else:
     print("Value Not Found")
 ```
 
-Output:
-```
-Value Not Found
-```
-
 As expected , the value we are searching for is not present in our input. 
 
 The code gets smaller but, Is this the fastest way ?
 
 Maybe. Let’s try out the next method.
 
-### Using the not in operator
+## Method 3: Using the `not in` operator
 
 In the previous section we discussed about the `in` operator, now we will be using the same operator with a bit of modification in order to improve the runtime performance.
 
-We will use the `not in` operator to check if our desired word is present inside of the list.
+We will use the `not in` operator to check if the value is present inside of the list.
 
-This operator will return a *bool* value as well depending upon if the value is noy present inside the list or is it.
+This operator will return a `bool` value as well depending upon if the value is not present inside the list or is it.
 
-```
+```python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 
 required_word = "Bombay"
@@ -93,10 +90,6 @@ if required_word not in sample_list:
 else:
     print("Value Found")
 ```
-Output:
-```
-Value Found
-```
 
 The code is very much similar to that of the previous one. 
 
@@ -104,15 +97,16 @@ But the runtime performance is a little bit improved.
 
 Wait until we compare all of them !
 
-### Using sort() + bisect_left()
+## Method 4: Using `sort()` and `bisect_left()`
 
-This method resembles to one of the **most conventional** methods in programming that is the *binary search*.
+This method resembles to one of the most conventional methods in programming that is the binary search.
 
 By using this method, we will first **sort** the list and thus we would not maintain the order of elements and the `bisect_left()` method returns the first occurrence of an element inside the list.
 
-Let’s try this algo centric approach of solving our problem:
+Let’s try this algo centric approach of solving our problem
 
-```
+```python
+
 from bisect import bisect_left ,bisect
 
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
@@ -123,16 +117,12 @@ if bisect_left(sample_list, required_word)!=bisect(sample_list, required_word):
 else:
     print("Value Not Found")
 ```
-Output:
-```
-Value Found
-```
 
 Seems like a complicated code , but is the code is actually complex ?
 
 We will find break down the answer in a few mins.
 
-### Using lambda function
+## Method 5: Using `lambda` function
 
 Instead of searching for an element inside a list, what if we can just filter all elements from inside the list except for the searched element.
 
@@ -140,19 +130,17 @@ But, how can we do that ?
 
 Since , It’s Python that we are working with, inbuilt functions make our task even simpler.
 
-We can use the inbuilt `filter()` method to achieve this result. But this method takes in a **lambda** function as an argument. 
+We can use the inbuilt `filter()` method to achieve this result. 
+
+But this method takes in a `lambda` function as an argument. 
 
 This method returns a filter object which we will append inside an empty list and will get all the elements that are left out after filtering.
 
-```
+```python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 required_word = "Madras"
 unique_list = list(filter(lambda word: required_word in word, sample_list))
 print(unique_list)
-```
-Output:
-```
-['Madras']
 ```
 
 As discussed above, we wrapped the output inside an empty list and here we have the desired result.
@@ -161,7 +149,7 @@ But there is a problem.
 
 This method is comparatively **slower** than all other methods because the `filter()` constructor is similar to that of a generator function and since, we are converting the result into a list at the end therefore, the runtime performance is degraded.
 
-### Using count() method
+## Method 6: Using `count()` method
 
 Again since it’s Python, we have a bunch of inbuilt function which can simplify our code and problem quite efficiently.
 
@@ -171,7 +159,7 @@ In this section, we will see the usage of the `count()` method in order to tackl
 
 If the value is greater than 0, it implies that the searched element exists inside of the list.
 
-``` 
+```python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 required_word = "Delhi"
 if (sample_list.count(required_word)) > 0:
@@ -179,21 +167,18 @@ if (sample_list.count(required_word)) > 0:
 else:
     print("Value Not Found")
 ```
-Output:
-```
-Value Found
-```
 
 Optimal solution ? Can be since it uses inbuilt function.
 
 A little more wait !
 
-### Using the any() method
+## Method 7: Using the `any()` method
 
-As we enter the last method of this article, we will have a look over another inbuilt function that can help us achieve the desired solution.
-`any()` method acts like a helper function which would check if the searched element has occurred at least once inside the list and returns a *Boolean* value accordingly.
+As we enter the last method of this article, we will have a look over another inbuilt function that can help us to check if a value exist in list or not.
 
-```
+`any()` method acts like a helper function which would check if the searched element has occurred at least once inside the list and returns a `Boolean` value accordingly.
+
+```python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 required_word = "Calcutta"
 if (any(word in required_word for word in sample_list)) > 0:
@@ -201,24 +186,23 @@ if (any(word in required_word for word in sample_list)) > 0:
 else:
     print("Value Not Found")
 ```
-Output:
-```
-Value Not Found
-```
+
 
 With this method we complete all the methods that can be used to check for a value inside of a list.
 
 In the next section we will discuss the most awaited part, the title itself.
 
-## Which of the above is the  fastest method ?
+## What's the fastest method to check if a value exists in a list?
 
-For calculating the time taken by each of the above methods, we will take the help of **timeit** module.
+Now we will see the fastest method to check if a value exists in a list by comparing their execution speed.
 
-The **timeit** module is an inbuilt class in python which has a method called `timeit()` and the method takes in 4 parameters namely *setup*, *stmt* , *timer* and *number*.
+For calculating the time taken by each of the above methods, we will take the help of `timeit` module.
+
+The `timeit` module is an inbuilt class in python which has a method called `timeit()` and the method takes in 4 parameters namely `setup`, `stmt` , `timer` and `number`.
 
 Let’s then calculate and disclose the suspense:
 
-```
+```python
 import timeit
 
 code_starter = """
@@ -307,15 +291,13 @@ Time of Code using count function:  0.7794974999999997
 Time of Code using any function:  8.35378860000128
 ```
 
-Yayy! We have a Winner ! 
+We have a Winner ! 
 
-`Not in` operator stands out to be the fastest among all of them.
-
-But while coding , we can also consider using the mighty, flexible `in` operator since both the methods have a difference of *1 millisecond*. 
+**`in` and `Not in` operator stands out to be the fastest way to search an element inside a list.**
 
 ## Conclusion
 
-As we near the completion of this article, the conclusion of this would be that, we can use both `in` and `not in` operators but it would be a foolish way if we use the **lambda** function or the `any()` method since both of them take very long for their completion.
+As we near the completion of this article, the conclusion of this would be that, we can use both `in` and `not in` operators but it would be a foolish way if we use the `lambda` function or the `any()` method since both of them take very long for their completion.
 
 In this article, we first discussed about the various methods of checking for a value inside of a list and then we saw how to determine the fastest method.
 

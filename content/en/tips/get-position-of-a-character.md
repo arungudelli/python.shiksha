@@ -2,7 +2,7 @@
 title: "Get Position of a Character"
 description: "How to get position of a character in a string in python"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Get position of a character"
 author: "dmohanty"
 ---

@@ -2,7 +2,7 @@
 title: "Remove Duplicates from A List"
 description: "Different methods of removing duplicate values from a list"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Remove Duplicate Values"
 author: "dmohanty"
 ---

@@ -2,7 +2,7 @@
 title: "Write JSON to a file"
 description: "Different methods by which we can write JSON dta to a file in Python"
 date: "2022-08-02T04:15:05+09:00"
-draft: false
+draft: true
 link: "Write JSON to a file"
 author: "dmohanty"
 ---
