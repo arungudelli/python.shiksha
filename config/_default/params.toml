@@ -10,13 +10,13 @@ description = "Learn Python from basics to advanced topics with simple detailed 
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["python_shiksha.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
+domainTLD = "https://python.shiksha/"
 titleHome = "Python Shiksha"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
+twitterSite = "@PythonShiksha"
 twitterCreator = "@arungudelli"
 
 ## JSON-LD
