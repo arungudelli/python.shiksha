@@ -1,4 +1,4 @@
-baseurl = "PythonShiksha"
+baseurl = "https://python.shiksha/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
