@@ -29,8 +29,5 @@ http://localhost:1313/
 
 Read the contributing guide [Contribute](CONTRIBUTING.md)
 
-## Adding new Python Tip
-
-Follow the existing articles in python tips folder for the mark down structure of the article. 
-
+Join the [Discord channel](https://discord.gg/VTP7csbcCG) 
 
