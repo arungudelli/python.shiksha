@@ -46,7 +46,11 @@ Output: 58
 Explanation: L = 50, V= 5, III = 3.
 ```
 
-## Solution
+---
+
+## First Solution
+
+**Iterate over the string and add the value of the current character to the result. If the current character is less than the next character, subtract the current character from the result**.
 
 ```python
 def romanToInt(s):
@@ -89,7 +93,44 @@ if __name__ == '__main__':
     main()
 ```
 
-## Complexity Analysis
+### Complexity Analysis
+
+- Time Complexity: $O(n)$, where $n$ is the length of the input string.
+- Each access to the dictionary `roman` is $O(1)$ as they are $7$ characters, so the time complexity is $O(n)$.
+- Space Complexity: $O(n)$, where $n$ is the length of the input string.
+
+---
+
+## Second Solution
+
+**Using Replace instead of If Else Check and Sum function to get Answer**
+
+```python
+def romanToInt(s):
+    # Roman Dictionary to store the values of roman literals
+    roman_to_integer = {
+        'I': 1,
+        'V': 5,
+        'X': 10,
+        'L': 50,
+        'C': 100,
+        'D': 500,
+        'M': 1000,
+    }
+    s = s.replace("IV", "IIII").replace("IX", "VIIII").replace("XL", "XXXX").replace("XC", "LXXXX").replace("CD", "CCCC").replace("CM", "DCCCC")
+    return sum(map(lambda x: roman_to_integer[x], s))
+
+# Test the function
+def main():
+    Roman = input("Enter the Roman literals: ")
+    print('Roman to Integer: ', romanToInt(Roman))
+
+# Call the main function
+if __name__ == '__main__':
+    main()
+```
+
+### Complexity Analysis
 
 - Time Complexity: $O(n)$, where $n$ is the length of the input string.
 - Each access to the dictionary `roman` is $O(1)$ as they are $7$ characters, so the time complexity is $O(n)$.
