@@ -27,11 +27,6 @@ http://localhost:1313/
 
 ## Find the issue 
 
-Checkout the the branch associated with the issue.
-
-```
-git checkout <issue-branch>
-```
 
 To contribute to DS & algo problems 
 
