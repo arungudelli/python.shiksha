@@ -42,7 +42,8 @@ Output: Pair not found
 
 ```text
 1. Using Brute-Force
-A naive solution is to consider every pair in the given array and return if the desired sum is found.
+The "brute force solution" is the least efficient way of solving any problem. It has the worst time/space complexity–but, it is a solution. However, it is better than nothing if you are unable to come up with a more advanced approach.
+For this example, we are going to use nested loops. There is an outer loop that iterates through every element and an inner loop to find two elements that sum up to k.
 ```
 
 ```python
@@ -78,13 +79,15 @@ The time complexity of the above solution is O(n2) and doesn’t require any ext
 ```text
 2. Using Sorting
 The idea is to sort the given array in ascending order and maintain search space by maintaining two indices (low and high) that initially points to two endpoints of the array. Then reduce the search space nums[low…high] at each iteration of the loop by comparing the sum of elements present at indices low and high with the desired sum. Increment low if the sum is less than the expected sum; otherwise, decrement high if the sum is more than the desired sum. If the pair is found, return it.
-```
+So here for sorting it will take O(n.log(n)) and for traversing the array will take maximum of O(n).
+So, overally we can the time complexity of problem is optimised upto O(n.log(n)). Better than bruteforce approach.
+ ```
 
 ```python
   # Function to find a pair in an array with a given sum using sorting
    def findPair(nums, target):
  
-    # sort the list in ascending order
+    # sort the list in ascending order (which is  O(n.log(n)))
     nums.sort()
  
     # maintain two indices pointing to endpoints of the list
@@ -123,9 +126,12 @@ The time complexity of the above solution is O(n.log(n)) and doesn’t require a
 
 
 ```text
-3. Using Hashing
-We can use a hash table to solve this problem in linear time. The idea is to insert each array element nums[i] into a map. We also check if difference (nums[i], target - nums[i]) already exists in the map or not. If the difference is seen before, print the pair and return. 
+3. Hash Map for a Linear Solution
+Using a Hash Map, store every element of the array in the map and check if there is an element in the map/dictionary that–with the element at current index–sums up to k.
+This is the Best solution with a linear runtime. At most, we are checking every element once. The downside of this solution (which your interviewer may ask) is, that it requires O(n) space, given that we potentially need to store every element in the dictionary/hash map.
 ```
+
+
 ```python
 # Function to find a pair in an array with a given sum using hashing
 def findPair(nums, target):
