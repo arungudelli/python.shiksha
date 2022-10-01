@@ -27,6 +27,8 @@ http://localhost:1313/
 
 ## Find the issue 
 
+Fork the repository and create pull request
+
 
 To contribute to DS & algo problems 
 
