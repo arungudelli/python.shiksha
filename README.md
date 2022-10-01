@@ -25,6 +25,10 @@ The site should be running on
 http://localhost:1313/
 ```
 
+## Contribute
+
+Read the contributing guide [Contribute](CONTRIBUTING.md)
+
 ## Adding new Python Tip
 
 Follow the existing articles in python tips folder for the mark down structure of the article. 
