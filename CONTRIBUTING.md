@@ -27,6 +27,10 @@ http://localhost:1313/
 
 ## Find the issue 
 
+Join the [Discord channel](https://discord.gg/VTP7csbcCG) 
+
+We can discuss different ways to solve the problem then proceed further
+
 Fork the repository and create pull request
 
 
