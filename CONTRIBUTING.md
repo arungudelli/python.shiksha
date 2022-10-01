@@ -1,10 +1,37 @@
 # Contributing to Python.shiksha
 
-First clone the repository and run it in your local system as explained in [Readme.md](README.md) file
+## Clone Python Shiksha 
+
+```
+git clone https://github.com/arungudelli/python.shiksha.git
+```
+
+And navigate to the root folder then type the below command 
+
+```
+npm install
+
+```
+Then run the site using below command.
+
+```
+npm run start
+```
+
+The site should be running on 
+
+```
+http://localhost:1313/
+```
+
 
 ## Find the issue 
 
 Checkout the the branch associated with the issue.
+
+```
+git checkout <issue-branch>
+```
 
 To contribute to DS & algo problems 
 
