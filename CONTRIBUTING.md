@@ -1,5 +1,9 @@
 # Contributing to Python.shiksha
 
+After successful submission you will get author profile in our website [https://Python.shiksha/]. 
+
+Post credit will be given to you only.
+
 ## Clone Python Shiksha 
 
 ```
