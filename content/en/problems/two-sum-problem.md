@@ -27,9 +27,9 @@ nums = [8, 7, 2, 5, 3, 1]
 target = 10
  
 Output:
-Pair found (8, 2)
+[0, 2]
 or
-Pair found (7, 3)
+[1, 4]
 ``` 
 ```python 
 Input:
@@ -57,7 +57,7 @@ def findPair(nums, target):
  
             # if the desired sum is found, print it
             if nums[i] + nums[j] == target:
-                print('Pair found', (nums[i], nums[j]))
+                print([i, j])
                 return
  
     # No pair with the given sum exists in the list
@@ -75,60 +75,18 @@ if __name__ == '__main__':
 The time complexity of the above solution is O(n2) and doesn’t require any extra space, where n is the size of the input.
 ```
 
-
 ```text
-2. Using Sorting
-The idea is to sort the given array in ascending order and maintain search space by maintaining two indices (low and high) that initially points to two endpoints of the array. Then reduce the search space nums[low…high] at each iteration of the loop by comparing the sum of elements present at indices low and high with the desired sum. Increment low if the sum is less than the expected sum; otherwise, decrement high if the sum is more than the desired sum. If the pair is found, return it.
-So here for sorting it will take O(n.log(n)) and for traversing the array will take maximum of O(n).
-So, overally we can the time complexity of problem is optimised upto O(n.log(n)). Better than bruteforce approach.
- ```
-
-```python
-  # Function to find a pair in an array with a given sum using sorting
-   def findPair(nums, target):
- 
-    # sort the list in ascending order (which is  O(n.log(n)))
-    nums.sort()
- 
-    # maintain two indices pointing to endpoints of the list
-    (low, high) = (0, len(nums) - 1)
- 
-    # reduce the search space `nums[low…high]` at each iteration of the loop
- 
-    # loop till the search space is exhausted
-    while low < high:
- 
-        if nums[low] + nums[high] == target:        # target found
-            print('Pair found', (nums[low], nums[high]))
-            return
- 
-        # increment `low` index if the total is less than the desired sum;
-        # decrement `high` index if the total is more than the desired sum
-        if nums[low] + nums[high] < target:
-            low = low + 1
-        else:
-            high = high - 1
- 
-    # No pair with the given sum exists
-    print('Pair not found')
- 
- 
-if __name__ == '__main__':
- 
-    nums = [8, 7, 2, 5, 3, 1]
-    target = 10
- 
-    findPair(nums, target)
-```
-```text
-The time complexity of the above solution is O(n.log(n)) and doesn’t require any extra space.
-```
-
-
-```text
-3. Hash Map for a Linear Solution
+#### 2. Optimised with a Linear Solution (Using Hash Map)
 Using a Hash Map, store every element of the array in the map and check if there is an element in the map/dictionary that–with the element at current index–sums up to k.
 This is the Best solution with a linear runtime. At most, we are checking every element once. The downside of this solution (which your interviewer may ask) is, that it requires O(n) space, given that we potentially need to store every element in the dictionary/hash map.
+
+So follow these steps to solve this.
+
+-Define one map to hold the result called res
+-For index i in range 0 to n – 1 (where n is the number of elements in the array)
+    if target − A[i] is present in res
+        return res[target − A[i]] and i as indices
+    Otherwise put i into the res as res[A[i]] − = i
 ```
 
 
@@ -146,7 +104,7 @@ def findPair(nums, target):
  
         # if the difference is seen before, print the pair
         if target - e in d:
-            print('Pair found', (nums[d.get(target - e)], nums[i]))
+            print([d.get(target - e), i])
             return
  
         # store index of the current element in the dictionary
