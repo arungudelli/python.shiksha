@@ -34,6 +34,12 @@
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
+   [[main]]
+  name = "Ds & Algo Problems"
+  url = "/problems/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 11
+
 #[[main]]
 #  name = "Docs"
 #  url = "/docs/tips/"
