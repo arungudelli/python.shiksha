@@ -35,6 +35,10 @@ Fork the repository and create pull request
 
 **It's not simply writing the programs write the detailed explaination about the soultion, so that it will be helpful to others**
 
+Here is the sample article 
+
+https://github.com/arungudelli/python.shiksha/blob/main/content/en/problems/string-anagram-python.md
+https://python.shiksha/problems/string-anagram-python/
 
 To contribute to DS & algo problems 
 
