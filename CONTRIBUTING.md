@@ -33,6 +33,24 @@ http://localhost:1313/
 
 Fork the repository and create pull request
 
+### For Tips 
+
+Write a detailed article explaining the soultion 
+
+Explain different types of solutions with simple examples and plain english
+
+Here is the sample article 
+
+https://github.com/arungudelli/python.shiksha/blob/main/content/en/tips/check-substring-in-string_python.md
+
+https://python.shiksha/tips/check-substring-in-string_python/
+
+1. Add a new mark down file `(.md)` file with the issue name, For example `substring-check.md` inside `content/en/tips/` folder.
+2. Follow the markup file mentioned above
+3. And starting with the problem statement explain the different ways to solve the problem in Python.
+
+### For DSA problems 
+
 **It's not simply writing the programs write the detailed explaination about the soultion, so that it will be helpful to others**
 
 Here is the sample article 
