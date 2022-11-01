@@ -133,7 +133,7 @@ list1 = ["Football", "Basktball", 1, 2.8, True]
 
 list2 = []
 
-if len(list2) == 0:
+if not bool(list2):
     print("This list is empty")
 else:
     print("This list is not empty")
@@ -143,17 +143,17 @@ else:
 ```python
 # This list is empty
 ```
-To check if the list is not empty, you just change the 0 to 1
+To check if the list is not empty.
 
 ```python
 list1 = ["Football", "Basktball", 1, 2.8, True]
 
 list2 = []
 
-if len(list2) == 1:
-    print("This list is empty")
-else:
+if bool(list1):
     print("This list is not empty")
+else:
+    print("This list is empty")
 
 ```
 **Output**:
