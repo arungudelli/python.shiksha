@@ -51,11 +51,13 @@ false
 ```
 
 ### Example2:  `bool()` function for none list
+
 ```Python
 # welcome to Pythonshiksha
 bool([none])
 ```
-output
+
+
 ```Python
 true
 ```
@@ -68,11 +70,13 @@ x= bool(6)
 print(x)
 ```
 output
+
 ```Python
 True
 ```
 
 ## Summary 
+
 In this tutorial we learnt about Python `bool()` function with simple examples.
 
 
