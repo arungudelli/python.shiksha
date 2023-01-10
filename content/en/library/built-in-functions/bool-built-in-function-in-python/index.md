@@ -16,9 +16,7 @@ toc: true
 ## `bool()` function in Python
 
 1. The `bool()` function is a built in functions in Python.
-
 2. Python `bool()` function is used to return or convert a value to a Boolean value i.e., True or False, using the standard truth testing procedure.
-
 
 ## `bool()` function syntax
 
