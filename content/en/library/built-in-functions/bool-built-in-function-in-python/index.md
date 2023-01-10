@@ -1,5 +1,5 @@
 ---
-title: "Python bin() function syntax,usage and examples"
+title: "Python bool() function syntax,usage and examples"
 description: "The'bool()'function is a built in function in Python"
 date: "2022-06-26T07:40:00+00:00"
 draft: false
