@@ -4,7 +4,13 @@ description: "The 'setattr()' function is a one of the built-in functions in pyt
 date: "2022-08-15T06:49:05+09:00"
 draft: false
 link: "setattr() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `setattr()` function in python:

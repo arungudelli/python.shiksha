@@ -4,7 +4,13 @@ description: "The 'memoryview()' function is a one of the built-in functions in 
 date: "2022-08-23T01:30:05+09:00"
 draft: false
 link: "memoryview() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `memoryview() `function in python

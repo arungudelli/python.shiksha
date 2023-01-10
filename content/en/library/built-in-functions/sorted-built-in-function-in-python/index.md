@@ -4,7 +4,13 @@ description: "The 'sorted()' function is a one of the built-in functions in pyth
 date: "2022-08-15T08:10:05+09:00"
 draft: false
 link: "sorted() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `sorted()` function in python:

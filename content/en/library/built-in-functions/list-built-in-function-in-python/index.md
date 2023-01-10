@@ -4,7 +4,13 @@ description: "The `list()`function is one of the built-in function in python"
 date: "2022-07-21 T11:55:05+09:00"
 draft: false
 link: "list() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `list()` function in python

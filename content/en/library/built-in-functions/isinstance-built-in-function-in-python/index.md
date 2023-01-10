@@ -3,8 +3,14 @@ title: "python isinstance() function syntax,usage and examples "
 description: "The 'isinstance()' function is a one of the built-in functions in python"
 date: "2022-08-22T02:00:05+09:00"
 draft: false
-link: "isinstance()Built-in functions"
-author: "harika"
+link: "isinstance() Built-in functions"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `isinstance()` function in python
@@ -18,6 +24,7 @@ author: "harika"
 isinstance(object, classinfo)
 ```
 ##  `isinstance()` function parameters
+
 object: An object to be checked.
 classinfo: The class name or a tuple of class names.
 
@@ -71,4 +78,5 @@ True
 ```
 
 ## Summary
-In this tutorial we learnt about Python `isinstance()` function with simple examples
+
+In this tutorial we learnt about Python `isinstance()` function with simple examples.

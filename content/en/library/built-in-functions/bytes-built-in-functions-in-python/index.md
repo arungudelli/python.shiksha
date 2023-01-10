@@ -4,7 +4,13 @@ description: "The 'bytes()' function is a Built in function in python "
 date: "2022-06-26T07:30:00+00:00"
 draft: false
 link: "python bytes() built-in function"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `bytes()` function in python

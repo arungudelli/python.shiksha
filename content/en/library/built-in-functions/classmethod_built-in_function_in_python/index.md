@@ -4,7 +4,13 @@ description: "The 'classmethod()' function is one of the built-in functions in p
 date: "2022-07-07 T004:30:05+09:00"
 draft: true
 link: "classmethod() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 

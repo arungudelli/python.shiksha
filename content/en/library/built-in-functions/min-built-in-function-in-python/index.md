@@ -4,7 +4,13 @@ description: "The 'min()' function is one of the built-in function in python"
 date: "2022-07-08T04:30:05+09:00"
 draft: false
 link: "min() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `min()` function in python

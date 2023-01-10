@@ -4,7 +4,13 @@ description: "The `type()` function is one of the Built in functions in python"
 date: "2022-06-29T11:25:05+09:00"
 draft: false
 link: "type() built-in function"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `type()` in python:

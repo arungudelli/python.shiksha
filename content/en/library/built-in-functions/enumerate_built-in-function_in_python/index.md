@@ -5,7 +5,13 @@ description: "The 'enumerate()' function is a one of the built in functions in p
 date: "2022-06-28T11:25:05+09:00"
 draft: false
 link: "enumerate() built-in function"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `enumerate()` function in python

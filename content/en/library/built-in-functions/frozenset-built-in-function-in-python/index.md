@@ -4,7 +4,13 @@ description: "The 'frozenset()' function is a one of the built-in functions in p
 date: "2022-08-19T08:00:05+09:00"
 draft: false
 link: "frozenset() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `frozenset()` function in python

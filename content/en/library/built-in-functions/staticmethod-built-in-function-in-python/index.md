@@ -4,7 +4,13 @@ description: "The 'staticmethod()' function is a one of the built-in functions i
 date: "2022-08-23T03:30:05+09:00"
 draft: false
 link: "staticmethod()Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `staticmethod()` function in python:

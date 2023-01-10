@@ -4,7 +4,13 @@ description: "The 'property()' function is one of the built-in function in pytho
 date: "2022-07-26T11:00:40+09:00"
 draft: false
 link: "property() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `property()` function  in python

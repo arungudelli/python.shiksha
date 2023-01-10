@@ -4,7 +4,13 @@ description: "The 'help()' function is a one of the built-in functions in python
 date: "2022-08-17T11:20:05+09:00"
 draft: false
 link: "python `help(`) Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `help()` function in python

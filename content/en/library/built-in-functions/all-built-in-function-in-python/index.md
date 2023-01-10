@@ -4,7 +4,13 @@ description: "The 'all()' function is one of the built-in functions in python"
 date: "2022-07-20T03:58:00+00:00"
 draft: false
 link: "all() built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `all()` function in python

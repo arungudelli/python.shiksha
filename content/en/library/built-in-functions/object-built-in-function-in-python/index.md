@@ -4,7 +4,13 @@ description: "The 'object()'function is a one of the built-in functions in pytho
 date: "2022-08-05T11:50:05+09:00"
 draft: false
 link: "object() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `object()` function in python

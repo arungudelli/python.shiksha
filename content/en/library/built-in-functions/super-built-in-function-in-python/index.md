@@ -4,7 +4,13 @@ description: "The 'super()' function is a one of the built-in functions in pytho
 date: "2022-08-15T10:00:05+09:00"
 draft: false
 link: "python super() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `super()` function in python:

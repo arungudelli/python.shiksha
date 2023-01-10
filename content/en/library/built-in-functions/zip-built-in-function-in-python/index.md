@@ -4,7 +4,13 @@ description: "The 'zip()' function is one of the Built in functions in python"
 date: "2022-03-12T03:45:00+09:00"
 draft: false
 link: "zip() built-in function"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `zip()` in python

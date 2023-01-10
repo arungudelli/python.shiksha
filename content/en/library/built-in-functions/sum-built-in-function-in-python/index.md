@@ -4,7 +4,13 @@ description: "The 'sum()' function is a one of the built-in functions in python"
 date: "2022-06-26T07:30:00+09:00"
 draft: true
 link: "sum() built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## sum():

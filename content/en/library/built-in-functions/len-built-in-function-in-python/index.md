@@ -4,7 +4,13 @@ description: "The 'len()' function is one of the built-in function in python"
 date: "2022-06-26T07:30:00+09:00"
 draft: false
 link: "len() built-in function"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `len()` Function in python

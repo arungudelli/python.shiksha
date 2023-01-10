@@ -4,7 +4,13 @@ description: "The 'chr()' and 'ord()' functions both are Built in functions in p
 date: "2022-06-28T011:00:05+09:00"
 draft: false
 link: "chr() ord() built-in functions in python"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `chr()` and `ord()` functions in python

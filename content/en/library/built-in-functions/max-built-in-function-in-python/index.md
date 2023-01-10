@@ -4,7 +4,13 @@ description: "The 'max()' function is one of the built-in function in python"
 date: "2022-07-08T04:30:05+09:00"
 draft: false
 link: "max() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `max()` function in python

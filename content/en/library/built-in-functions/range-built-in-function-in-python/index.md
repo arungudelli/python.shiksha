@@ -4,7 +4,13 @@ description: "The 'range()' function is one of the built-in function in python "
 date: "2022-06-28T11:25:05+09:00"
 draft: false
 link: "range() built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `range()`function in python

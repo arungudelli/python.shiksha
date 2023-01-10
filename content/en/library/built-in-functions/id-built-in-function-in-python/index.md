@@ -4,7 +4,13 @@ description: "The 'id()' function is one of the built-in function in python"
 date: "2022-07-19T10:30:00+09:00"
 draft: false
 link: "id() built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `id()` function in python

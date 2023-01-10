@@ -4,7 +4,13 @@ description: "The 'iter()' function is one of the built-in function in python"
 date: "2022-07-26T11:00:40+09:00"
 draft: false
 link: "iter() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `iter()` function in python

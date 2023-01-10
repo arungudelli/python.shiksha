@@ -4,7 +4,13 @@ description: "The 'callable()' function is a one of the built-in functions in py
 date: "2022-08-18T10:10:05+09:00"
 draft: false
 link: "callable() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `callable()` function in python

@@ -4,7 +4,13 @@ description: "The 'print()' function is one of the built-in function in python"
 date: "2022-07-25T11:10:40+09:00"
 draft: false
 link: "print() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `print()` function  in python

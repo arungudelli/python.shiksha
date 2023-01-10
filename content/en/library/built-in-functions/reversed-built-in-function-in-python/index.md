@@ -4,7 +4,13 @@ description: "reverse() function syntax,parameters,examples in python"
 date: "2022-08-06T10:15:05+09:00"
 draft: false
 link: "reverse() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `reverse()` function in python:

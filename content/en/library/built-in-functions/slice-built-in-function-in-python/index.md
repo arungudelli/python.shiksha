@@ -4,7 +4,13 @@ description: "The 'slice()' function is a one of the built-in functions in pytho
 date: "2022-08-15T07:19:05+09:00"
 draft: false
 link: "slice() Built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## slice() function in python:

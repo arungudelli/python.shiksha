@@ -4,7 +4,13 @@ description: "The 'divmod()' function is one of the built-in functions in python
 date: "2022-07-27T07:11:50+09:00"
 draft: false
 link: "python divmod() built-in functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## `divmod()` function  in python

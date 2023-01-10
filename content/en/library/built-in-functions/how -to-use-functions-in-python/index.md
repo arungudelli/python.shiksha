@@ -4,7 +4,13 @@ description: " Introduction of functions and how to use functions in python"
 date: "2022-06-23T11:35:05+09:00"
 draft: false
 link: "how to use functions"
-author: "harika"
+images: []
+type: docs
+menu:
+  library:
+    parent: "built-in-functions"
+weight: 100
+toc: true
 ---
 
 ## what is function:
