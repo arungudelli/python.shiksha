@@ -71,4 +71,4 @@ As we can see we got the desired output, we were able to split our list into N l
 
 ## Conclusion
 
-As we come to the end of this small article, but these methods are very much helpful to achieve the desired output and we were to split the list into _equally sized chunks_ without the use of python’s external library.
+As we come to the end of this small article, but these methods are very much helpful to achieve the desired output and we were to split the list into _equally sized chunks_ without the use of Python’s external library.

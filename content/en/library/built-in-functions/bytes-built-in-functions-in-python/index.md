@@ -1,9 +1,9 @@
 ---
 title: "Python bytes() function syntax,usage and examples"
-description: "The 'bytes()' function is a Built in function in python "
+description: "The 'bytes()' function is a Built in function in Python "
 date: "2022-06-26T07:30:00+00:00"
 draft: false
-link: "python bytes() built-in function"
+link: "Python bytes() built-in function"
 images: []
 type: docs
 menu:
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `bytes()` function in python
+## `bytes()` function in Python
 
-1. The `bytes()` is a Built in function in python.
+1. The `bytes()` is a Built in function in Python.
 2. Python's `bytes()` function is used to return a bytes object.
 
 ## `bytes()` function syntax
 
-```python
+```Python
 bytes(x, encoding, error) 
 ```
 
@@ -43,24 +43,24 @@ It is capable of producing an empty bytes object of the specified size.
 
 ### `bytes()` function Examples:
 
-let's go through couple of examples to understand `bytes()` function in python
+let's go through couple of examples to understand `bytes()` function in Python
 
 ### Example 1: `bytes()` function for string
 
-```python
+```Python
 # welcome to Pythonshiksha
-string = "hello python world"  
+string = "hello Python world"  
 array = bytes(string, 'utf-8')  
 print(array)
 ```
 output
 
-```python
-b'hello python world'
+```Python
+b'hello Python world'
 ```
 ### Example 2: `bytes()` function for numbers
 
-```python
+```Python
 x = bytes(1)
 print(x)
 y = bytes(2)
@@ -69,7 +69,7 @@ z =bytes(3)
 print(z)
 ```
 output:
-```python
+```Python
 b'\x00'
 b'\x00\x00'
 b'\x00\x00\x00'

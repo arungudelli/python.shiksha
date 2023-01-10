@@ -1,6 +1,6 @@
 ---
 title: "How to Parse a String to int or float in Python"
-description: "How to convert a String into float or int in python"
+description: "How to convert a String into float or int in Python"
 date: "2021-07-19T04:15:05+09:00"
 draft: false
 link: "Parsing a String"
@@ -17,11 +17,11 @@ In this article, we will discuss about How can we convert a string to a float or
 
 ## Data Types in Python
 
-As mentioned, data types are one of the building blocks of any programming languages, an the same applies to python too.
+As mentioned, data types are one of the building blocks of any programming languages, an the same applies to Python too.
 
 Python has different data types that can be used to specify a variable about what kind of data it can store. And it is very important that we also know, how to **convert** from one data type to another data type.
 
-Let’s look at some of the popular data types in python,
+Let’s look at some of the popular data types in Python,
 
 ```
 String: sample_text = "I am a programmer"
@@ -31,7 +31,7 @@ String: sample_text = "I am a programmer"
 ```
 Int: sample_number = 15
 ```
-`Int` is used to represent **whole numbers** & **integers** in python.
+`Int` is used to represent **whole numbers** & **integers** in Python.
 
 ```
 Float: sample_decimal = 25.5
@@ -41,7 +41,7 @@ Float: sample_decimal = 25.5
 
 So, now that we have a basic knowledge of the data types, we can now discuss about **type-conversion**; in simpler words, converting from one data type to another.
 
-We will discuss how to convert a string into whole numbers and floating-point numbers in python.
+We will discuss how to convert a string into whole numbers and floating-point numbers in Python.
 
 Let’s get started:
 
@@ -51,7 +51,7 @@ In this section we will discuss about how we can convert our string to floating-
 
 ## Using float() method
 
-`float()` is an inbuilt function in python that allows us to convert any data type into floating-point numbers.
+`float()` is an inbuilt function in Python that allows us to convert any data type into floating-point numbers.
 
 Thus, this is the easiest way to convert a string into floating-point numbers
 
@@ -126,7 +126,7 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'decimal.Decimal' and 'float'
 ```
 
-This happens because the python interpreter doesn’t consider *Decimal* and *float* to be at the same level.
+This happens because the Python interpreter doesn’t consider *Decimal* and *float* to be at the same level.
 
 How can we fix this issue ?
 
@@ -150,7 +150,7 @@ Output:
 
 This wraps up our Parsing the string into float section. 
 
-We can now discuss about how can we convert a string into int in python in the following section.
+We can now discuss about how can we convert a string into int in Python in the following section.
 
 ## Convert String to Int
 
@@ -158,7 +158,7 @@ In a similar way as like of `float()`, we can use the inbuilt `int()` method to 
 
 ## Using int() method
 
-`int()` is an inbuilt function in python that allows us to convert any data type into **whole numbers / integers**.
+`int()` is an inbuilt function in Python that allows us to convert any data type into **whole numbers / integers**.
 
 Thus, this is the easiest way to convert a string into whole numbers.
 
@@ -190,15 +190,15 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: 'code'
 ```
 
-Unfortunately, this is the only method that can be used to convert a string into an integer in python.
+Unfortunately, this is the only method that can be used to convert a string into an integer in Python.
 
 With this being stated we mark the end of our discussion on how to parse a string as float or int.
 
 ## Conclusion
 
-In this article we discussed about Data types in python and about typecasting in python.
+In this article we discussed about Data types in Python and about typecasting in Python.
 
-We discussed how can we convert / parse a string into float or int in python and learnt about the various methods of achieving our desired result.
+We discussed how can we convert / parse a string into float or int in Python and learnt about the various methods of achieving our desired result.
 
 We also discussed about the possible error cases that we can come across while working with these methods.
 

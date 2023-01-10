@@ -1,6 +1,6 @@
 ---
-title: "python oct() functions syntax,usage and examples"
-description: "The 'oct()'function is a one of the built-in functions in python"
+title: "Python oct() functions syntax,usage and examples"
+description: "The 'oct()'function is a one of the built-in functions in Python"
 date: "2022-08-05T11:50:05+09:00"
 draft: false
 link: "oct() Built-in functions"
@@ -13,9 +13,9 @@ weight: 100
 toc: true
 ---
 
-## `oct()` function in python
+## `oct()` function in Python
 
-1. The `oct()` function is a one of the built-in functions in python.
+1. The `oct()` function is a one of the built-in functions in Python.
 2. The `oct()` is used for	`Converts a number into an octal`.
 3. Python `oct()` function is used to get an octal value of an integer number. 
 4. This method takes an argument and returns an integer converted into an octal string.
@@ -23,7 +23,7 @@ toc: true
 
 ## `oct()` function syntax
 
-```python
+```Python
 oct(integer)
 ```
 ## `oct()` function parameters
@@ -33,11 +33,11 @@ it returns octal value.
 
 ### `oct()` function  Examples:
 
-let's go through some of examples to understand `oct()` function in python
+let's go through some of examples to understand `oct()` function in Python
 
 ### Example 1:
 
-```python
+```Python
 # Binary to Octal
 print(oct(0b1))
  
@@ -49,7 +49,7 @@ print("The Octal representation of 29.5 is " + oct(78.92))
 ```
 output:
 
-```python
+```Python
 0o1
 0o13
 print("The Octal representation of 29.5 is " + oct(78.92))
@@ -64,7 +64,7 @@ print(x)
 ```
 output:
 
-```python
+```Python
 0o144
 ```
 

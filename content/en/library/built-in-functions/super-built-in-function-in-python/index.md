@@ -1,9 +1,9 @@
 ---
 title: "Python super() function syntax, usage & example"
-description: "The 'super()' function is a one of the built-in functions in python"
+description: "The 'super()' function is a one of the built-in functions in Python"
 date: "2022-08-15T10:00:05+09:00"
 draft: false
-link: "python super() Built-in functions"
+link: "Python super() Built-in functions"
 images: []
 type: docs
 menu:
@@ -13,21 +13,21 @@ weight: 100
 toc: true
 ---
 
-## `super()` function in python:
+## `super()` function in Python:
 
-The `super()` function is a one of the built-in functions in python.
+The `super()` function is a one of the built-in functions in Python.
 `super()` is used for `Returns an object that represents the parent class`.
 
 The super() function is used to give access to methods and properties of a parent or sibling class.
 
 ## `super()`syntax:
-```python
+```Python
 super() 
 ```
 No parameters for this function.
 
 ### Example:
-```python
+```Python
 class stu():
     def __init__(self, rno, name, vill):
         self.Rno = rno
@@ -48,7 +48,7 @@ print('The Village is:', stu_1.vill)
 print('The Father name is:', stu_1.Fname)
 ```
 output:
-```python
+```Python
 The RNO is: 20
 The Name is: abcde
 The Village: hyd

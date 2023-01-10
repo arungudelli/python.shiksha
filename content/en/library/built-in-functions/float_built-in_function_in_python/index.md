@@ -1,6 +1,6 @@
 ---
-title: " python float() function syntax, usage and examples in python"
-description: "The  'filter()' function is a one of the built-in functions in python."
+title: " Python float() function syntax, usage and examples in Python"
+description: "The  'filter()' function is a one of the built-in functions in Python."
 date: "2022-07-20T03:30:05+09:00"
 draft: false
 link: "float() Built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `float()` function in python
+## `float()` function in Python
 
-1. The `filter()` function is a one of the built-in functions in python.
+1. The `filter()` function is a one of the built-in functions in Python.
 2. The `float()` function converts the specified value into a floating point number.
 
 ## `float()` function Syntax
 
-```python
+```Python
 float(value)
 ```
 ##  `float()` function parameters
@@ -30,42 +30,42 @@ value- A number or a string that can be converted into a floating point number
 
 ### `filter()` function Examples:
 
-let's go through some of examples to understand `filter()` function in python
+let's go through some of examples to understand `filter()` function in Python
 
-### `float()` Example 1: python `float()` function with infinity
+### `float()` Example 1: Python `float()` function with infinity
 
-```python
+```Python
 print(float("infinity"))
 ```
 output:
 
-```python
+```Python
 inf
 ```
 
-### Example 2: python `float()` with integer
+### Example 2: Python `float()` with integer
 
-```python
+```Python
 print(float("29"))
 ```
 output:
 
-```python
+```Python
 29.0
 ```
 
-### Example 3: python `float()` with string
+### Example 3: Python `float()` with string
 
-```python
-print(float("python"))
+```Python
+print(float("Python"))
 ```
 output:
 
-```python
-print(float("python"))
-ValueError: could not convert string to float: 'python'
+```Python
+print(float("Python"))
+ValueError: could not convert string to float: 'Python'
 ```
-it gives error because 'python' is a string not an integer or decimal.
+it gives error because 'Python' is a string not an integer or decimal.
 
 ## Summary
 In this tutorial we learnt about Python `float()` function with simple examples.

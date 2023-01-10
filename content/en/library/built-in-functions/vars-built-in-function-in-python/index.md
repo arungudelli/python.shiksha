@@ -1,6 +1,6 @@
 ---
 title: "Python vars() function syntax, usage & example"
-description: "The 'vars()' function is a one of the built-in functions in python"
+description: "The 'vars()' function is a one of the built-in functions in Python"
 date: "2022-08-18T11:50:05+09:00"
 draft: false
 link: "vars() Built-in functions"
@@ -13,12 +13,12 @@ weight: 100
 toc: true
 ---
 
-## `vars()` function in python:
-The `vars()` function is a one of the built-in functions in python.
+## `vars()` function in Python:
+The `vars()` function is a one of the built-in functions in Python.
 `vars()` is used for	`Returns the __dict__ property of an object`.
 
 ## `vars()`syntax:
-```python
+```Python
 vars(object)
 ```
 
@@ -34,7 +34,7 @@ TypeError if the object passed doesn't have the __dict__ attribute
 
 
 ### Example: 1
-```python
+```Python
 class student:
   def __init__(self, telugu= 85, hindi= 80, english=67,maths= 90,science =89, social =77):
     self.telugu = telugu
@@ -50,17 +50,17 @@ subjects = student()
 print(vars(subjects))
 ```
 output:
-```python
+```Python
 {'telugu': 85, 'hindi': 80, 'english': 67, 'maths': 90, 'science': 89, 'social': 77}
 ```
 ### Example:2
-```python
+```Python
 # vars() with no argument
 print (vars())
 
 ```
 output:
-```python
+```Python
 {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x003AF838>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': 'c:/Users/Vamshi/date string.py', '__cached__': None'}
 
 ```

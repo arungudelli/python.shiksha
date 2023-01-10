@@ -1,9 +1,9 @@
 ---
-title: "python complex()function syntax,usage and examples "
-description: "The 'complex()' function is a one of the built-in functions in python"
+title: "Python complex()function syntax,usage and examples "
+description: "The 'complex()' function is a one of the built-in functions in Python"
 date: "2022-08-17T11:39:05+09:00"
 draft: false
-link: "python complex() function"
+link: "Python complex() function"
 images: []
 type: docs
 menu:
@@ -13,15 +13,15 @@ weight: 100
 toc: true
 ---
 
-## `complex()` function in python
+## `complex()` function in Python
 
-1. The `complex()` function is a one of the built-in functions in python.
+1. The `complex()` function is a one of the built-in functions in Python.
 2. The `complex()` is used for `Returns a complex number`.
 
 
 ## `complex()` function Syntax
 
-```python
+```Python
 complex(real, imaginary)
 ```
 
@@ -41,26 +41,26 @@ The `complex()` function returns a complex number by specifying a real number an
 
 ### Example 1:
 
-```python
+```Python
 x=complex(4,9) 
 print(x) 
 
 ```
 output:
 
-```python
+```Python
 (4+9j)
 ```
 
 ### Example 2: 
 
-```python
+```Python
 x = complex('8+5j')
 print(x)
 ```
 output:
 
-```python
+```Python
 8+5j
 ```
 ## Summary

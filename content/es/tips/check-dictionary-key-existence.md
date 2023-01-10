@@ -11,7 +11,7 @@ author: "dmohanty"
 
 Dictionaries are the Data structures of Python which consist of  key-value pairs which can be used to store data. 
 
-Like other data structures in python, Dictionaries/Map also contains indexes called **Keys**. 
+Like other data structures in Python, Dictionaries/Map also contains indexes called **Keys**. 
 
 Keys can be both numeric as well as string but it can’t be of the form of a **mutable sequence** or object. 
 
@@ -27,7 +27,7 @@ sample_dict = {'oranges': 1, 'mango': 2, 'cherry': 2}
 
 This is the simplest way of checking if a key exists in a dictionary. 
 
-The `in` operator is special kind of python operator that is used to check if a value/element exists in a sequence. 
+The `in` operator is special kind of Python operator that is used to check if a value/element exists in a sequence. 
 
 The operator returns a `Boolean` value depending on whether a key exists or not.
 
@@ -53,7 +53,7 @@ Key not present
 ```
 This is the most preferable way of achieving the desired result. 
 
-This method takes the help of python’s default method, `__contains()__` , which we will discuss in the coming sections of this article, to check if a key exists `in` a dictionary.
+This method takes the help of Python’s default method, `__contains()__` , which we will discuss in the coming sections of this article, to check if a key exists `in` a dictionary.
 
 ## Using the .keys() method
 
@@ -98,7 +98,7 @@ Python has a shortcut method to ease the work of programmers i.e., instead of ma
 
 `__contains__()` function takes the key to be searched as a parameter and returns a `Boolean` value according to the existence of the key.
 
-This function works the exact same way as the `has_key()` function but the `__contains__()` function is available for the latest version of python i.e. Pythpn 3.X +.
+This function works the exact same way as the `has_key()` function but the `__contains__()` function is available for the latest version of Python i.e. Pythpn 3.X +.
 
 ```
 key_val = "mango" # Key to be searched 

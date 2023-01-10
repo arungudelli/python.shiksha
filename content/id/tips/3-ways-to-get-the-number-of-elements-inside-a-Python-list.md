@@ -61,7 +61,7 @@ Output:
 5
 ```
 
-The functionality of the `len()` function depends upon the internal `__len__()` constructor of the python.
+The functionality of the `len()` function depends upon the internal `__len__()` constructor of the Python.
 
 When a object is passed to the `len()` function as an argument, the internal `__len__()` function is called and the number elements inside the data structure is counted.
 
@@ -130,11 +130,11 @@ Output:
 
 If we carefully look at our input and count the number of individual elements that are present, we can conclude that there are a total of **7** individual elements inside our sample_list. 
 
-But the python interpreter gives the output as **12**.
+But the Python interpreter gives the output as **12**.
 
 Why did this happen ?
 
-If you scroll back to the section where we had discussed about the `len()` method, then you can figure out that the `len()` method is applicable to any *sequential data structure* in python.
+If you scroll back to the section where we had discussed about the `len()` method, then you can figure out that the `len()` method is applicable to any *sequential data structure* in Python.
 
 And if we check in our output then we can see that *grapes* is not inside of a child list and is the element of the parent list, but since we are adding length of each element onto our counter, Therefore, `len()` counts the length of string individually and not the whole string as one element.
 

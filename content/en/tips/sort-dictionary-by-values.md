@@ -9,7 +9,7 @@ author: "dmohanty"
 
 With the growing community of Python, the newer versions of Python have made programming simpler and easier.
 
-Like prior to **Python 3.7**, the insertion of items into the dictionary were unordered but the later version of python made the tedious work simpler by ordering the items according to their insertion in a dictionary.
+Like prior to **Python 3.7**, the insertion of items into the dictionary were unordered but the later version of Python made the tedious work simpler by ordering the items according to their insertion in a dictionary.
 
 In this article we will be discussing how we can sort a dictionary by values.
 
@@ -90,7 +90,7 @@ Output:
 ```
 Here the function `sorted(sample_dict, key=sample_dict.get)` returns a list of keys whose values are sorted in order.
 
-Using python’s inbuilt method `sorted()` has reduced the code to a great extent and improved the performance but this `sorted()` method can be combined with another method called `itemgetter()` to further improve the performance.
+Using Python’s inbuilt method `sorted()` has reduced the code to a great extent and improved the performance but this `sorted()` method can be combined with another method called `itemgetter()` to further improve the performance.
 
 ## Sort using the sorted function and operator module
 
@@ -136,7 +136,7 @@ Don’t want to import a module explicitly for using its method, what if there i
 
 Yes, you heard it right we can use `lambda` functions inside the `key` function to solve our purpose of sorting a dictionary.
 
-`Lambda` functions are anonymous, nameless functions in python and by using these functions we can override the use of operator modules and `itemgetter()` method.
+`Lambda` functions are anonymous, nameless functions in Python and by using these functions we can override the use of operator modules and `itemgetter()` method.
 
 ```
 sample_dict={"India":'Delhi', "England": 'London', "Australia": 'Canberra', "Russia": 'Moscow'}
@@ -152,9 +152,9 @@ Output:
 
 Even lesser lines of code with equal computational time. But we have an issue ?
 
-All the above discussed methods are applicable only to **Python 3.7+** only. What about users having lower python versions.
+All the above discussed methods are applicable only to **Python 3.7+** only. What about users having lower Python versions.
 
-We also have a crack for the users of lower versions of python.
+We also have a crack for the users of lower versions of Python.
 
 ## Using OrderedDict 
 
@@ -183,11 +183,11 @@ OrderedDict([('Australia', 'Canberra'), ('India', 'Delhi'), ('England', 'London'
 
 ## Conclusion
 
-In this article we discussed in detail about all the possible methods of sorting a dictionary by values in python.
+In this article we discussed in detail about all the possible methods of sorting a dictionary by values in Python.
 
 We also had a overview about the individual computation time of each method and which method is preferable for achieving the purpose. 
 
-At the end, we discussed about the methods that lower python version users need to adopt for the same. 
+At the end, we discussed about the methods that lower Python version users need to adopt for the same. 
 
 
 

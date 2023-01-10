@@ -13,19 +13,19 @@ author: "dmohanty"
 
 Data types being the building blocks of a programming language and integer being one of the fundamental data types.
 
-Now in this article we will see how we can generate random integers between 0 and 9 in python using various methods.
+Now in this article we will see how we can generate random integers between 0 and 9 in Python using various methods.
 
 ## Method 1: Using `randint()` method
 
 Python has a lot of built-in libraries for various tasks in a simplified manner and like the `Math.random()` function in JavaScript.
 
-**`random` module in python is used to generate random integers within a range.**
+**`random` module in Python is used to generate random integers within a range.**
 
 Let's go through an example to understand it further
 
 The below codes prints numbers between 0 and 9 randomly.
 
-```python
+```Python
 import random
 
 for i in range(0,9):
@@ -64,7 +64,7 @@ This returns a random integer between the given range. The higher range is not i
 
 Let’s check out the implementation of this method
 
-```python
+```Python
 import random
 
 for i in range(9):

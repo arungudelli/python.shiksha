@@ -97,7 +97,7 @@ Output:
 
 ## Using the str.format() method
 
-`format()` is a very useful method while programming in python and thus, it also has its usage in limiting floats up to decimals.
+`format()` is a very useful method while programming in Python and thus, it also has its usage in limiting floats up to decimals.
 
 Here `str.format()` refers to a method of using ***“{:.2f}”*** as the str in the above format.
 
@@ -127,7 +127,7 @@ Such a important use case but with only 3 methods ?
 
 In this article, we briefly discussed about the few different methods about how to constrain floating-point numbers up to two decimal points. 
 
-First, we started with python’s inbuilt `round()` method followed by the `%` operator and lastly about using the `str.format()` method. 
+First, we started with Python’s inbuilt `round()` method followed by the `%` operator and lastly about using the `str.format()` method. 
 
 Again, I would state that all the three methods are self sufficient of providing **user desirable** output individually and ne one method should be adopted while programming.
 

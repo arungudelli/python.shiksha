@@ -4,7 +4,7 @@
 ## Clone Python Shiksha 
 
 ```
-git clone https://github.com/arungudelli/python.shiksha.git
+git clone https://github.com/arungudelli/Python.shiksha.git
 ```
 
 And navigate to the root folder then type the below command 

@@ -1,6 +1,6 @@
 ---
-title: "python open() function syntax, usage and examples"
-description: "The 'open()' function is a one of the built-in functions in python"
+title: "Python open() function syntax, usage and examples"
+description: "The 'open()' function is a one of the built-in functions in Python"
 date: "2022-08-06T09:00:05+09:00"
 draft: false
 link: "open() Built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `open()` function in python
+## `open()` function in Python
 
-1. The `open()` function is a one of the built-in functions in python.
+1. The `open()` function is a one of the built-in functions in Python.
 2. The `open()` is used for `Opens a file and returns a file object`.
 
 ## `open()` function Syntax
 
-```python
+```Python
 open(file, mode)
 ```
 ## `open()` function parameters
@@ -47,11 +47,11 @@ In addition you can specify if the file should be handled as binary or text mode
 
 ### `open()` function Examples:
 
-let's go through some of examples to understand `open()` function in python
+let's go through some of examples to understand `open()` function in Python
 
 ### Example 1: This codes can help us to open, write, read or append a program 
 
-```python
+```Python
 # opens the file in reading mode
 f = open("path_to_file", mode='r')
 
@@ -64,7 +64,7 @@ f = open("path_to_file", mode = 'a')
 
 ## Example 2:
 
-```python
+```Python
 f = open("demo.py", "r")
 
 print(f.read())
@@ -72,17 +72,17 @@ print(f.read())
 
 output:
 
-```python
+```Python
 print("welcome to best tutorial")
-print("python shiksha")
+print("Python shiksha")
 ```
 
 here first i created a demo.py file to read a file
 
 `demo.py` file is here
-```python
+```Python
 print("welcome to best tutorial")
-print("python shiksha")
+print("Python shiksha")
 ```
 when we call as open `demo.py` in the output the entire program can display like this try it now.
 

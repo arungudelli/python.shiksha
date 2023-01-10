@@ -1,6 +1,6 @@
 ---
 title: "Python type() function syntax, usage & example"
-description: "The `type()` function is one of the Built in functions in python"
+description: "The `type()` function is one of the Built in functions in Python"
 date: "2022-06-29T11:25:05+09:00"
 draft: false
 link: "type() built-in function"
@@ -13,13 +13,13 @@ weight: 100
 toc: true
 ---
 
-## `type()` in python:
+## `type()` in Python:
 
-1. The `type()` function is one of the Built in functions in python"
+1. The `type()` function is one of the Built in functions in Python"
 2. Depending on the inputs supplied, the `type()` function either returns the type of the object or returns a new type object. 
 
 ## `type()` syntax:
-```python
+```Python
 
 1. type(name, bases, dict)
 ```
@@ -34,7 +34,7 @@ single parameter can return a specified type of data.
 type of the object, if only one object parameter is passed
 
 ### Example:
-```python
+```Python
 a = ('TIGER', 'PYTHON', 'BANANA','HYDERABAD')
 b = "good morning"
 c = 55.8
@@ -48,7 +48,7 @@ p = type(d)
 print(x,y,z,p)
 ```
 Output:
-```python
+```Python
 <class 'tuple'> <class 'str'> <class 'float'> <class 'int'>
 ```
 In Python, the `type()` function is used to quickly determine what kind of data the user can include in the programme. 

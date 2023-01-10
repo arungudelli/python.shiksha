@@ -64,7 +64,7 @@ c:/users/temp/testFolder ]
 ```
 ## Using the os.scandir( ) function
 
-For python 3.5+, you can use the `os.scandir()`, which offers significantly better performance over `os.listdir()`. 
+For Python 3.5+, you can use the `os.scandir()`, which offers significantly better performance over `os.listdir()`. 
 
 This method returns the directory entries along with file attribute information. 
 
@@ -197,7 +197,7 @@ c:/ users /temp/dist/samples/firstSample]
 
 After learning to implement all of the method possible, there is an uncertainty for deciding the best method to adapt to. 
 
-But as we have learnt that the `os.walk()` method provides maximum flexibility to work the file system in python. 
+But as we have learnt that the `os.walk()` method provides maximum flexibility to work the file system in Python. 
 
 While `glob()` enables to search and filter through a specific pattern of pathname. 
 

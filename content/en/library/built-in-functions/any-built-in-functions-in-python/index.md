@@ -1,6 +1,6 @@
 ---
 title: "any() function syntax,usage and examples in Python"
-description: "The 'any()' function is one of the built-in functions in python"
+description: "The 'any()' function is one of the built-in functions in Python"
 date: "2022-07-21T10:00:00+00:00"
 draft: false
 link: "any() built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `any()` function in python
+## `any()` function in Python
 
-1. The `any()` function is one of the built-in functions in python.
+1. The `any()` function is one of the built-in functions in Python.
 2. Python any() function returns True if any of the elements of a given       iterable( List, Dictionary, Tuple, set, etc) are True else it returns False. 
 
 ## `any()` function Syntax
 
-```python
+```Python
 any(iterable)
 ```
 
@@ -36,12 +36,12 @@ It is an iterable object such as a dictionary, tuple, list, set, etc.
 Returns: 
 Python any() function returns true if any of the items is True.
 
-### python `any()`Examples:
-let's go through some  examples to understand `any()` function in python
+### Python `any()`Examples:
+let's go through some  examples to understand `any()` function in Python
 
 ### Example 1: `any()` function with list
 
-```python
+```Python
 # welcome to Pythonshiksha
 # All elements of list are false
 l = [ 0, 0, False]
@@ -59,7 +59,7 @@ print(any( l ))
 
 output:
 
-```python
+```Python
 True
 False
 True
@@ -71,10 +71,10 @@ like this, In this list place we can use dictionaries,strings,tuples,sets for al
 
 ### Example 2: `any()` function with strings
 
-```python
+```Python
 # welcome to Pythonshiksha
 # Non-Empty String
-s = "python!"
+s = "Python!"
 print(any(s))
  
 # Non-Empty String
@@ -86,14 +86,14 @@ s = ""
 print(any(s))
 ```
 output
-```python
+```Python
 True
 True
 False
 ```
 ### `any()`Example 3: any() function to Check if any element in list satisfies a condition
 
-```python
+```Python
 # welcome to Pythonshiksha
 # initializing list
 my_list = [33,21,29,8,39.80]
@@ -112,7 +112,7 @@ print("Does any element satisfy specified condition ? : " + str(res2))
 ```
 output:
 
-```python
+```Python
 The original list : [33, 21, 29, 8, 39.8]
 Does any element satisfy specified condition ? : False
 Does any element satisfy specified condition ? : True

@@ -1,9 +1,9 @@
 ---
-title: "python chr() and ord() functions syntax,usage and examples"
-description: "The 'chr()' and 'ord()' functions both are Built in functions in python"
+title: "Python chr() and ord() functions syntax,usage and examples"
+description: "The 'chr()' and 'ord()' functions both are Built in functions in Python"
 date: "2022-06-28T011:00:05+09:00"
 draft: false
-link: "chr() ord() built-in functions in python"
+link: "chr() ord() built-in functions in Python"
 images: []
 type: docs
 menu:
@@ -13,9 +13,9 @@ weight: 100
 toc: true
 ---
 
-## `chr()` and `ord()` functions in python
+## `chr()` and `ord()` functions in Python
 
-`chr()` and `ord()` functions both are Built in functions in python.
+`chr()` and `ord()` functions both are Built in functions in Python.
 
 These functions can used to convert `unicode values to character` and `character to unicode`  
 
@@ -29,7 +29,7 @@ Example:
 A-65
 a-97
 
-## python UNICODE
+## Python UNICODE
 
 Every form of character, including letters, symbols, and emojis, has a numerical value according to the Unicode standard.
 
@@ -44,50 +44,50 @@ all the values are same in UNICODE and ASCII values.
 
 
 
-## python `ord()` convert char to unicode:
+## Python `ord()` convert char to unicode:
 
 The Python `ord()` function converts `a character into an integer` that represents the Unicode code of the character. 
 
 
 ### `ord()` Examples:
 
-let's go through couple of examples to understand `ord()` function in python
+let's go through couple of examples to understand `ord()` function in Python
 
 ### Example 1: To find UNICODE Value
 
-```python
+```Python
 ch =input("Enter character to find corresponding UNICODE value:")
 print(ord(ch))
 ```
 output:
 
-```python
+```Python
 Enter character to find corresponding UNICODE value:D
 68
 ```
 
 ### Example 2: if input is single character
 
-```python
+```Python
 ch =input("Enter character to find corresponding UNICODE value:")
 print(ord(ch))
 ```
 output:
 
-```python
+```Python
 Enter character to find corresponding UNICODE value:H
 72
 ```
 
 ### Example 3: If input is two characters 
 
-```python
+```Python
 ch =input("Enter character to find corresponding UNICODE value:")
 print(ord(ch))
 ```
 output:
 
-```python
+```Python
 Enter character to find corresponding UNICODE value:AB
 Traceback (most recent call last):
   File "c:/Users/Vamshi/date.py", line 2, in <module>
@@ -103,7 +103,7 @@ The `chr()` function converts a Unicode code `character into the corresponding s
 
 ## `chr()` Function Syntax
 
-```python
+```Python
 chr(num)
 ```
 ## `chr()` Function parameter
@@ -114,17 +114,17 @@ Return: Returns str
 
 ### `chr()` function Examples:
 
-let's go through couple of examples to understand `chr()` function in python
+let's go through couple of examples to understand `chr()` function in Python
 
 ### Example:
 
-```python
+```Python
 unicode =int(input("Enter  UNICODE value to find corresponding value:"))
 print(chr(unicode))
 ```
 output:
 
-```python
+```Python
 Enter  UNICODE value to find corresponding value:100
 d
 

@@ -1,6 +1,6 @@
 ---
-title: "python bin() function syntax,usage and examples"
-description: "The 'bin()' function is one of the built-in functions in python"
+title: "Python bin() function syntax,usage and examples"
+description: "The 'bin()' function is one of the built-in functions in Python"
 date: "2022-07-07 T04:30:05+09:00"
 draft: false
 link: "bin() Built-in functions"
@@ -12,15 +12,15 @@ menu:
 weight: 100
 toc: true
 ---
-## `bin()` function in python
+## `bin()` function in Python
 
-The `bin()` function is one of the built-in functions in python.
+The `bin()` function is one of the built-in functions in Python.
 The `bin()` function returns the binary version of a specified integer.
 The result will always start with the prefix `0b`.
 
 ## `bin()` function Syntax
 
-```python
+```Python
 bin(n)
 ```
 ## `bin()` function Parameter 
@@ -31,19 +31,19 @@ let's go through the `bin()` function examples for better understanding.
 
 ### Example 1: `bin()` for binary values
 
-```python
+```Python
 # welcome to Pythonshiksha
 n= bin(31)
 print(n)
 ```
 output:
 
-```python
+```Python
 0b11111
 ```
 ### Example 2 : `bin()` with non integer class
 
-```python
+```Python
 # welcome to Pythonshiksha
 class Total_Marks:
     TELUGU = 88
@@ -60,12 +60,12 @@ print('The binary equivalent of Total marks is:', bin(Total_Marks()))
 ```
 output
 
-```python
+```Python
 TypeError: 'Total_Marks' object cannot be interpreted as an integer
 ```
 ### Example 3: bin() with __index__() for Non-Integer Class
 
-```python
+```Python
 # welcome to Pythonshiksha
 class Total_Marks:
     TELUGU = 88
@@ -82,7 +82,7 @@ print('The binary equivalent of Total marks is:', bin(Total_Marks()))
 ```
 output:
 
-```python
+```Python
 The binary equivalent of Total marks is: 0b1000011100
 ```
 

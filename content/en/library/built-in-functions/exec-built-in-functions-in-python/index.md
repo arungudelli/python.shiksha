@@ -1,6 +1,6 @@
 ---
-title: "python exec() function syntax,usage and examples"
-description: "The 'exec()' function is a one of the built-in functions in python"
+title: "Python exec() function syntax,usage and examples"
+description: "The 'exec()' function is a one of the built-in functions in Python"
 date: "2022-07-05T05:00:05+09:00"
 draft: false
 link: "exec() Built-in functions"
@@ -13,15 +13,15 @@ weight: 100
 toc: true
 ---
 
-## `exec()` function in python
+## `exec()` function in Python
 
-1. The `exec()` function is a one of the built-in functions in python.
+1. The `exec()` function is a one of the built-in functions in Python.
 2. The `exec()` function executes the specified Python code.
 3. The `exec()` function accepts large blocks of code, unlike the `eval()` function which only accepts a single expression
 
 ### `exec()` function Syntax
 
-```python
+```Python
 exec(object, globals, locals)
 ```
 
@@ -32,30 +32,30 @@ locals 	Optional. A dictionary containing local parameter
 
 ### `exec()` function Example:
 
-let's go through couple of examples to understand `exec()` function in python
+let's go through couple of examples to understand `exec()` function in Python
 
 
 ### Example 1:
 
-```python
-x = compile('print("welcome to")\nprint("python shiksha")', 'test', 'exec')
+```Python
+x = compile('print("welcome to")\nprint("Python shiksha")', 'test', 'exec')
 exec(x) 
 ```
 output:
 
-```python
+```Python
 welcome to
-python shiksha
+Python shiksha
 ```
 ### Example 2:
 
-```python
+```Python
 prog = 'print("The sum of 5 and 10 is", (5+10))'
 exec(prog)
 ```
 output:
 
-```python
+```Python
 The sum of 5 and 10 is 15
 ```
 

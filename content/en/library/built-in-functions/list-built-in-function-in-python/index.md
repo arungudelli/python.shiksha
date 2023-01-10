@@ -1,6 +1,6 @@
 ---
-title: "python list() function syntax,usage examples"
-description: "The `list()`function is one of the built-in function in python"
+title: "Python list() function syntax,usage examples"
+description: "The `list()`function is one of the built-in function in Python"
 date: "2022-07-21 T11:55:05+09:00"
 draft: false
 link: "list() Built-in functions"
@@ -13,9 +13,9 @@ weight: 100
 toc: true
 ---
 
-## `list()` function in python
+## `list()` function in Python
 
-1. The `list()` function is one of the built-in function in python.
+1. The `list()` function is one of the built-in function in Python.
 `list()` is used for `Returns a list`.
 2. Lists are created using square brackets
 
@@ -23,7 +23,7 @@ toc: true
 
 ## `list()` function syntax
 
-```python
+```Python
 list_name = [items]
 ```
 ## `list()` function parameters
@@ -34,33 +34,33 @@ List items are indexed, the first item has index [0], the second item has index 
 
 ### `list()` function Examples:
 
-let's go through couple of examples to understand `list()` function in python
+let's go through couple of examples to understand `list()` function in Python
 
 ### `list()` function Example 1:
 
-```python
-my_list = ["pythonshiksha",29,'s',-7.5,3.9]
+```Python
+my_list = ["Pythonshiksha",29,'s',-7.5,3.9]
 print(my_list)
 ```
 output:
 
-```python
-['pythonshiksha', 29, 's', -7.5, 3.9]
+```Python
+['Pythonshiksha', 29, 's', -7.5, 3.9]
 ```
 like this we can store multiple data types in one variable.
 
 ### `list()` function Example 2:
 
-```python
+```Python
 fruits_list = ["apple","banana","pomegranate","guava","grapes","banana"]
 print(fruits_list)
 ```
 output:
 
-```python
+```Python
 ['apple', 'banana', 'pomegranate', 'guava', 'grapes', 'banana']
 ```
-here fruits list is created in this list banana have 2 times that means duplicate items also allows this list function in python.
+here fruits list is created in this list banana have 2 times that means duplicate items also allows this list function in Python.
 
 from this list we can remove,add items in to the list.
 

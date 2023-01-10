@@ -1,6 +1,6 @@
 ---
 title: "Python id() function syntax, usage and examples "
-description: "The 'id()' function is one of the built-in function in python"
+description: "The 'id()' function is one of the built-in function in Python"
 date: "2022-07-19T10:30:00+09:00"
 draft: false
 link: "id() built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `id()` function in python
+## `id()` function in Python
 
-1. The `id()` function is one of the built-in function in python.
+1. The `id()` function is one of the built-in function in Python.
 2. The `id()` is used for `Returns the id of an object`.
 
 ## `id()` function syntax
 
-```python
+```Python
 id(object)
 ```
 ## `id()` function parameters
@@ -40,13 +40,13 @@ object = int, float, string, tuple, list, class, function, etc.
 
 ### `id()` function Example:
 
-let's go through couple of examples to understand `id()` function in python
+let's go through couple of examples to understand `id()` function in Python
 
 ### Example 1:
 
-```python
+```Python
 a = 31.295
-txt = 'python shiksha'
+txt = 'Python shiksha'
 items = ['pencil','pen']
 
 print(id(a))
@@ -56,7 +56,7 @@ print(id(items))
 ```
 output:
 
-```python
+```Python
 27510256
 27510256
 27295000
@@ -66,14 +66,14 @@ here, a and 31.295 are equal in this code so we got same id for this two  values
 
 ### Example 2:
 
-```python
+```Python
 x = ('abc', 'xyz')
 y = id(x)
 print(y)
 ```
 output:
 
-```python
+```Python
 22612099506368
 ```
 This value is the memory address of the object and will be different every time you run the program

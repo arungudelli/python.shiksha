@@ -1,9 +1,9 @@
 ---
-title: "python help() function syntax,usage and examples"
-description: "The 'help()' function is a one of the built-in functions in python"
+title: "Python help() function syntax,usage and examples"
+description: "The 'help()' function is a one of the built-in functions in Python"
 date: "2022-08-17T11:20:05+09:00"
 draft: false
-link: "python `help(`) Built-in functions"
+link: "Python `help(`) Built-in functions"
 images: []
 type: docs
 menu:
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `help()` function in python
+## `help()` function in Python
 
-1. The `help()` function is a one of the built-in functions in python.
+1. The `help()` function is a one of the built-in functions in Python.
 2. The `help()` is used for `Executes the built-in help system`.
 
 ## `help()` function Syntax
 
-```python
+```Python
 help(object)  
 ```
 ## `help()` function parameters
@@ -29,21 +29,21 @@ help() can returns the object's info.
 
 ### `help()` function Examples:
 
-let's go through couple of examples to understand `help()` function in python
+let's go through couple of examples to understand `help()` function in Python
 
 ### Example  1:
 
-```python
+```Python
 info = help()  
 # Displaying result  
 print(info)  
 ```
 output
-```python
+```Python
 Welcome to Python 3.8's help utility!
 
 If this is your first time using Python, you should definitely check out
-the tutorial on the Internet at https://docs.python.org/3.8/tutorial/.
+the tutorial on the Internet at https://docs.Python.org/3.8/tutorial/.
 
 Enter the name of any module, keyword, or topic to get help on writing
 Python programs and using Python modules.  To quit this help utility and
@@ -60,7 +60,7 @@ help>
 
 ### Example 2:
 
-```python
+```Python
 >>> help(dict)
 Help on class dict in module builtins:
 

@@ -1,6 +1,6 @@
 ---
 title: "Python aiter() function syntax, usage & example"
-description: "The 'aiter()' function is a one of the built-in functions in python"
+description: "The 'aiter()' function is a one of the built-in functions in Python"
 date: "2022-07-07T03:40:05+09:00"
 draft: false
 link: "aiter() Built-in functions"
@@ -13,9 +13,9 @@ weight: 100
 toc: true
 ---
 
-## `aiter()` function in python
+## `aiter()` function in Python
 
-1. The `aiter()` function is a one of the built-in functions in python.
+1. The `aiter()` function is a one of the built-in functions in Python.
 2. The `aiter()` is used to Returns the absolute value of a number.
 3. The `aiter()` is a new function that came in Python 3.10 version
 
@@ -23,7 +23,7 @@ toc: true
 
 The syntax `aiter()` function is 
 
-```python
+```Python
 aiter(iter)
 ```
 ## `aiter()` function parameters
@@ -37,7 +37,7 @@ It returns an asynchronous iterator for an asynchronous iterable
 
 ## Python `aiter()` Examples
 
-```python
+```Python
 async def aaa(iterable):
     async for element in aiter(iterable):
         if element:
@@ -51,7 +51,7 @@ print(aaa)
 
 output:
 
-```python
+```Python
 <function aaa at 0x001777C0>
 ```
 

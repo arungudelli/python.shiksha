@@ -1,6 +1,6 @@
 ---
-title: "python filter() function syntax,usage and examples"
-description: "The 'filter()'function is a one of the built-in functions in python"
+title: "Python filter() function syntax,usage and examples"
+description: "The 'filter()'function is a one of the built-in functions in Python"
 date: "2022-08-18T11:10:05+09:00"
 draft: false
 link: "filter() Built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `filter()` function in python
+## `filter()` function in Python
 
-1. The `filter()` function is a one of the built-in functions in python.
+1. The `filter()` function is a one of the built-in functions in Python.
 2. The `filter()` is used for `Use a filter function to exclude items in an iterable object`.
 
 ## `filter()` function Syntax
 
-```python
+```Python
 filter(function, iterable)
 ```
 ## `filter()` function parameters
@@ -36,15 +36,15 @@ The filter() function returns an iterator.
 
 Note: You can easily convert iterators to sequences like lists, tuples, strings etc.
 
-if source code is block of statements then we can use `filter()` built-in function in python
+if source code is block of statements then we can use `filter()` built-in function in Python
 
 
 ### `filter()` function Examples:
-let's go through couple of examples to understand `filter()` function in python
+let's go through couple of examples to understand `filter()` function in Python
 
 ### Example 1:
 
-```python
+```Python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 def skip_numb(number):
@@ -61,12 +61,12 @@ print(skip_numbers)
 ```
 output:
 
-```python
+```Python
 [3,6,9]
 ```
 ### Example 2:
 
-```python
+```Python
 ages = [22, 32, 11, 16, 24, 32]
 
 def myFunc(x):
@@ -82,7 +82,7 @@ for x in adults:
 ```
 output:
 
-```python
+```Python
 22
 32
 24

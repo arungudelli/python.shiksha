@@ -1,6 +1,6 @@
 ---
 title: "Python locals() function syntax, usage & example"
-description: "The `locals()` function is a one of the built-in functions in python"
+description: "The `locals()` function is a one of the built-in functions in Python"
 date: "2022-07-07T03:40:05+09:00"
 draft: false
 link: "locals() Built-in functions"
@@ -13,13 +13,13 @@ weight: 100
 toc: true
 ---
 
-## `locals()` function in python
+## `locals()` function in Python
 
-1. The `locals()` function is a one of the built-in functions in python.
+1. The `locals()` function is a one of the built-in functions in Python.
 
 ##  `locals()` function Syntax
 
-```python
+```Python
 locals()
 ```
 
@@ -33,33 +33,33 @@ The `locals()` method returns the dictionary of the current local symbol table.
 
 ## `locals()` function Examples:
 
-let's go through couple of examples to understand `list()` function in python
+let's go through couple of examples to understand `list()` function in Python
 
 ### Example 1: To know current working file name 
 
-```python
+```Python
 x = locals()
 print(x["__file__"])
 ```
 output:
 
-```python
-c:/Users/python/locals.py
+```Python
+c:/Users/Python/locals.py
 ```
 ### Example 2:
 
-```python
+```Python
 class local:
-    str = "pythonshiksha"
+    str = "Pythonshiksha"
     # locals inside a class
     print('\nlocals() value inside class\n', locals())
 ```
 
 output:
 
-```python
+```Python
 locals() value inside class
- {'__module__': '__main__', '__qualname__': 'local', 'str': 'pythonshiksha'}
+ {'__module__': '__main__', '__qualname__': 'local', 'str': 'Pythonshiksha'}
 ```
 
 ## Summary

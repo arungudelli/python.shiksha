@@ -13,7 +13,7 @@ We can list down all files or directories inside a folder in Python by using var
 
 Some of the major methods are by using the `os.walk()`, `os.listdir()`, `glob` module etc.
 
-The python `OS` module allows user to get access to various functions to interact with the file system.
+The Python `OS` module allows user to get access to various functions to interact with the file system.
 
 For eg: The `walk()` method lists all the files inside a directory & the `listdir()` method finds files on a specifies path.
 
@@ -25,7 +25,7 @@ The most basic way of listing all the files into one directory is via using the 
 
 The received data can be further filtered by using the `os.path.isdir()` to list all the subdirectories.
 
-```python
+```Python
 import os
 dirName = 'c:/users/temp’
 for file in os.listdir(dirName):
@@ -46,7 +46,7 @@ c:/users/temp/sample2.txt ]
 
 The main code can now be used recursively to enable filtering by subdirectories.
 
-```python
+```Python
 import os
 def listdirs(dirName):
  for file in os.listdir(dirName):
@@ -64,13 +64,13 @@ c:/users/temp/testFolder ]
 ```
 ## Using the `os.scandir()` function
 
-For python 3.5+, you can use the `os.scandir()`, which offers significantly better performance over `os.listdir()`. 
+For Python 3.5+, you can use the `os.scandir()`, which offers significantly better performance over `os.listdir()`. 
 
 This method returns the directory entries along with file attribute information. 
 
 The entries can be filtered by using the `is_dir()` functions, which would return `true` if the current entry points to a directory.
 
-```python
+```Python
 import os
 rootdir = ‘C:/users/temp'
 for it in os.scandir(rootdir):
@@ -88,7 +88,7 @@ C:/users/temp/test ]
 The main code can now be used recursively to enable filtering by
 sub-directories.
 
-```python
+```Python
 import os
 def listdirs(rootdir):
  for it in os.scandir(rootdir):
@@ -107,7 +107,7 @@ The reason behind using the pathlib module is to get access to the `Path.iterdir
 
 And in a similar way, the entries can be filtered by using the `Path.Is_dir()` function.
 
-```python
+```Python
 from pathlib import Path
 dirName = ‘c:/users/temp’
 for path in Path(dirName).iterdir():
@@ -129,7 +129,7 @@ For listing all the files in a directory or sub-directory, it is better to use t
 
 Where `dirpath` is the path for the root directory, `dirnames` is the list of names of subdirectories in the root directory & `filenames` lists all the files in the root directory as well as sub-directories.
 
-```python
+```Python
 import os
 dirName = ‘C:/users/Angular’
 for dirpath, dirname, filename in os.walk(dirName):
@@ -160,7 +160,7 @@ The `glob()` function searches for a list of files filtered on the basis of a sp
 This function also has a parameter recursive, whose default value is set to `False`, but if its
 value is set to `True`, then this functions searches inside the subdirectories for files matching the specified pathname pattern.
 
-```python
+```Python
 import glob
 location = 'c:/users/temp/'
 for path in glob.glob(f ‘ {location}/*/ ’):
@@ -178,7 +178,7 @@ C:/users/temp/test]
 
 For Python 3.5+ versions extended support for recursive globs is given for using ** to search subdirectories.
 
-```python
+```Python
 import glob
 rootdir = 'path/to/dir'
 for path in glob.glob(f'{rootdir}/*/**/', recursive=True):
@@ -197,7 +197,7 @@ c:/ users /temp/dist/samples/firstSample]
 
 After learning to implement all of the method possible, there is an uncertainty for deciding the best method to adapt to. 
 
-But as we have learnt that the `os.walk()` method provides maximum flexibility to work the file system in python. 
+But as we have learnt that the `os.walk()` method provides maximum flexibility to work the file system in Python. 
 
 While `glob()` enables to search and filter through a specific pattern of pathname. 
 

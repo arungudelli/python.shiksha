@@ -21,7 +21,7 @@ While Data types are the different categories which  define that what type of va
 
 Python has numerous standard data types that are used to define the operations possible on them and the storage method for each of them.
 
-The commonly used data types in python are:
+The commonly used data types in Python are:
 
 | Data Type      | Constructor |
  ----------- | ----------- 
@@ -35,7 +35,7 @@ The commonly used data types in python are:
 
 
 Example:
-```python
+```Python
 # Integer
 a = 10
 
@@ -69,7 +69,7 @@ Python has a built-in `type()` method , which gives the class type of the variab
 
 The `type()` method takes in one argument i.e., the variable whose data type is to be determined, and it outputs the class type of the argument.
 
-```python
+```Python
 a = 10
 b= 25.56
 c="Hello World"
@@ -102,13 +102,13 @@ We have seen the use of the `type()` method for all the data types. Now let’s 
 
 ## Using the isinstance() method
 
-`isinstance()` is another in-built Python method which can be used to extract the data type of a variable in python.
+`isinstance()` is another in-built Python method which can be used to extract the data type of a variable in Python.
 
 The `isinstance()` method takes in two arguments, and returns a Boolean value , according to the condition that if the first argument is an instance of class type of the second argument.
 
 Let’s define it by the help of a code:
 
-```python
+```Python
 a = 10
 b= 25.56
 c="Hello World"
@@ -141,7 +141,7 @@ The Variable Type is Float:  False
 
 Since both the methods are equally useful for getting the desired result, we can use either of the method but we should now look at some of the differences between both these methods.
 
-```python
+```Python
 class Parent:
     pass
 
@@ -162,7 +162,7 @@ Output:
 
 The `type()` returns a True value only if the **exact class type** matches but the `isinstance()` method return true even if the **superclass type** matches.
 
-```python
+```Python
 class Parent:
     pass
 

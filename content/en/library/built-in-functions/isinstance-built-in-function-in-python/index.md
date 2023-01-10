@@ -1,6 +1,6 @@
 ---
-title: "python isinstance() function syntax,usage and examples "
-description: "The 'isinstance()' function is a one of the built-in functions in python"
+title: "Python isinstance() function syntax,usage and examples "
+description: "The 'isinstance()' function is a one of the built-in functions in Python"
 date: "2022-08-22T02:00:05+09:00"
 draft: false
 link: "isinstance() Built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `isinstance()` function in python
+## `isinstance()` function in Python
 
-1. The `isinstance()` function is a one of the built-in functions in python.
+1. The `isinstance()` function is a one of the built-in functions in Python.
 2. `isinstance()` is used for `Returns True if a specified object is an instance of a specified object`.
 
 ##  `isinstance()` function syntax
 
-```python
+```Python
 isinstance(object, classinfo)
 ```
 ##  `isinstance()` function parameters
@@ -39,11 +39,11 @@ if the type parameter is a tuple, this function will return True if the object i
 
 ## `inistance()` function Examples:
 
-let's go through couple of examples to understand `inistance()` function in python
+let's go through couple of examples to understand `inistance()` function in Python
 
 ### `isinstance()` function Example 1
 
-```python
+```Python
 student_name = 'aaa'
 student_rno= 10
 
@@ -55,7 +55,7 @@ print(isinstance(student_rno, str))# False
 ```
 output:
 
-```python
+```Python
 True
 False
 True
@@ -63,7 +63,7 @@ False
 ```
 ### `inistance() `Example 2:
 
-```python
+```Python
 x = isinstance(9.5, int)
 y = isinstance(9.5, float)
 
@@ -72,7 +72,7 @@ print(y)
 ```
 output:
 
-```python
+```Python
 False
 True
 ```

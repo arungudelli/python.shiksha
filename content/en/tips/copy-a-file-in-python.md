@@ -11,9 +11,9 @@ author: "dmohanty"
 
 Copying of files is a core operating system method that is suitable to be performed either manually or by using CLI.
 
-But can we achieve this result by using python. **Yes we can**!
+But can we achieve this result by using Python. **Yes we can**!
 
-Three modules in python help us in achieving different operating system level tasks in both `Windows` as well as `Unix` and we will check the methods of this modules that help us copy a file in python.
+Three modules in Python help us in achieving different operating system level tasks in both `Windows` as well as `Unix` and we will check the methods of this modules that help us copy a file in Python.
 
 The three modules are `shuilt`, `os` and `subprocess` which have almost same functionality with few modifications and enhancements at operating system level
 
@@ -35,7 +35,7 @@ This method takes in two parameters, one being the source file path and the othe
 
 Let’s see this code in work:
 
-```python
+```Python
 import shutil
 
 shutil.copyfile('./test2/sample.txt', './test1/result.txt')
@@ -62,7 +62,7 @@ This method also takes in 2 parameters i.e., the source file path and the destin
 
 Let’s see the code implementation
 
-```python
+```Python
 import shutil
 
 shutil.copy('./test2/sample.txt', './test1/result.txt')
@@ -75,7 +75,7 @@ Now that we have discussed about the `shutil` module, let’s now checkout the `
 
 ## Using the `os` module
 
-`os` module is one of the most useful module in python when it comes to working with core operating system features and thus we can use it's method to copy contents from one file to other.
+`os` module is one of the most useful module in Python when it comes to working with core operating system features and thus we can use it's method to copy contents from one file to other.
 
 However, this module and methods are **platform specific** and thus we will learn separate methods for both the platforms i.e., Unix and Windows.
 
@@ -85,7 +85,7 @@ This method takes in a parameter called `command` that is a string containing th
 
 In our case `copy` for windows and `cp` for Unix.
 
-```python
+```Python
 import os
 
 os.system('copy sample.txt result.txt') # For Windows user
@@ -100,7 +100,7 @@ But this method has 1 advantage and 1 drawback.
 
 Advantage being , if the destination file doesn't exist in the system then it creates a file and saves copies the content of the source onto it.
 
-This code is also very much faster than the other two methods because this code runs in a sub shell and runs in a parallel thread to the python code.
+This code is also very much faster than the other two methods because this code runs in a sub shell and runs in a parallel thread to the Python code.
 
 And for waiting for a process completion, we can use the `wait()` method on the result of the system method to wait for this process completion.
 
@@ -118,7 +118,7 @@ We can also pass around a **Boolean** i.e. `shell=True` as a parameter to the fu
 
 Let’s see the code and its output:
 
-```python
+```Python
 import subprocess
 
 subprocess.call('copy sample.txt result.txt',shell=True) # For Windows user
@@ -135,4 +135,4 @@ As we conclude this exciting article, in this we learnt about working with the s
 
 In this, we explored only about the copying of contents of file from one to the other.
 
-We learnt about two major modules i.e., `shutil` and `os` and the most common and useful methods of these modules that can be used to copy a file in python, majorly the `copy` method of the `shutil` module and `system` method the `os` module.
+We learnt about two major modules i.e., `shutil` and `os` and the most common and useful methods of these modules that can be used to copy a file in Python, majorly the `copy` method of the `shutil` module and `system` method the `os` module.

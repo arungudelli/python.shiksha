@@ -13,10 +13,10 @@ JSON stands for JavaScript Object Notation. It is a `file` (precisely a script f
 
 ## Overview of JSON
 
-Since JSON is a very popular format for data transfer, there is barely a question of python not having a module to manage json file and data.
+Since JSON is a very popular format for data transfer, there is barely a question of Python not having a module to manage json file and data.
 
 Python has an in-built package **“JSON”** which can be imported and used without reluctance to manage json data.
-JSON data is quite similar to that of dictionaries in python.
+JSON data is quite similar to that of dictionaries in Python.
 
 Here also , we have to add text in _quoted-string_ like the key value mapping between {}.
 

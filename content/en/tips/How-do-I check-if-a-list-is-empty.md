@@ -12,11 +12,11 @@ Programming questions can be really hectic and difficult to solve because they r
 
 You may be in an Hackathon or in a live coding test and you are given a data structure test where you are asked to perform different operations such as loop, conditionals, error handling, and lots more. 
 
-I'll explain how you can quickly **check if a python list is empty** in this article
+I'll explain how you can quickly **check if a Python list is empty** in this article
 
-## List in python
+## List in Python
 
-In python a list is made by enclosing elements in square brackets `[]` and separating them with commas and they are quite are useful for storing multiple elements in a single variable.
+In Python a list is made by enclosing elements in square brackets `[]` and separating them with commas and they are quite are useful for storing multiple elements in a single variable.
 
 ## Why check if a list is empty in Python?
 
@@ -47,7 +47,7 @@ Since an empty list is **False**, the condition is false and hence we are able t
 
 It is the most simple way of checking if a list is empty. 
 
-```python
+```Python
 FirstList = ["Good", "Better", "Best"]
 
 SecondList = []
@@ -60,13 +60,13 @@ else:
 ```
 
 **Output**:
-```python
+```Python
 # This list is empty
 ```
 
 Another common method is with the implication of a `not`.
 
-```python
+```Python
 a = []
 if not a:
     print("This is an empty list")
@@ -74,7 +74,7 @@ if not a:
 ```
 
 **Output**:
-```python
+```Python
 # This is an empty list
 ```
 
@@ -82,7 +82,7 @@ if not a:
 
 To determine whether a list is empty in this solution, we utilize the `len()` function, which returns the length of the input supplied. 
 
-```python
+```Python
 ListOne = ["Asia", "Africa", "Europe", "America", "Australia"]
 
 ListTwo = []
@@ -95,13 +95,13 @@ else:
 ```
 
 **Output**:
-```python
+```Python
 # Empty list
 ```
 
 Additionally, you can use the comparison operator with `len()` to check the empty list.
 
-```python
+```Python
 def AnotherList(BigList):
     if len(BigList) == 0:
         return 0
@@ -118,7 +118,7 @@ else:
 ```
 
 **Output**:
-```python
+```Python
 # This is an Empty List
 ```
 
@@ -128,7 +128,7 @@ We use the `bool()` function to determine if a list is empty, which is similar t
 
 The `bool()` function gives an object's boolean value, or whether it is true or false.
 
-```python
+```Python
 list1 = ["Football", "Basktball", 1, 2.8, True]
 
 list2 = []
@@ -140,12 +140,12 @@ else:
 
 ```
 **Output**:
-```python
+```Python
 # This list is empty
 ```
 To check if the list is not empty, you just change the 0 to 1
 
-```python
+```Python
 list1 = ["Football", "Basktball", 1, 2.8, True]
 
 list2 = []
@@ -157,7 +157,7 @@ else:
 
 ```
 **Output**:
-```python
+```Python
 # This list is not empty
 ```
 
@@ -169,7 +169,7 @@ An occurrence that takes place during the execution of a program that obstructs 
 
 A Python script typically raises an exception when it comes into a scenario that it cannot handle.
 
-```python
+```Python
 x = [] #the list
 try:
     next(iter(x))
@@ -180,7 +180,7 @@ except StopIteration:
 ```
 
 **Output**:
-```python
+```Python
 # List is empty
 ```
 
@@ -193,7 +193,7 @@ If we have a numPy array, using `.size` is always the right course of action.
 
 This size verifies the array's size and returns True or False in accordance.
 
-```python
+```Python
 import numpy
  
 def ListExample(ListEx):
@@ -210,7 +210,7 @@ else:
 ```
 
 **Output**:
-```python
+```Python
 # Empty list
 ```
 

@@ -12,7 +12,7 @@ Keeping this premium feature of Python in mind, in this article , we will discus
 
 ## Method 1: Using `os.remove()`
 
-The `os` module of python gives us full immunity to interact with the operating system and play around with the files and folders in our machine.
+The `os` module of Python gives us full immunity to interact with the operating system and play around with the files and folders in our machine.
 
 But the `os` methods also raise an `OSError` in case of an invalid file path or corrupted file path etc.
 
@@ -27,7 +27,7 @@ The two parameters are:
 
 The `remove()` method can be invoked by, `os.remove(Path, dirDec)`.  
 
-```python
+```Python
 
 import os     
 dirName = "Test"
@@ -69,7 +69,7 @@ So, being a responsible coder, we should handle all the possible errors and show
 
 Let’s try to handle the `OSError` generated while trying to remove a directory.
 
-```python
+```Python
 import os 
     
 dirName = "Test"
@@ -97,7 +97,7 @@ If you are working in UNIX operating system, then use `os.unlink()` method to de
 
 It's pretty much same as `os.remove()` method, except the it's specific to UNIX os.
 
-```python
+```Python
 
 import os     
 dirName = "Test"
@@ -127,7 +127,7 @@ Not specifically what we wanted but pretty similar.
 
 Removing empty directories are also sometimes an important use case.
 
-```python
+```Python
 import os 
     
 dirName = "Test"
@@ -158,7 +158,7 @@ As mentioned above, we get an `OSError` whenever we try to **remove a non-empty 
 
 Again since, we have an error , our responsibility is to handle that user and show a nice error message for the user.
 
-```python
+```Python
 import os 
     
 dirName = "Test"
@@ -196,7 +196,7 @@ The `shutil.rmtree()` method takes in three parameters with two being optional.
 
 Let's try this method and tru to remove the directory:
 
-```python
+```Python
 import shutil
 import os 
     
@@ -221,7 +221,7 @@ Directory Removed !
 This parameter bypasses all the weird error messages that are generated if a file is not present.
 
 
-```python
+```Python
 import shutil
 import os 
     
@@ -252,7 +252,7 @@ The `onerror` must be assigned with a function having three parameter.
 2. `path` – File path that caused the exception
 3. `excinfo` – exception info raised by sys.exc_info() 
 
-```python
+```Python
 import shutil
 import os 
     
@@ -290,7 +290,7 @@ Oops ! Something went Wrong
 
 Removes a file or symbolic link in Python
 
-```python
+```Python
 import pathlib
 
 
@@ -311,7 +311,7 @@ file.unlink()
 
 Removes an empty directory in Python
 
-```python
+```Python
 import pathlib
 
 # Deleting an empty folder

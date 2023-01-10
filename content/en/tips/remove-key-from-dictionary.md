@@ -11,7 +11,7 @@ author: "dmohanty"
 
 _Dictionaries_ usage in recent programming languages have increased multifold and therefore having prior knowledge about shortcut methods to play around with the dictionary gives us an advantage.
 
-In this article, we will discuss in brief about different methods to achieve a simple task i.e., to remove a key from a python dictionary and it has a lot of use cases while writing complex logic in CRUD programs.
+In this article, we will discuss in brief about different methods to achieve a simple task i.e., to remove a key from a Python dictionary and it has a lot of use cases while writing complex logic in CRUD programs.
 
 What we exactly want to achieve is that:
 
@@ -25,7 +25,7 @@ edited_dict: {“India”: 50, “USA”: 20, “Australia”': 40}
 
 Starting off with a very basic and beginner method.
 
-Using the _iteration and elimination_ method works on almost any iterables in python.
+Using the _iteration and elimination_ method works on almost any iterables in Python.
 
 We can easily look out for a desired key by iterating through the dictionary and then checking for the matching key inside of the dictionary else adding the other key value pairs to a new defined dictionary.
 
@@ -46,7 +46,7 @@ Output:
 
 ```
 
-This _naïve_ method is very much useful for the beginner coders in python as this can help them in strengthening their coding skills in iterables and the different operations that we can perform with looping in iterables.
+This _naïve_ method is very much useful for the beginner coders in Python as this can help them in strengthening their coding skills in iterables and the different operations that we can perform with looping in iterables.
 
 Now let’s look at a slightly higher conceptual method.
 
@@ -54,7 +54,7 @@ Now let’s look at a slightly higher conceptual method.
 
 Using the `del` keyword along with the key to be deleted is one of the most common methods to achieve the desired result.
 
-The `del` keyword is inbuilt inside of python and therefore if a valid key is not provided then, it raises an **KeyError** exception which has to be handles manually.
+The `del` keyword is inbuilt inside of Python and therefore if a valid key is not provided then, it raises an **KeyError** exception which has to be handles manually.
 
 Let’s now demonstrate the code implementation:
 
@@ -140,7 +140,7 @@ As expected, the code didn’t break and instead it outputs an error message tha
 
 ## Using dictionary comprehension to remove a key
 
-As said at first, dictionary in python is a very _flexible_ data type and for that reason itself, we can use the dictionary comprehension method to create a new dictionary dynamically which contains the copy of the original dictionary, only without the key we wanted to remove.
+As said at first, dictionary in Python is a very _flexible_ data type and for that reason itself, we can use the dictionary comprehension method to create a new dictionary dynamically which contains the copy of the original dictionary, only without the key we wanted to remove.
 
 Still confused? Let’s check its implementation.
 
@@ -164,6 +164,6 @@ Other than that, this is also a very good method for achieving the desired outpu
 
 ## Conclusion
 
-As we look to conclude this article, in this we discussed about a lot of methods by which we remove a key from python dictionary, starting from pure beginner method to a somewhat advanced level method.
+As we look to conclude this article, in this we discussed about a lot of methods by which we remove a key from Python dictionary, starting from pure beginner method to a somewhat advanced level method.
 
 But out of all the methods that we have discussed here, it is _very much appropriate_ to use the `pop()` method to achieve the result.

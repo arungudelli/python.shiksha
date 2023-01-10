@@ -1,9 +1,9 @@
 ---
-title: "python compile() function syntax,usage and examples"
-description: "The 'compile()' is one of the built-in functions in python"
+title: "Python compile() function syntax,usage and examples"
+description: "The 'compile()' is one of the built-in functions in Python"
 date: "2022-07-05 T004:30:05+09:00"
 draft: false
-link: "compile() function in python "
+link: "compile() function in Python "
 images: []
 type: docs
 menu:
@@ -13,15 +13,15 @@ weight: 100
 toc: true
 ---
 
-## `compile()` function in python
+## `compile()` function in Python
 
-1. The `compile()` is one of the built-in functions in python.
+1. The `compile()` is one of the built-in functions in Python.
 2. The `compile()` function returns the specified source as a code object,
 ready to be executed.
 
 ## `compile()` function Syntax
 
-```python
+```Python
 compile(source, filename, mode, flag, dont_inherit, optimize)
 ```
 ## `compile()` function Parameter
@@ -44,30 +44,30 @@ compile(source, filename, mode, flag, dont_inherit, optimize)
 
 ### `compile()` Examples:
 
-let's go through couple of examples to understand `compile()` function in python
+let's go through couple of examples to understand `compile()` function in Python
 
-### Example 1: if source code is block of statements then we can use `exec()` built-in function in python
+### Example 1: if source code is block of statements then we can use `exec()` built-in function in Python
 
-```python
-x = compile('print("welcome to")\nprint("pythonshiksha")', 'test', 'exec')
+```Python
+x = compile('print("welcome to")\nprint("Pythonshiksha")', 'test', 'exec')
 exec(x) 
 ```
 output:
 
-```python
+```Python
 welcome to
-pythonshiksha
+Pythonshiksha
 ```
 
-### Example 2:  if source code is single expression then we can use `eval()` built-in function in python
+### Example 2:  if source code is single expression then we can use `eval()` built-in function in Python
 
-```python
+```Python
 x = compile('print("welcome")', 'test', 'eval')
 eval(x) 
 ```
 output:
 
-```python
+```Python
 welcome
 ```
 

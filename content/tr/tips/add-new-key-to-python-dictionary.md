@@ -9,9 +9,9 @@ image: "images/featured/addNewKeysPythonDictionary.png"
 
 ---
 
-Dictionaries have been a very important Data structure in python.
+Dictionaries have been a very important Data structure in Python.
 
-In this article we will discuss in detail about all the different methods that we can use in order to **add new keys onto our existing python dictionary**.
+In this article we will discuss in detail about all the different methods that we can use in order to **add new keys onto our existing Python dictionary**.
 
 Dictionary is a collection of *data values*, that can hold data of different data types like a **map**.
 
@@ -154,7 +154,7 @@ Now as we have discussed about all the major methods that we can use in order to
 
 ## Using the `__setitem__` method
 
-This method is considered as an internal command of python but is deprecated due to its **very poor computational time** and runtime performance.
+This method is considered as an internal command of Python but is deprecated due to its **very poor computational time** and runtime performance.
 
 ```
 test_dict = {'cricket':1, 'football':2 , 'hockey':3 , 'wrestling':4}
@@ -193,4 +193,4 @@ Then, we discussed about the `update()` method to add multiple key-value pairs t
 
 We then probed into the `Merge` and `Update` operators available from **Python versions 3.9+**.
 
-Lastly, we looked at the deprecated methods as a general information about python.
+Lastly, we looked at the deprecated methods as a general information about Python.

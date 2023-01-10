@@ -1,6 +1,6 @@
 ---
 title: "How to Define a 2-D (2-dimensional) List in Python"
-description: "Learn how to define & initialize a 2-D list in python"
+description: "Learn how to define & initialize a 2-D list in Python"
 date: "2021-07-19T04:15:05+09:00"
 draft: false
 author: "dmohanty"
@@ -14,9 +14,9 @@ It typically represents a `matrix` with rows and columns.
 
 In this article we will discuss various methods to create 2-D lists in Python.
 
-Example of a 2-D list in python:
+Example of a 2-D list in Python:
 
-```python
+```Python
 [ [1,2,3], [4,2,6], [5,8,7] ]
 ```
 
@@ -28,13 +28,13 @@ Let’s dive deeper into them:
 
 ### Method 1: Using 2 for loops
 
-`for` loops are one of the most important `keyword` in python. 
+`for` loops are one of the most important `keyword` in Python. 
 
 We can use the mighty `for` loop to create a 2-D list but this time we have to use 2 `for` loops to create a 2-D list.
 
 It is like creating two 1-D lists using `for` loop but in the **nested** pattern.
 
-```python
+```Python
 arr = []
 c = 1
 
@@ -63,7 +63,7 @@ But again there are **two** ways of using the **list comprehension** method, let
 
 In this we **dynamically** create a list of elements by directly multiplying with the number of columns and rows.
 
-```python
+```Python
 r, c = (4, 5)
 arr = [[1]*c]*r
 print(arr)
@@ -76,7 +76,7 @@ Output:
 
 Another way is to **dynamically** create a list of elements but by using `for` loops,
 
-```python
+```Python
 r, c = (5, 4)
 arr = [[1 for i in range(c)] for j in range(r)]
 print(arr)
@@ -87,12 +87,12 @@ Output:
 [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]
 ```
 
-We have learnt **three** methods of initializing a 2-D list in python. 
+We have learnt **three** methods of initializing a 2-D list in Python. 
 
 But which method is effective ?
 
-Well , the **third** method is the most effective method of creating a 2-D list in python since it has both list comprehension with the mighty `for` loop.
+Well , the **third** method is the most effective method of creating a 2-D list in Python since it has both list comprehension with the mighty `for` loop.
 
 ## Conclusion
 
-In this article, we briefly discussed about the various methods that can be used to create a 2-D list in python and we also discussed about the most **effective** method for achieving this result. 
+In this article, we briefly discussed about the various methods that can be used to create a 2-D list in Python and we also discussed about the most **effective** method for achieving this result. 

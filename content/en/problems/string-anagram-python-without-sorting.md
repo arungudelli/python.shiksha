@@ -20,7 +20,7 @@ There are three ways to check if two strings are anagrams or not in Python witho
 
 We can count the occurrences of both strings and compare them to check if they are anagrams not not.
 
-```python
+```Python
 
     def CheckIfStringsAreAnagramWithoutSorting(source: str, target: str) -> bool:
         
@@ -44,7 +44,7 @@ We can count the occurrences of both strings and compare them to check if they a
 We can use only single counter array instead of two.
 
 
-```python
+```Python
 
     def CheckIfStringsAreAnagramWithoutSorting(source: str, target: str) -> bool:
         
@@ -64,7 +64,7 @@ We can use only single counter array instead of two.
 
 ```
 
-To understand the logic go through the [Check if two strings are anagrams in Python](/problems/string-anagram-python) article.
+To understand the logic go through the [Check if two strings are anagrams in Python](/problems/string-anagram-Python) article.
 
 
 ### Complexity
@@ -105,7 +105,7 @@ func CheckIfStringsAreAnagramWithoutSorting(source string, target string) bool {
 Instead of `sorting()` we can use Python built in function `Counter()` which is part of `collections`.
 
 
-```python
+```Python
 
     def CheckIfStringsAreAnagramWithoutSorting(source: str, target: str) -> bool:
        

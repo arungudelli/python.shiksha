@@ -1,13 +1,13 @@
 ---
 title: "Get Position of a Character"
-description: "How to get position of a character in a string in python"
+description: "How to get position of a character in a string in Python"
 date: "2021-07-19T04:15:05+09:00"
 draft: true
 link: "Get position of a character"
 author: "dmohanty"
 ---
 
-Strings are an important data type in python and there are a lot of use cases where we might require to fetch or extract the position of a character inside of a string. 
+Strings are an important data type in Python and there are a lot of use cases where we might require to fetch or extract the position of a character inside of a string. 
 
 How can solve this issue using Python ?
 
@@ -15,14 +15,14 @@ In this article, we will tackle all the different methods that can be used in or
 
 ## Strings in Python
 
-Strings are the data types in python that are surrounded by single *quotations* or double *quotations* and can be assigned to a variable. 
+Strings are the data types in Python that are surrounded by single *quotations* or double *quotations* and can be assigned to a variable. 
 
 Example 
 ```
 sample_text = “Welcome to Python”
 ```
 
-## Methods to get position of a character in python
+## Methods to get position of a character in Python
 
 Let’s dive deeper into the methods by the help of which we can achieve our desired result.
 
@@ -57,9 +57,9 @@ But as stated prior, this is a **novice** method of solving this problem.
 
 ### Using the find() method
 
-Since, we are programming in python, we must be pretty aware about the fact that there are a lot of **inbuilt** functions that can simplify the complex tasks.
+Since, we are programming in Python, we must be pretty aware about the fact that there are a lot of **inbuilt** functions that can simplify the complex tasks.
 
-For this problem also we have a **inbuilt** python method i.e. the `find()` method.
+For this problem also we have a **inbuilt** Python method i.e. the `find()` method.
 
 The `find()` method takes in a *parameter* i.e. the character which is to be searched and returns an *integer* value which  is the position of the character and returns **–1** if the character is not present.
 
@@ -79,7 +79,7 @@ Here we see that for the same searched word we get two different answers, this i
 
 ### Using the index() method
 
-Yet this is another **inbuilt** method in python that functions the exact same way as that of the `find() `function but has only one difference i.e. the `index()` method raises a ValueError if the character is not found.
+Yet this is another **inbuilt** method in Python that functions the exact same way as that of the `find() `function but has only one difference i.e. the `index()` method raises a ValueError if the character is not found.
 
 ```
 sample_text = "Welcome to Python"
@@ -102,7 +102,7 @@ This method works exactly the same way, so it then comes to a choice of using ei
 
 In this article, we briefly discussed about methods by the help of which we can get the position of a character in a string. 
 
-Firstly we discussed about the **generic** programming method, followed by two inbuilt python methods `index()` and `find()`.
+Firstly we discussed about the **generic** programming method, followed by two inbuilt Python methods `index()` and `find()`.
 
-Thus we complete another important use case of the strings in python.
+Thus we complete another important use case of the strings in Python.
 

@@ -1,6 +1,6 @@
 ---
 title: "Python next() function syntax,usage and examples"
-description: "The 'next()' function is one of the built-in functions in python"
+description: "The 'next()' function is one of the built-in functions in Python"
 date: "2022-07-27T02:58+09:00"
 draft: false
 link: "next() built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `next()` function in python
+## `next()` function in Python
 
-1. The `next()` function is one of the built-in functions in python.
+1. The `next()` function is one of the built-in functions in Python.
 2. `next()` is used for `Returns the next item in an iterable`.
 
 ## `next()` function Syntax
 
-```python
+```Python
 next(iterator, default)
 ```
 ## `next()` Parameters
@@ -37,11 +37,11 @@ next(iterator, default)
 
 ### `next()` function Examples:
 
-let's go through some of examples to understand `next()` function in python
+let's go through some of examples to understand `next()` function in Python
 
 ### Example 1:
 
-```python
+```Python
 mylist = [10, 2.3, 'parrot']
 
 # converting the list to an iterator
@@ -64,7 +64,7 @@ print(next(mylist_iterator))
 ```
 output:
 
-```python
+```Python
 <list_iterator object at 0x0133F628>
 10
 2.3
@@ -76,7 +76,7 @@ StopIteration
 
 ### Example 2:
 
-```python
+```Python
 mylist = [100]
  
 # converting list to iterator
@@ -87,7 +87,7 @@ print(next(mylist_iter, "No more element"))
 ```
 output:
 
-```python
+```Python
 100
 No more element
 ```

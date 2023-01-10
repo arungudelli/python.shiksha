@@ -1,6 +1,6 @@
 ---
-title: "python eval() function syntax,usage and examples"
-description: "The 'eval()' function is one of the built-in functions in python"
+title: "Python eval() function syntax,usage and examples"
+description: "The 'eval()' function is one of the built-in functions in Python"
 date: "2022-07-05T05:00:05+09:00"
 draft: false
 link: "eval() Built-in functions"
@@ -13,15 +13,15 @@ weight: 100
 toc: true
 ---
 
-## `eval()` function in python
+## `eval()` function in Python
 
-1. The `eval()` function is one of the built-in functions in python.
+1. The `eval()` function is one of the built-in functions in Python.
 2. The `eval()` function evaluates the specified expression, if the expression is a legal Python statement, it will be executed.
 
 
 ## `eval()` function syntax
 
-```python
+```Python
 eval(expression, globals, locals) 
 ```
 ## `eval()` function parameters
@@ -34,27 +34,27 @@ locals- Optional. A dictionary containing local parameters
 
 ###  `eval()` function example:
 
-let's go through couple of examples to understand `eval()` function in python
+let's go through couple of examples to understand `eval()` function in Python
 
-### Example 1: if source code is single expression then we can use `eval()` built-in function in python
+### Example 1: if source code is single expression then we can use `eval()` built-in function in Python
 
-```python
+```Python
 x = compile('print("welcome")', 'test', 'eval')
 eval(x) 
 ```
 output:
-```python
+```Python
 welcome
 ```
 ### Example 2:
 
-```python
+```Python
 x = 'print(75)'
 eval(x)
 ```
 output:
 
-```python
+```Python
 75
 ```
 ## Summary

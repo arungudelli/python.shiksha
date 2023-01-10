@@ -1,6 +1,6 @@
 ---
 title: "Python all() function syntax, usage & example"
-description: "The 'all()' function is one of the built-in functions in python"
+description: "The 'all()' function is one of the built-in functions in Python"
 date: "2022-07-20T03:58:00+00:00"
 draft: false
 link: "all() built-in functions"
@@ -13,15 +13,15 @@ weight: 100
 toc: true
 ---
 
-## `all()` function in python
+## `all()` function in Python
 
-1. The `all()` function is one of the built-in functions in python.
+1. The `all()` function is one of the built-in functions in Python.
 2. The `all()` is used for `Returns True if all items in an iterable object 
    are true` otherwise it returns False.
 
 ## `all()` function Syntax
 
-```python
+```Python
 all(iterable)
 ```
 
@@ -34,13 +34,13 @@ iterable -An iterable object (list, tuple, dictionary)
 
 If the iterable object is empty, the all() function also returns True.
 
-### python `all()` Examples
+### Python `all()` Examples
 
 Here we have some examples to understand `all()` function in detail.
 
-### python `all` Example 1: `all()` for False 
+### Python `all` Example 1: `all()` for False 
 
-```python
+```Python
 # welcome to Pythonshiksha
 list = [0, 1, 1]
 x = all(list)
@@ -48,14 +48,14 @@ print(x)
 ```
 output:
 
-```python
+```Python
 False
 ```
 output is False because 0 is have in list.
 
 ### Example2: `all()` for True
 
-```python
+```Python
 # welcome to Pythonshiksha
 list = [1, 1, 1]
 x = all(list)
@@ -63,7 +63,7 @@ print(x)
 ```
 output:
 
-```python
+```Python
 True
 ```
 output is True because,list have all 1.

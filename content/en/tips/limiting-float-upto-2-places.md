@@ -20,7 +20,7 @@ Unless and until value assigned to a variable isn't in the form of `decimals`, P
 
 Examples of floating-point numbers in Python:
 
-```python
+```Python
 a= 13.5
 b= 25.758
 
@@ -42,7 +42,7 @@ We can use Python’s inbuilt `round()` function to round off our numbers which 
 
 This function **rounds** of the passed-on number to a given number of digits.
 
-```python
+```Python
 b= 25.758
 
 print(round(b))
@@ -59,7 +59,7 @@ But if no second argument is passed then the function considers it to be zero an
 
 By this, it should have been pretty clear on how to use this function to limit a float up to two decimals.
 
-```python
+```Python
 b= 25.7587852
 c=19.568231469
 print(round(b,2))
@@ -80,7 +80,7 @@ If you come from a `C language` background, then you must be very familiar with 
 
 But we can also use this `%` operator in Python print statements in order to restrict our floats up to two decimal places.
 
-```python
+```Python
 b= 25.7587852
 c=19.568231469
 print("%.2f"%b)
@@ -95,7 +95,7 @@ Output:
 
 ## Method 3: Using the `str.format()` method
 
-`format()` is a very useful method while programming in python and thus, it also has its usage in limiting floats up to decimals.
+`format()` is a very useful method while programming in Python and thus, it also has its usage in limiting floats up to decimals.
 
 Here `str.format()` refers to a method of using `***"{:.2f}"***` as the str in the above format.
 
@@ -120,7 +120,7 @@ Output:
 
 In this article, we briefly discussed about the few different methods about how to limit floating-point numbers up to two decimal points. 
 
-First, we started with python’s inbuilt `round()` method followed by the `%` operator and lastly about using the `str.format()` method. 
+First, we started with Python’s inbuilt `round()` method followed by the `%` operator and lastly about using the `str.format()` method. 
 
 Again, I would state that all the three methods are self sufficient of providing **user desirable** output individually and we can use any one of them while programming.
 

@@ -1,6 +1,6 @@
 ---
-title: "how to use functions in python"
-description: " Introduction of functions and how to use functions in python"
+title: "how to use functions in Python"
+description: " Introduction of functions and how to use functions in Python"
 date: "2022-06-23T11:35:05+09:00"
 draft: false
 link: "how to use functions"
@@ -34,7 +34,7 @@ A program that has been written with each task in its own function is called a `
 To create a Function we write its definition using `def` keyword.
 A Function name to uniquely identify it.
 
-Here is the general for format of a function definition in python
+Here is the general for format of a function definition in Python
 
 ```
 >>> def function_name():

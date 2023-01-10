@@ -1,6 +1,6 @@
 ---
-title: "python print() function syntax,usage and examples"
-description: "The 'print()' function is one of the built-in function in python"
+title: "Python print() function syntax,usage and examples"
+description: "The 'print()' function is one of the built-in function in Python"
 date: "2022-07-25T11:10:40+09:00"
 draft: false
 link: "print() Built-in functions"
@@ -13,16 +13,16 @@ weight: 100
 toc: true
 ---
 
-## `print()` function  in python
+## `print()` function  in Python
 
-1. The `print()` function is one of the built-in function in python.
+1. The `print()` function is one of the built-in function in Python.
 2. The `print()` is used for `Prints to the standard output device`.
 3. The `print()` function prints the specified message to the screen,
 the message can be a string, or any other object, the object will be converted into a string before written to the screen.
 
 ## `print()` function syntax
 
-```python
+```Python
 print(object(s))
 sep=separator, end=end, file=file, flush=flush
 ```
@@ -46,39 +46,39 @@ A Boolean, specifying if the output is flushed (True) or buffered (False). Defau
 
 ### `print()` function Examples:
 
-let's go through some of examples to understand `print()` function in python
+let's go through some of examples to understand `print()` function in Python
 
 ### `print()` Example 1:
-```python
-print("welcome to pythonshiksha")
+```Python
+print("welcome to Pythonshiksha")
 print("easy to learn")
 ```
 output:
 
-```python
-welcome to pythonshiksha
+```Python
+welcome to Pythonshiksha
 easy to learn
 ```
 ### `print()` Example 2:
 
-```python
+```Python
 print("Hello", "BEST TUTORIAL FOR PYTHON", sep="---")
 ```
 Output:
 
-```python
+```Python
 Hello---BEST TUTORIAL FOR PYTHON
 ```
 whatever we can write in print function can display on the screen that is any spelling mistakes in any words or any type of data type also can display on the screen.
 
 ### `print()` Example 3:
 
-```python
+```Python
 print("mnbjj,787,9.0,hdhk,hyd")
 ```
 output:
 
-```python
+```Python
 mnbjj,787,9.0,hdhk,hyd
 ```
 ## Summary

@@ -1,9 +1,9 @@
 ---
-title: "python getattr() function syntax,usage and examples"
-description: "The 'getattr()' function is a one of the built-in functions in python"
+title: "Python getattr() function syntax,usage and examples"
+description: "The 'getattr()' function is a one of the built-in functions in Python"
 date: "2022-08-22T12:00:05+09:00"
 draft: false
-link: "python getattr() built-in functions"
+link: "Python getattr() built-in functions"
 images: []
 type: docs
 menu:
@@ -13,16 +13,16 @@ weight: 100
 toc: true
 ---
 
-## `getattr()` function in python
+## `getattr()` function in Python
 
-1. The `getattr()` function is a one of the built-in functions in python.
+1. The `getattr()` function is a one of the built-in functions in Python.
 2. The `getattr()`is used for `Returns the value of the specified attribute (property or method)`.
 
 3. The `getattr()` method returns the value of the attribute of an object. If the named attribute does not exist, default is returned if provided, otherwise AttributeError is raised.
 
 ## `getattr()` function Syntax
 
-```python
+```Python
 getattr(object, name, default)
 ```
 ## `getattr()` function Parameters
@@ -39,11 +39,11 @@ getattr(object, name, default)
 
 ### `getattr()` function Examples:
 
-let's go through couple of examples to understand `getattr()` function in python
+let's go through couple of examples to understand `getattr()` function in Python
 
 ###  Example 1:
 
-```python
+```Python
 class employee:
     name = 'aaaa'
     age = 18
@@ -57,13 +57,13 @@ print('employee name changed to ', getattr(emp, 'name'))
 ```
 output:
 
-```python
+```Python
 employee name is  aaaa
 employee name changed to  bbbb
 ```
 ###  `getattr()` Example 2:
 
-```python
+```Python
 class employee:
     name = 'aaaa'
     age = 18
@@ -74,7 +74,7 @@ print('employee name is ', getattr(emp, 'gender'))
 ```
 output:
 
-```python
+```Python
 print('employee name is ', getattr(emp, 'gender'))
 AttributeError: 'employee' object has no attribute 'gender'
 ```

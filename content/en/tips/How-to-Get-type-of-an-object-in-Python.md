@@ -8,7 +8,7 @@ author: "dmohanty"
 
 ## Introduction
 
-Data types are an integral part of any programming as They are very helpful in almost every line of code, be it defining functions, variables or accessing attributes etc. and therefore it is becoming important for us to learn the methods by which we can check the data type of an object in python.
+Data types are an integral part of any programming as They are very helpful in almost every line of code, be it defining functions, variables or accessing attributes etc. and therefore it is becoming important for us to learn the methods by which we can check the data type of an object in Python.
 
 We can use two methods to get the type of an object in Python.
 
@@ -18,7 +18,7 @@ We can use two methods to get the type of an object in Python.
 
 Let's go through an example to understand it further
 
-```python
+```Python
 a = 13.0
 b = "Python Shiksha"
 c = {
@@ -45,7 +45,7 @@ As expected, we were able to get the desired output, and we obtained the respect
 
 ## Method 2: Using `isinstance()` method
 
-`isinstance()` is another pre defined method in python which can be used to get the type of the object.
+`isinstance()` is another pre defined method in Python which can be used to get the type of the object.
 
 But how it’s different from `type()` then, The fact being `type()` takes only one parameter while `isinstance()` takes two parameters.
 
@@ -55,7 +55,7 @@ Suppose we are passing an object and mostly you predict it to be a string, then 
 
 Let’s have a clear example of this method’s implementation
 
-```python
+```Python
 print(isinstance(13.0,float))
 print(isinstance("Python Shiksha",(str,list,tuple)))
 print(isinstance([2,4,6,8],(dict,str,int)))

@@ -8,7 +8,7 @@ author: "dmohanty"
 
 Sometime or other while coding in Python, we surely require to assure ourselves that the value we are searching exists in a list or not in order to continue our code.
 
-Lists being an important Data structure in Python are used in almost every field where python is used. 
+Lists being an important Data structure in Python are used in almost every field where Python is used. 
 
 Thus checking for a value being an important use case, If the list is large, we need to be very careful to search the elements inside of a list to avoid performance issues. 
 
@@ -20,7 +20,7 @@ List contains a group of elements of a different data type separated by commas, 
 
 Example of a list:
 
-```python
+```Python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 ```
 
@@ -35,7 +35,7 @@ The novice method of solving this problem that can be easily adopted by any begi
 
 The mighty `for` loop helps us to iterate through the whole list and check if our element is present inside the list or not.
 
-```python
+```Python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 required_word = "Bombay"
 for i in sample_list:
@@ -49,15 +49,15 @@ Maybe, we will discuss about it in the upcoming sections.
 
 ## Method 2: Using the `in` operator
 
-`in` operator is one of the most valuable operators in Python having a wide range of use case in almost every data structure in python.
+`in` operator is one of the most valuable operators in Python having a wide range of use case in almost every data structure in Python.
 
-It is one of the most useful and liked keyword in python.
+It is one of the most useful and liked keyword in Python.
 
 `in` operator returns a `bool` as result depending upon if the value is exist or not in a list.
 
 How can we check for the presence of a value using the powerful `in` operator?
 
-```python
+```Python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 
 required_word = "Chennai"
@@ -81,7 +81,7 @@ We will use the `not in` operator to check if the value is present inside of the
 
 This operator will return a `bool` value as well depending upon if the value is not present inside the list or is it.
 
-```python
+```Python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 
 required_word = "Bombay"
@@ -105,7 +105,7 @@ By using this method, we will first **sort** the list and thus we would not main
 
 Let’s try this algo centric approach of solving our problem
 
-```python
+```Python
 
 from bisect import bisect_left ,bisect
 
@@ -136,7 +136,7 @@ But this method takes in a `lambda` function as an argument.
 
 This method returns a filter object which we will append inside an empty list and will get all the elements that are left out after filtering.
 
-```python
+```Python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 required_word = "Madras"
 unique_list = list(filter(lambda word: required_word in word, sample_list))
@@ -159,7 +159,7 @@ In this section, we will see the usage of the `count()` method in order to tackl
 
 If the value is greater than 0, it implies that the searched element exists inside of the list.
 
-```python
+```Python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 required_word = "Delhi"
 if (sample_list.count(required_word)) > 0:
@@ -178,7 +178,7 @@ As we enter the last method of this article, we will have a look over another in
 
 `any()` method acts like a helper function which would check if the searched element has occurred at least once inside the list and returns a `Boolean` value accordingly.
 
-```python
+```Python
 sample_list = ["Delhi","Bombay","Madras","Kolkata"]
 required_word = "Calcutta"
 if (any(word in required_word for word in sample_list)) > 0:
@@ -198,11 +198,11 @@ Now we will see the fastest method to check if a value exists in a list by compa
 
 For calculating the time taken by each of the above methods, we will take the help of `timeit` module.
 
-The `timeit` module is an inbuilt class in python which has a method called `timeit()` and the method takes in 4 parameters namely `setup`, `stmt` , `timer` and `number`.
+The `timeit` module is an inbuilt class in Python which has a method called `timeit()` and the method takes in 4 parameters namely `setup`, `stmt` , `timer` and `number`.
 
 Let’s then calculate and disclose the suspense:
 
-```python
+```Python
 import timeit
 
 code_starter = """

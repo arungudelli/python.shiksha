@@ -1,6 +1,6 @@
 ---
-title: "python range() function syntax,usage and examples"
-description: "The 'range()' function is one of the built-in function in python "
+title: "Python range() function syntax,usage and examples"
+description: "The 'range()' function is one of the built-in function in Python "
 date: "2022-06-28T11:25:05+09:00"
 draft: false
 link: "range() built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `range()`function in python
+## `range()`function in Python
 
-1. The `range()` function is one of the built-in function in python
+1. The `range()` function is one of the built-in function in Python
 2. The `range()` function returns a series of numbers that, by default, starts at 0 and increments by 1 before stopping before a given number. 
 
 ## `range()`function syntax
 
-```python
+```Python
 range(start, stop, step)
 ```
 ## `range()`function parameters
@@ -41,17 +41,17 @@ we can pass two parameters to this function.
 
 ### `range()` function Examples:
 
-let's go through couple of examples to understand `range()` function in python
+let's go through couple of examples to understand `range()` function in Python
 
 ### `range()`function Example 1:
 
-```python
+```Python
 for i in range( 5,10):
     print(i)
 ```
 output:
 
-```python
+```Python
 5
 6
 7
@@ -66,13 +66,13 @@ which is then added to 1 and the next number is 7, just as 1 is automatically ad
 
 ## `Range()`function example 2:
 
-```python
+```Python
 for i in range(10):
     print(i)
 ```
 output:
 
-```python
+```Python
 0
 1
 2
@@ -93,13 +93,13 @@ resulting in a series that starts at 0 and ends at 10. This range function can a
 
 ## `Range()`function example 3: In this we can mention steps in it, while passing parameters to range()
 
-```python
+```Python
 for i in range( 5,10,2):
     print(i)
 ```
 output:
 
-```python
+```Python
 5
 7
 9

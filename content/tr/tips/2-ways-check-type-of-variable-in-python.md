@@ -21,7 +21,7 @@ While Data types are the different categories which  define that what type of va
 
 Python has numerous standard data types that are used to define the operations possible on them and the storage method for each of them.
 
-The commonly used data types in python are:
+The commonly used data types in Python are:
 
 | Data Type      | Constructor |
  ----------- | ----------- 
@@ -102,7 +102,7 @@ We have seen the use of the `type()` method for all the data types. Now let’s 
 
 ## Using the isinstance() method
 
-`isinstance()` is another in-built Python method which can be used to extract the data type of a variable in python.
+`isinstance()` is another in-built Python method which can be used to extract the data type of a variable in Python.
 
 The `isinstance()` method takes in two arguments, and returns a Boolean value , according to the condition that if the first argument is an instance of class type of the second argument.
 

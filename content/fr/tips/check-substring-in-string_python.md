@@ -1,36 +1,36 @@
 ---
 title: "5 Python methods to check if a substring exists in a Given string"
-description: "Different methods of checking for a substring inside a string in python."
+description: "Different methods of checking for a substring inside a string in Python."
 date: "2021-07-19T04:15:05+09:00"
 draft: true
 link: "Substring Check"
 author: "dmohanty"
 ---
 
-In this article, we will briefly discuss about the **different python methods that we can use to check if a substring is present inside a string** along with some shortcuts that can make our coding efficient.
+In this article, we will briefly discuss about the **different Python methods that we can use to check if a substring is present inside a string** along with some shortcuts that can make our coding efficient.
 
 ## Overview of Strings in Python
 
 **Strings** are an array of Unicode characters occupying a storage of few bytes. 
 
-If you come from a different language, there are high chances of your interaction with the `char` keyword, but in python there is no such `char` keyword and thus we can say that a single letter inside quotation marks in python is a string with length 1.
+If you come from a different language, there are high chances of your interaction with the `char` keyword, but in Python there is no such `char` keyword and thus we can say that a single letter inside quotation marks in Python is a string with length 1.
 
 Strings behave the same way as like arrays and thus can be accessed by using the `[]` operator.
 
 A substring is a sequence of Unicode characters within a string.
 
-Examples of Strings in python:
+Examples of Strings in Python:
 ```
-‘python’ , ‘coding’ , ‘py’ , ‘d’ , ‘xyz’ , ‘Python is a good language’
+‘Python’ , ‘coding’ , ‘py’ , ‘d’ , ‘xyz’ , ‘Python is a good language’
 ```
 
 ## Different Substring Check methods in Python 
 
-Let's start exploring the various python methods starting with the powerful and most common `in` operator.
+Let's start exploring the various Python methods starting with the powerful and most common `in` operator.
 
 ## Using the in operator
 
-The `in` operator is one of the fastest and most generic method adopted by python programmers as they know the power of the `in` operator and its value in python. 
+The `in` operator is one of the fastest and most generic method adopted by Python programmers as they know the power of the `in` operator and its value in Python. 
 
 The `in` operator evaluates the presence of a substring inside a string and return a **boolean** value accordingly.
 
@@ -55,7 +55,7 @@ Substring Found !
 False
 ```
 
-Thus, we would now have a fair idea as of why `in` is so valuable in python.
+Thus, we would now have a fair idea as of why `in` is so valuable in Python.
 
 ## Using the find() method
 
@@ -110,7 +110,7 @@ As discussed, we can clearly see that since the index of *good* is `12` therefor
 
 ## Using the count() method
 
-The `count()` is one of those generic python programming methods which return binary value as output.
+The `count()` is one of those generic Python programming methods which return binary value as output.
 
 This method searches for the occurrence of a substring inside a string and returns `1` if substring is present else returns `0` when substring is not present.
 
@@ -290,7 +290,7 @@ Time With Contains Method:  2.2768479
 ```
 From the output, it is clearly visible that our mighty `in` operator stands out above all other methods and hence `in` adds one more time-saving usability into itself. 
 
-So as a python programmer, we should always be aware that `in` can solve many of our searching tasks.
+So as a Python programmer, we should always be aware that `in` can solve many of our searching tasks.
 
 ## Conclusion
 

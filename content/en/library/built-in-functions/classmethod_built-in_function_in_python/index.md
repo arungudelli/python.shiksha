@@ -1,6 +1,6 @@
 ---
-title: "python classmethod()function syntax,usage and examples"
-description: "The 'classmethod()' function is one of the built-in functions in python"
+title: "Python classmethod()function syntax,usage and examples"
+description: "The 'classmethod()' function is one of the built-in functions in Python"
 date: "2022-07-07 T004:30:05+09:00"
 draft: true
 link: "classmethod() Built-in functions"
@@ -14,14 +14,14 @@ toc: true
 ---
 
 
-## `classmethod()` function in python
+## `classmethod()` function in Python
 
-1. The `classmethod()` function is one of the built-in functions in python.
+1. The `classmethod()` function is one of the built-in functions in Python.
 2. The `classmethod()` is used for `Converts a method into a class method`
 
 ##  `classmethod()` function syntax
 
-```python
+```Python
 classmethod(function)
 @classmethod
    def fun(cls, arg1, arg2, ...)
@@ -38,11 +38,11 @@ Return Type:This function returns the converted class method.
 
 ###   `classmethod()` function Examples:
 
-let's go through couple of examples to understand `classmethod()` function in python
+let's go through couple of examples to understand `classmethod()` function in Python
 
 ### Example 1:
 
-```python
+```Python
 class School:
     # class variable
     name = 'XYZ School'
@@ -58,12 +58,12 @@ School.school_name()
 ```
 output:
 
-```python
+```Python
 School Name is : XYZ School
 ```
 ## Example 2:
 
-```python
+```Python
 class vegetable:
     name = 'vegetables'
 
@@ -75,7 +75,7 @@ vegetable.printAge()
 ```
 output:
 
-```python
+```Python
 The name is: vegetables
 ```
 

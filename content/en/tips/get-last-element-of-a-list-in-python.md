@@ -20,7 +20,7 @@ In this tutorial we will discuss different ways to get the last element of a lis
 
 The simple way to get the last element in a list is to use array length and indexing.
 
-```python
+```Python
 last_element = arr[len(arr) - 1]
 ```
 
@@ -30,7 +30,7 @@ As I have mentioned at he starting that we can simply get the last element by do
 
 This implies that `list[len-1] = list[-1]`, this means that **we can use negative indexing to get the last element of the list**.
 
-```python
+```Python
 sample_list = [1,8,9,3,4,5,7]
 print("last element in a list is")
 print(sample_list[-1])
@@ -49,7 +49,7 @@ Now let's look at our second method.
 
 We can use tilde(`~`) operator to get the last element of a list.
 
-```python
+```Python
 sample_list = [1,8,9,3,4,5,7]
 print(sample_list[~0])
 ```
@@ -64,7 +64,7 @@ We just need to specify the starting and ending index it slices the list within 
 
 Let's have a look.
 
-```python
+```Python
 sample_list = [1,8,9,3,4,5,6]
 last = sample_list[-1:][0]
 print(last)
@@ -81,7 +81,7 @@ One of the most beginner friendly method or approach to get the last element in 
 
 Let’s try this method out in the code:
 
-```python
+```Python
 sample_list = [1, 4, 5, 6, 3, 5]
 sample_list.reverse()
 print(sample_list[0])
@@ -97,7 +97,7 @@ The only disadvantage of this method i.e., deletion of the last element as well 
 
 But this method will do the job for us as of not, let's see it in work:
 
-```python
+```Python
 sample_list = [1, 4, 5, 6, 3, 5]
 print(sample_list.pop())
 
@@ -115,7 +115,7 @@ This coupling of two methods is again counted as one of the naive methods of doi
 
 Let’s see them in action in code:
 
-```python
+```Python
 sample_list = [1, 4, 5, 6, 3, 5]
 print(next(reversed(sample_list)))
 

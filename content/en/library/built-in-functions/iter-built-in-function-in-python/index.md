@@ -1,6 +1,6 @@
 ---
-title: "python iter() function syntax,usage and examples "
-description: "The 'iter()' function is one of the built-in function in python"
+title: "Python iter() function syntax,usage and examples "
+description: "The 'iter()' function is one of the built-in function in Python"
 date: "2022-07-26T11:00:40+09:00"
 draft: false
 link: "iter() Built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `iter()` function in python
+## `iter()` function in Python
 
-1. The `iter()` function is one of the built-in function in python.
-2. python `iter()` is used for `Returns an iterator object`.
+1. The `iter()` function is one of the built-in function in Python.
+2. Python `iter()` is used for `Returns an iterator object`.
 
 ## `iter()` function syntax
 
-```python
+```Python
 iter(object, sentinel [optional])
 ```
 ## `iter()` function Parameters
@@ -39,12 +39,12 @@ TypeError for a user-defined object that doesn't implement __iter__(), and __nex
 
 ### `iter()` function Examples:
 
-let's go through couple of examples to understand `iter()` function in python
+let's go through couple of examples to understand `iter()` function in Python
 
 ## Example 1:
 
 
-```python
+```Python
 # list of RAINBOW COLORS
 colors = ["VIOLATE", "INDIGO", "BLUE", "GREEN", "YELLOW","ORANGE","RED"]
 
@@ -62,7 +62,7 @@ print(next(colors_iter), +7)
 ```
 Output:
 
-```python
+```Python
 VIOLATE 1
 INDIGO 2
 BLUE 3
@@ -74,7 +74,7 @@ RED 7
 
 ## Example 2:
 
-```python
+```Python
 mylist = [21, 42, 53, 74, 85]
  
 # printing type
@@ -94,7 +94,7 @@ print(next(mylist))
 ```
 output:
 
-```python
+```Python
 The list is of type : <class 'list'>
 The iterator is of type : <class 'list_iterator'>
 21

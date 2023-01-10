@@ -1,6 +1,6 @@
 ---
-title: "python property() function syntax,usage and examples"
-description: "The 'property()' function is one of the built-in function in python"
+title: "Python property() function syntax,usage and examples"
+description: "The 'property()' function is one of the built-in function in Python"
 date: "2022-07-26T11:00:40+09:00"
 draft: false
 link: "property() Built-in functions"
@@ -13,15 +13,15 @@ weight: 100
 toc: true
 ---
 
-## `property()` function  in python
+## `property()` function  in Python
 
-1. The `property()` function is one of the built-in function in python.
+1. The `property()` function is one of the built-in function in Python.
 2. The `property()` is used for Gets, sets, `deletes a property`.
 3. Python `property(`) function returns the object of the property class and it is used to create property of a class. 
 
 ## `property()` function Syntax
 
-```python
+```Python
 property(fget, fset, fdel, doc)
 ```
 ## `property()` function  Parameters 
@@ -37,7 +37,7 @@ Return: Returns a property attribute from the given getter, setter and deleter.
 
 ### `property()` function Example
 
-```python
+```Python
 class Alphabet:
     def __init__(self, value):
         self._value = value
@@ -62,18 +62,18 @@ class Alphabet:
  
  
 # passing the value
-x = Alphabet('pythonshiksha')
+x = Alphabet('Pythonshiksha')
 print(x.value)
  
-x.value = 'python'
+x.value = 'Python'
  
 del x.value
 ```
 output:
 
-```python
+```Python
 welcome
-pythonshiksha
+Pythonshiksha
 Setting value to GfG
 Deleting value
 ```

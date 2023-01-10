@@ -25,7 +25,7 @@ where `keys` are India, USA, and Russia and the `values` being Delhi, Washington
 
 ## Iterating through keys directly
 
-Since **Dictionaries** are considered as mapping objects in **python**, Therefore, they already have access to the default ` __iter__` method which returns a iterator object that can iterate through all the objects of the structure. 
+Since **Dictionaries** are considered as mapping objects in **Python**, Therefore, they already have access to the default ` __iter__` method which returns a iterator object that can iterate through all the objects of the structure. 
 
 In case of Dictionaries, the `__iter__` method is set to be the keys of the dictionary. 
 

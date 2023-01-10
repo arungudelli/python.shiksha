@@ -1,6 +1,6 @@
 ---
-title: "python slice() function syntax,usage and examples"
-description: "The 'slice()' function is a one of the built-in functions in python"
+title: "Python slice() function syntax,usage and examples"
+description: "The 'slice()' function is a one of the built-in functions in Python"
 date: "2022-08-15T07:19:05+09:00"
 draft: false
 link: "slice() Built-in functions"
@@ -13,8 +13,8 @@ weight: 100
 toc: true
 ---
 
-## slice() function in python:
-The `slice()` function is a one of the built-in functions in python.
+## slice() function in Python:
+The `slice()` function is a one of the built-in functions in Python.
 `slice()` is used for `Returns a slice object`.
 
 Based on the supplied range, the slice() method returns a section of an iterable as an object of the slice class.
@@ -22,7 +22,7 @@ Based on the supplied range, the slice() method returns a section of an iterable
 It can be used with sequence objects that implement the __getitem__() and __len__() methods, such as strings, lists, tuples, sets, bytes, range objects, or custom class objects. 
 
 ## `slice()` Syntax:
-```python
+```Python
 slice(stop)
 slice(start, stop, step)
 ```
@@ -37,7 +37,7 @@ slice(start, stop, step)
 Returns an object of the slice class.
 
 ### Example:
-```python
+```Python
 nums = [1,2,3,4,5,6,7,8,9,10]
 
 skip_portion = slice(0,10,3)
@@ -50,7 +50,7 @@ even_portion = slice(1, 10, 2)
 print(nums[even_portion])
 ```
 output:
-```python
+```Python
 [1, 4, 7, 10]
 [1, 3, 5, 7, 9]
 [2, 4, 6, 8, 10]

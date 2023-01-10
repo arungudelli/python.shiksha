@@ -1,9 +1,9 @@
 ---
 title: "Python hex() function syntax,usage and examples"
-description: "The 'hex()' function is one of the built-in functions in python"
+description: "The 'hex()' function is one of the built-in functions in Python"
 date: "2022-07-19T11:30:00+09:00"
 draft: false
-link: "python `hex()` built-in functions"
+link: "Python `hex()` built-in functions"
 images: []
 type: docs
 menu:
@@ -13,15 +13,15 @@ weight: 100
 toc: true
 ---
 
-## `hex()`function in python
+## `hex()`function in Python
 
-1. The `hex()` function is one of the built-in functions in python.
+1. The `hex()` function is one of the built-in functions in Python.
 2. The`hex()` is used for	`Converts a number into a hexadecimal value`.
 The returned string always starts with the prefix 0x.
 
 ## `hex()`function Syntax
 
-```python
+```Python
 hex(number)
 ```
 ## `hex()`function parameter
@@ -30,11 +30,11 @@ number is `An Integer`
 
 ## `hex()` function Examples:
 
-let's go through couple of examples to understand `hex()` function in python
+let's go through couple of examples to understand `hex()` function in Python
 
 ### `hex()`function Example 1:
 
-```python
+```Python
 number = 2022
 print(number, 'in hex =', hex(number))
 
@@ -49,7 +49,7 @@ print('Return type from hex() is', returnType)
 ```
 output:
 
-```python
+```Python
 2022 in hex = 0x7e6
 0 in hex = 0x0
 -29 in hex = -0x1d
@@ -59,13 +59,13 @@ If you need to find a hexadecimal representation of a float, you need to use `fl
 
 # `hex()`function Example 2:
 
-```python
+```Python
 number = 2.5
 print(number, 'in hex =', float.hex(number))
 ```
 output:
 
-```python
+```Python
 2.5 in hex = 0x1.4000000000000p+1
 ```
 2.5 hexadecimal value is 0x1.4000000000000p+1

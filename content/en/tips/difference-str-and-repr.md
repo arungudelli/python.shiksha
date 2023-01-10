@@ -9,7 +9,7 @@ author: "dmohanty"
 
 ## Introduction
 
-_Strings_ play a very key role in python and are useful in almost any algorithmic code that we write in python and therefore knowing in depth about the representation of strings on the interpreter basis becomes important for you.
+_Strings_ play a very key role in Python and are useful in almost any algorithmic code that we write in Python and therefore knowing in depth about the representation of strings on the interpreter basis becomes important for you.
 
 Inbuilt classes and methods for strings already work with, `__str__` and `__repr__` , but it becomes important for us a s a user to use them in our user-defined classes, object and methods so that we can provide the work in a more optimized and clean way.
 
@@ -17,7 +17,7 @@ Inbuilt classes and methods for strings already work with, `__str__` and `__repr
 
 These two are two special methods that can be used for string representation based on the _state_ of the object in the class.
 
-According to the docs of python, `__str__` is used to represent the string in a more _informal / readable_ way while we use `__repr__` to represent the string in a more formal or the _official_ representation of the original strings in python
+According to the docs of Python, `__str__` is used to represent the string in a more _informal / readable_ way while we use `__repr__` to represent the string in a more formal or the _official_ representation of the original strings in Python
 
 Example:
 
@@ -38,7 +38,7 @@ Python
 
 ```
 
-As we can see the difference in both the outputs, one between quotes and one not. Thus we can say that the second method is the _official_ representation of the strings in python.
+As we can see the difference in both the outputs, one between quotes and one not. Thus we can say that the second method is the _official_ representation of the strings in Python.
 
 According to the docs, the difference between formal and informal representation is that `__repr__` is by default used in string values that are argument to an _eval_ function while `__str__` would throw and error for the same.
 
@@ -75,4 +75,4 @@ As discussed above, we got the exact same output i.e., `__str__` throws an error
 
 ## Conclusion
 
-In this small article , we discussed in depth about the representation of the String data type according to the state of the object and class we are using and thus this article is all about defining data types and constructor classes on a core python basis and the official documentation types.
+In this small article , we discussed in depth about the representation of the String data type according to the state of the object and class we are using and thus this article is all about defining data types and constructor classes on a core Python basis and the official documentation types.

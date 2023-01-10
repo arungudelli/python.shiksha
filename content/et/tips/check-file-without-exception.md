@@ -7,13 +7,13 @@ link: "file exists check"
 author: "dmohanty"
 ---
 
-In this article, we will briefly discuss about the different python scripting methods with the help of which we can check if a file exists or not without exception. 
+In this article, we will briefly discuss about the different Python scripting methods with the help of which we can check if a file exists or not without exception. 
 
-While we are working with python scripting, many times we may have to perform a certain task on if a particular file or directory exists and thus, in the upcoming sections we will discuss the solutions to our problem.
+While we are working with Python scripting, many times we may have to perform a certain task on if a particular file or directory exists and thus, in the upcoming sections we will discuss the solutions to our problem.
 
 ## Check if a file exists
 
-The simplest method of checking if a file exists or not in python without importing any libraries explicitly is using the `try` & `except` block.
+The simplest method of checking if a file exists or not in Python without importing any libraries explicitly is using the `try` & `except` block.
 
 The *try* and *except* block looks for the file provided and raises an `IOError` exception if file is not accessible.
 
@@ -243,6 +243,6 @@ PowerPoint File doesn’t exist
 
 ## Conclusion
 
-In this article we discussed in detail about all the various methods that can be used in python scripting to check if a file exists or not.
+In this article we discussed in detail about all the various methods that can be used in Python scripting to check if a file exists or not.
 
 We also discussed some *important usecases* where these methods can be used to check if a file exists and  reduce the code as well as improve runtime performance.

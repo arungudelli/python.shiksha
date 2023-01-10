@@ -1,6 +1,6 @@
 ---
 title: "How to append to a file in Python"
-description: "How you can easily i append to a file in python"
+description: "How you can easily i append to a file in Python"
 date: "2022-09-25T00:00:00+00:00"
 draft: false
 author: "shittu"
@@ -8,9 +8,9 @@ author: "shittu"
 
 In Python, reading, writing, and editing files are common tasks since the language gives us built-in functions to do so. 
 
-As a developer there are so many reason why you will want to read, write and also edit the files in your project, and python really offers the flexibility to do so in very simple and easy ways. 
+As a developer there are so many reason why you will want to read, write and also edit the files in your project, and Python really offers the flexibility to do so in very simple and easy ways. 
 
-There are a couple of file handling operations in python such as `r` which works for reading the file, `w` opening a file and writing to it, `a` opens a file for appending at the end of the file without truncating it, `+` opens a file for updating(reading & writing) and so on.
+There are a couple of file handling operations in Python such as `r` which works for reading the file, `w` opening a file and writing to it, `a` opens a file for appending at the end of the file without truncating it, `+` opens a file for updating(reading & writing) and so on.
 
 In this article, I will be discussing briefly how you can easy append to a file in Python and how to use the append operation effectively.
 
@@ -55,7 +55,7 @@ Imagine you have a file with the name `example.txt` and the content looks like t
 
 Code sample:
 
-```python
+```Python
 with open("example.txt","a") as file:
     file.write("I like to play in the sun light")
 ```
@@ -72,7 +72,7 @@ The file is opened via the `open()` function, which also returns the appropriate
 
 The syntax of `open()` is:
 
-```python
+```Python
 open(file, mode='')
 ```
 Let's say we have a file called `example2.txt` with this content:
@@ -81,7 +81,7 @@ Let's say we have a file called `example2.txt` with this content:
 
 Now let’s append text `Hi` at the end of this file,
 
-```python
+```Python
     # Open a file with access mode 'a'
     ham = open('example2.txt', 'a')
 
@@ -114,7 +114,7 @@ We have a file named `test.txt` with this content:
 
 Let's append the new line to the `text.txt` file,
 
-```python
+```Python
 with open("test.txt", "a+") as ram:
     ram.seek(0)
     data = ram.read(100)
@@ -153,7 +153,7 @@ We have a file with the name `test.txt` containing,
 
 Lets write a function to add multiple lines to this file.
 
-```python
+```Python
 def add_lines(file_name, line_list):
     with open(file_name, "a+") as ham:
         appendEOL = False
@@ -171,13 +171,13 @@ def add_lines(file_name, line_list):
 
 if we pass a series of lines to our `line_list` array,
 
-```python
+```Python
 line_list = ['This is the third line', 'Followed by the fourth line']
 ```
 
 Let's call the function and append the new lines to it
 
-```python
+```Python
 # Append strings in list as separate new lines in the end of file
 append_multiple_lines('test.txt', line_list)
 ```

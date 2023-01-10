@@ -6,7 +6,7 @@ draft: true
 link: "Write to a file"
 author: "dmohanty"
 ---
-Many a times, as a python programmer you may encounter a problem , where you would have to write new files onto an existing file.
+Many a times, as a Python programmer you may encounter a problem , where you would have to write new files onto an existing file.
 
 How can we add new lines to an existing file ?
 
@@ -14,7 +14,7 @@ We will discuss about all the different methods that we can use in order to achi
 
 ## Working with Files
 
-While working with files in python, we need to take care of a few things.
+While working with files in Python, we need to take care of a few things.
 
 - Before writing to a file, we have to first open the file using `open()`
 
@@ -53,7 +53,7 @@ f.writelines(“Hello world \n”)
 So by the help of examples let us try to understand more or less how these two methods work.
 
 ```
-lines = ['Hello World', 'Welcome to python.shiksha']
+lines = ['Hello World', 'Welcome to Python.shiksha']
 path = "E:/file.txt"
 with open(path, 'w') as f:
     for line in lines:
@@ -65,14 +65,14 @@ Output:
 In file.txt
 ```
 Hello World
-Welcome to python.shiksha
+Welcome to Python.shiksha
 ```
 
 The `open()` has a feature of creating new file by itself if the specified file doesn’t exist.
 But we can modify the above code, to get an improved runtime performance.
 
 ```
-lines = ['Hello World', 'Welcome to python.shiksha']
+lines = ['Hello World', 'Welcome to Python.shiksha']
 path = "E:/file.txt"
 with open(path, 'w') as f:
     f.write('\n'.join(lines))
@@ -82,7 +82,7 @@ Output:
 In file.txt
 ```
 Hello World
-Welcome to python.shiksha
+Welcome to Python.shiksha
 ```
 
 We can dynamically add new lines while writing to the file.
@@ -90,7 +90,7 @@ We can dynamically add new lines while writing to the file.
 Using a for loop and writing to a file is pretty simple but now let’s try the *writelines* method.
 
 ```
-lines = ['Hello World', 'Welcome to python.shiksha']
+lines = ['Hello World', 'Welcome to Python.shiksha']
 path = "E:/file.txt"
 with open(path, 'w') as f:
     f.writelines(lines)
@@ -101,7 +101,7 @@ Output:
 In file.txt
 ```
 Hello World
-Welcome to python.shiksha
+Welcome to Python.shiksha
 ```
 
 No loops and pretty easy method if we have a sequence of multiple lines.

@@ -17,7 +17,7 @@ List contains a group of elements of a different data type *separated* by **comm
 
 Example of a list:
 
-```python
+```Python
 sample_list = [ 'apples','oranges','grapes','mangoes','bananas']
 ```
 
@@ -31,7 +31,7 @@ The simplest method that can be used to extract the number of elements inside a 
 
 We can use the for loop to iterate through the list using a `for` loop and can use a counter to keep track of the number of the elements inside the list by increasing the counter by 1 on each iteration.
 
-```python
+```Python
 sample_list = [ 'apples','oranges','grapes','mangoes','bananas']
 count=0
 for i in sample_list:
@@ -50,7 +50,7 @@ Python has an inbuilt `len()` function for calculating the number of elements in
 
 This function takes in the string whose length is to be calculated as the argument and this function returns an integer value as the output i.e., the **length** of the string.
 
-```python
+```Python
 sample_list = [ 'apples','oranges','grapes','mangoes','bananas']
 length = len(sample_list)
 print(length)
@@ -61,7 +61,7 @@ Output:
 5
 ```
 
-The functionality of the `len()` function depends upon the internal `__len__()` constructor of the python.
+The functionality of the `len()` function depends upon the internal `__len__()` constructor of the Python.
 
 When a object is passed to the `len()` function as an argument, the internal `__len__()` function is called and the number elements inside the data structure is counted.
 
@@ -71,7 +71,7 @@ Surprisingly, this `len()` functions works on every *sequential data structure* 
 
 In the previous section, we saw that `__len__()` is the internal function that is called upon using `len()` but we can also use the Python internal method **directly** to extract the number of elements in a list.
 
-```python
+```Python
 sample_list = [ 'apples','oranges','grapes','mangoes','bananas']
 length = sample_list.__len__()
 print(length)
@@ -90,7 +90,7 @@ Instead of `__len__()`, we can use `len()` as a preferable choice.
 
 As the name of the article suggests, we need to extract the number of elements from a list, but in case we have a list containing lists inside it, then if we go onto using our `len()` method, then;
 
-```python
+```Python
 sample_list = [ ['apples','oranges'],'grapes',['mangoes','bananas'],['peaches' , 'blueberries']]
 length = sample_list.__len__()
 print(length)
@@ -115,7 +115,7 @@ We can simply iterate through the parent list and can then use a counter that wo
 
 But this method has an **disadvantage**, that we will discussed after evaluating our result,
 
-```python
+```Python
 sample_list = [ ['apples','oranges'],'grapes',['mangoes','bananas'],['peaches' , 'blueberries']]
 count = 0
 for i in sample_list:
@@ -130,11 +130,11 @@ Output:
 
 If we carefully look at our input and count the number of individual elements that are present, we can conclude that there are a total of **7** individual elements inside our sample_list. 
 
-But the python interpreter gives the output as **12**.
+But the Python interpreter gives the output as **12**.
 
 Why did this happen ?
 
-If you scroll back to the section where we had discussed about the `len()` method, then you can figure out that the `len()` method is applicable to any *sequential data structure* in python.
+If you scroll back to the section where we had discussed about the `len()` method, then you can figure out that the `len()` method is applicable to any *sequential data structure* in Python.
 
 And if we check in our output then we can see that *grapes* is not inside of a child list and is the element of the parent list, but since we are adding length of each element onto our counter, Therefore, `len()` counts the length of string individually and not the whole string as one element.
 
@@ -144,7 +144,7 @@ Thus, it is always advisable to use the `for` loop for lists inside list systems
 
 Correct way of using the for loop:
 
-```python
+```Python
 sample_list = [['oranges','apples'],[12,14],['one',1]]
 
 count = 0
@@ -168,7 +168,7 @@ Want to know how ?
 
 By using the list comprehension method, let us see how –
 
-```python
+```Python
 sample_list = [['oranges','apples'],[12,14],['one',1]]
 length = sum([len(i) for i in sample_list])
 print(length)
@@ -193,7 +193,7 @@ Nested lists refer to a situation like list inside a list inside a list and so o
 
 Example of a Nested List:
 
-```python
+```Python
 sample_list = [['oranges','apples'],[12,14,['fruits',['peaches' , 'blueberries']]],['one',1,['mangoes','bananas']]]
 ```
 
@@ -209,7 +209,7 @@ In order to extract the total number of elements from a nested list system,
 
 - if the current element is not a list, then we can simply count the element as a whole (including strings) and can achieve the desired result.
 
-```python
+```Python
 def countElementInANestedList(item):
     count = 0
     if isinstance(item, list):
@@ -242,7 +242,7 @@ If we consider this to be the ultimate solution, then can it solve our mess-up o
 
 Like,
 
-```python
+```Python
 def countElementInListsInAList(item):
     count = 0
     if isinstance(item, list):

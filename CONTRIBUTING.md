@@ -7,7 +7,7 @@ Post credit will be given to you only.
 ## Clone Python Shiksha 
 
 ```
-git clone https://github.com/arungudelli/python.shiksha.git
+git clone https://github.com/arungudelli/Python.shiksha.git
 ```
 
 And navigate to the root folder then type the below command 
@@ -41,9 +41,9 @@ Explain different types of solutions with simple examples and plain english
 
 Here is the sample article 
 
-https://github.com/arungudelli/python.shiksha/blob/main/content/en/tips/check-substring-in-string_python.md
+https://github.com/arungudelli/Python.shiksha/blob/main/content/en/tips/check-substring-in-string_Python.md
 
-https://python.shiksha/tips/check-substring-in-string_python/
+https://Python.shiksha/tips/check-substring-in-string_Python/
 
 1. Add a new mark down file `(.md)` file with the issue name, For example `substring-check.md` inside `content/en/tips/` folder.
 2. Follow the markup file mentioned above
@@ -55,8 +55,8 @@ https://python.shiksha/tips/check-substring-in-string_python/
 
 Here is the sample article 
 
-https://github.com/arungudelli/python.shiksha/blob/main/content/en/problems/string-anagram-python.md
-https://python.shiksha/problems/string-anagram-python/
+https://github.com/arungudelli/Python.shiksha/blob/main/content/en/problems/string-anagram-Python.md
+https://Python.shiksha/problems/string-anagram-Python/
 
 To contribute to DS & algo problems 
 
@@ -88,7 +88,7 @@ Algorithm or approach explanation
 
 Use simple english to explain the soultion.
 
-Then write python code 
+Then write Python code 
 
 Add Time Complexity and Space complexity (if applicable)
 
@@ -98,7 +98,7 @@ Algorithm or approach explanation
 
 Use simple english to explain the soultion.
 
-Then write python code 
+Then write Python code 
 
 Add Time Complexity and Space complexity (if applicable)
 

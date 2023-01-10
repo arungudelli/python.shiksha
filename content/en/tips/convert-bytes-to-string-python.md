@@ -16,25 +16,25 @@ In this article we will be looking at two data types from Python and then we wil
 
 **Byte**: Byte usually refers to an integer between 0 and 255 which can generally be represented using b / B.
 
-```python
-byte_string = b'I love coding with python'
+```Python
+byte_string = b'I love coding with Python'
 ```
 
 **String**: Strings are a continuous literals of Unicode characters that can be used to represent text information by enclosing the data between single quotes and double quotes.
 
 ```
-sample_string = “I love coding with python”
+sample_string = “I love coding with Python”
 ```
 
 ## Method 1: Using the `decode()` method
 
-`decode()` is an inbuilt method in python which can be used to convert bytes to string.
+`decode()` is an inbuilt method in Python which can be used to convert bytes to string.
 
 This inbuilt method uses a particular _encoding scheme_ to convert bytes to string.
 
 Let’s have a look on the demo example:
 
-```python
+```Python
 sample_data = b'Welcome to Python Shiksha'  
 
 # Initialising the variable using the standard byte define notation
@@ -50,7 +50,7 @@ print(type(decoded_data))
 
 OUTPUT:
 
-```python
+```Python
 b'Welcome to Python Shiksha'
 <class 'bytes'>
 Welcome to Python Shiksha
@@ -65,7 +65,7 @@ Instead of using the built in `decode()` method , we can also import the **codec
 
 This alternative provides us with an option to pass an `encoding scheme` as an parameter to the `codecs.decode()` method.
 
-```python
+```Python
 import codecs
 
 sample_data = b'Welcome to Python Shiksha'  # Initialising the variable using the standard byte define notation
@@ -98,7 +98,7 @@ You may ask, then this would be applicable in this case as well.
 
 Yes, we can covert bytes to string using Python `str()` function, Let's check it out.
 
-```python
+```Python
 sample_data = b'Welcome to Python Shiksha'
 
 print(sample_data)
@@ -129,7 +129,7 @@ Using the `pandas` library method would be useful in a case where we want to **d
 
 By using this method what we are doing basically is that we will first loop through an array of byte data types to form a sentence of byte data type and then further using our previously learned `decode()` function to convert it from bytes to string.
 
-```python
+```Python
 sample_data = {'column' : [b'Python', b'loves' , b'Python Shiksha']}
 data = pd.DataFrame(data=sample_data)
 
@@ -163,7 +163,7 @@ It is very rare for a programmer to remember **ASCII codes** of all the alphabet
 
 But since it is a method, let’s check it out.
 
-```python
+```Python
 sample_ascii_data = [73,32,76,111,118,101,32,80,121,116,104,111,110,32,83,104,105,107,115,104,97] #I Love Python Shiksha in ASCII codes
 decoded_data = ''.join(map(chr,sample_ascii_data));
 print(decoded_data)

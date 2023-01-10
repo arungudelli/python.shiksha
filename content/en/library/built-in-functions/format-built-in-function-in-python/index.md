@@ -1,6 +1,6 @@
 ---
-title: "python format() syntax, usage and examples in python"
-description: "The 'format()' function is a one of the built-in functions in python"
+title: "Python format() syntax, usage and examples in Python"
+description: "The 'format()' function is a one of the built-in functions in Python"
 date: "2022-08-22T10:00:05+09:00"
 draft: false
 link: "format() Built-in functions"
@@ -13,9 +13,9 @@ weight: 100
 toc: true
 ---
 
-## `format()` function in python
+## `format()` function in Python
 
-1. The `format()` function is a one of the built-in functions in python.
+1. The `format()` function is a one of the built-in functions in Python.
 2. The `format()` is used for `Formats a specified value`.
 
 The string's placeholder is filled with the formatted value(s) inserted by the format() method. 
@@ -24,7 +24,7 @@ The placeholder is defined using curly brackets: {}.
 
 ## `format()` function Syntax
 
-```python
+```Python
 string.format(value1, value2...) 
 ```
 ## `format()` function parameters
@@ -35,21 +35,21 @@ The values can be of any data type.
 
 ### `format()` function Examples:
 
-let's go through couple of examples to understand `format()` function in python
+let's go through couple of examples to understand `format()` function in Python
 
 ###  Example 1:
 
-```python
+```Python
 print("{} is my country".format("India"))
 ```
 output:
 
-```python
+```Python
 India is my country
 ```
 ### Example 2:
 
-```python
+```Python
 
 # integer 
 print(format(5648, "*>+7,d"))
@@ -59,7 +59,7 @@ print(format(690.4567, "^-09.3f"))
 ```
 output:
 
-```python
+```Python
 *+5,648
 0690.4570
 ```

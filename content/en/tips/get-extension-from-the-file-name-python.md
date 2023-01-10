@@ -16,7 +16,7 @@ In case we are using a **remote file** somewhere in a big codebase, where we don
 
 ## Method 1: Using `os.path()` method
 
-File Path manipulation is enhanced by the usage of the `os.path()` method in python.
+File Path manipulation is enhanced by the usage of the `os.path()` method in Python.
 
 This module completely handles the receiving, opening, saving and opening of data from file paths by itself.
 
@@ -26,7 +26,7 @@ The `os.path.splitext()` function returns a tuple with two items: the file exten
 
 Let’s see its implementation
 
-```python
+```Python
 import os
 path = 'D:/Python Shiksha/sample.py'
 result = os.path.splitext(path)
@@ -46,7 +46,7 @@ Easy and compact to use module and as we can see that it extracts both the file 
 
 ## Method 2: Using `pathlib.Path()` function
 
-`Pathlib` is one of the most used python modules when it comes to playing around with the file paths.
+`Pathlib` is one of the most used Python modules when it comes to playing around with the file paths.
 
 By passing the filename as a string parameter to the `pathlib.Path()` function, we can create a new `Path()` object which has three values to be accessed.
 
@@ -58,7 +58,7 @@ By passing the filename as a string parameter to the `pathlib.Path()` function, 
 
 Let’s check its implementation
 
-```python
+```Python
 import pathlib
 path = pathlib.Path('D:\Python Shiksha\sample.py')
 print(path.suffix)

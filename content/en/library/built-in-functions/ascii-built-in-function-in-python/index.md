@@ -1,6 +1,6 @@
 ---
-title: "python ascii() function syntax, usage and example"
-description: "The 'ascii()' function is one of the built-in functions in python"
+title: "Python ascii() function syntax, usage and example"
+description: "The 'ascii()' function is one of the built-in functions in Python"
 date: "2022-07-21T10:00:00+00:00"
 draft: false
 link: "ascii() built-in functions"
@@ -13,9 +13,9 @@ weight: 100
 toc: true
 ---
 
-## `ascii()` function in python
+## `ascii()` function in Python
 
-1. The `ascii()` function is one of the built-in functions in python.
+1. The `ascii()` function is one of the built-in functions in Python.
 2. The `ascii()` is used for `Returns a readable version of an object`. Replaces none-ascii characters with escape character
 
 The `ascii()` function will replace any non-ascii characters with escape characters like this
@@ -31,7 +31,7 @@ The `ascii()` function will replace any non-ascii characters with escape charact
 
 ## `ascii()` function Syntax
 
-```python
+```Python
 ascii(object)
 ```
 
@@ -55,21 +55,21 @@ We see that in these examples, all the non-ASCII characters have been escaped, i
 
 ### Example 1: `ascii()` function for `å`
 
-```python
+```Python
 # welcome to Pythonshiksha
-x = ascii("my tutorial name is pythonshikshå")
+x = ascii("my tutorial name is Pythonshikshå")
 print(x)
 ```
 output:
 
-```python
-'my tutorial name is pythonshiksh\xe5'
+```Python
+'my tutorial name is Pythonshiksh\xe5'
 ```
 ### Difference between ascii() vs print()
 
 ### Example 2:
 
-```python
+```Python
 # welcome to Pythonshiksha
 str = '''E
 For 
@@ -79,7 +79,7 @@ print("Display with print function : ",str)
 ```
 output:
 
-```python
+```Python
 Display with ascii function :  'E\nFor \negg'
 Display with print function :  E
 For

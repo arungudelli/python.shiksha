@@ -8,7 +8,7 @@ author: "dmohanty"
 
 ## Introduction
 
-Python is all about objects and every object in python has some attributes, be it a method, be it a variable and it becomes very important to check for an appropriate attribute inside of an object while writing **complex** logic.
+Python is all about objects and every object in Python has some attributes, be it a method, be it a variable and it becomes very important to check for an appropriate attribute inside of an object while writing **complex** logic.
 
 But is it even possible to check if a particular object has a desired attribute or not? 
 
@@ -26,7 +26,7 @@ You can simply call the inbuilt method `hasattr(object,attribute)` and Python wi
 
 Let’s check out the implementation:
 
-```python
+```Python
 class shiksha:
     pypy = 15.0
     def getPy(self):
@@ -66,7 +66,7 @@ In order to achieve our desired output as well we will now use a `try-except` cl
 
 Let’s checkout this awesome method.
 
-```python
+```Python
 class shiksha:
     pypy = 15.0
     def getPy():

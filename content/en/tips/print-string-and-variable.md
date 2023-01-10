@@ -1,6 +1,6 @@
 ---
 title: "Print String and Variable"
-description: "How to print string and variable on same line in python"
+description: "How to print string and variable on same line in Python"
 date: "2021-07-19T04:15:05+09:00"
 draft: true
 link: "Print string-variable on same line"
@@ -11,7 +11,7 @@ Many times while programming, we come across some use case where we have to prin
 
 Other programming languages does it so easily ? 
 
-What about python , does it support the same format ?
+What about Python , does it support the same format ?
 
 Most Probably. 
 
@@ -19,11 +19,11 @@ Let’s check this out in this article.
 
 ## What is a Variable ?
 
-Before diving into the different, let’s brush up our basics about variables in python:
+Before diving into the different, let’s brush up our basics about variables in Python:
 
 A Python **variable** is a *reserved memory location* to store values. 
 
-In simple words, a variable in a python gives data to the computer for processing.
+In simple words, a variable in a Python gives data to the computer for processing.
 
 Variables in Python has a datatype like Numbers (Integers and Decimals), List, Tuple, Strings, Dictionary etc.
 

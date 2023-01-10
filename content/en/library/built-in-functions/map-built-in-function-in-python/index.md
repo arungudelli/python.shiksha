@@ -1,6 +1,6 @@
 ---
-title: "python map() function syntax,usage and examples"
-description: "The 'map()' function is a one of the built-in functions in python"
+title: "Python map() function syntax,usage and examples"
+description: "The 'map()' function is a one of the built-in functions in Python"
 date: "2022-08-18T03:05:05+09:00"
 draft: false
 link: "map() Built-in functions"
@@ -13,9 +13,9 @@ weight: 100
 toc: true
 ---
 
-## `map()` function in python
+## `map()` function in Python
 
-1. The `map()` function is a one of the built-in functions in python.
+1. The `map()` function is a one of the built-in functions in Python.
 2. The `map()` is used for	`Returns the specified iterator with the specified function applied to each item`.
 
 For each item in an iterable, the map() function calls a predefined function.
@@ -23,7 +23,7 @@ The object is passed as a parameter to the function.
 
 # `map()` function Syntax 
 
-```python
+```Python
 map(fun, iter)
 ```
 ## `map()` function parameters
@@ -43,11 +43,11 @@ NOTE : The returned value from map() (map object) then can be passed to function
 
 ### `map()` function Examples:
 
-let's go through couple of examples to understand `map()` function in python
+let's go through couple of examples to understand `map()` function in Python
 
 ### `map()` function Example 1:
 
-```python
+```Python
 def mylist(a, b):
   return a + b
 x = map(mylist, ('apple', 'banana', 'cherry'), ('orange', 'lemon', 'pineapple'))
@@ -58,12 +58,12 @@ print(list(x))
 ```
 output:
 
-```python
+```Python
 ['appleorange', 'bananalemon', 'cherrypineapple']
 ```
 ### `map()` function Example 2:
 
-```python
+```Python
 num1 = [8, 9, 6]
 num2 = [9, 6, 8]
 
@@ -73,7 +73,7 @@ print(list(result))
 ```
 output:
 
-```python
+```Python
 [17,15,14]
 ```
 ## Summary

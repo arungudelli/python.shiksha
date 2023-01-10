@@ -1,6 +1,6 @@
 ---
-title: "python round() function syntax,usage and examples"
-description: "The `round()`function is a one of the built-in functions in python"
+title: "Python round() function syntax,usage and examples"
+description: "The `round()`function is a one of the built-in functions in Python"
 date: "2022-08-06T05:50:05+09:00"
 draft: false
 link: "round() Built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `round()` function in python
+## `round()` function in Python
 
-1. The `round()` function is a one of the built-in functions in python.
+1. The `round()` function is a one of the built-in functions in Python.
 `round()` is used for `Rounds a numbers`.
 
 ## `round()` function Syntax
 
-```python
+```Python
 round(number, digits)
 ```
 ## `round()` function parameters
@@ -36,25 +36,25 @@ if a decimal number is given, then it will round off to the closest multiple of 
 
 ### `round()` function Examples:
 
-let's go through couple of examples to understand `round()` function in python
+let's go through couple of examples to understand `round()` function in Python
 
 ### `round()` function Example 1:
 
-```python
+```Python
 #Round to the nearest integer:
 num = round(31.2924)
 print(num) 
 ```
 output:
 
-```python
+```Python
 31
 ```
 here digit is '0'so output will be nearest number to decimal number 
 
 ### Example 2: 
 
-```python
+```Python
 #Round to the nearest integer:
 num = round(31.2924,1)
 print(num) 
@@ -66,7 +66,7 @@ print(round(31.2924,5))
 ```
 output:
 
-```python
+```Python
 31.3
 31.29
 31.292
@@ -75,7 +75,7 @@ output:
 ```
 ### Example 3:
 
-```python
+```Python
 #Round to the nearest integer:
 
 print(round(31.4924))
@@ -86,7 +86,7 @@ print(round(31.6924))
 ```
 output:
 
-```python
+```Python
 31
 31.592
 32

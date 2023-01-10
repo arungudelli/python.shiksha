@@ -1,6 +1,6 @@
 ---
-title: "python enumerate() function syntax,usage and examples"
-description: "The 'enumerate()' function is a one of the built in functions in python
+title: "Python enumerate() function syntax,usage and examples"
+description: "The 'enumerate()' function is a one of the built in functions in Python
 "
 date: "2022-06-28T11:25:05+09:00"
 draft: false
@@ -14,15 +14,15 @@ weight: 100
 toc: true
 ---
 
-## `enumerate()` function in python
+## `enumerate()` function in Python
 
-1.The `enumerate()` function is a one of the built in functions in python.
+1.The `enumerate()` function is a one of the built in functions in Python.
 
-In python `enumerate()` function can acts as a counter, it will count the items present in list or tuple.
+In Python `enumerate()` function can acts as a counter, it will count the items present in list or tuple.
 
 ## `enumerate()` function Syntax
 
-```python
+```Python
 enumerate(iterable, start=0)
 ```
 ## `enumerate()` function Parameters
@@ -32,11 +32,11 @@ Start: the index value from which the counter is to be started, by default it is
 
 ### `enumerate()` function Examples:
 
-let's go through couple of examples to understand `enumerate()` function in python
+let's go through couple of examples to understand `enumerate()` function in Python
 
 ### Example 1:
 
-```python
+```Python
 students =['saanvi','kathya','hasya']
 print(list(enumerate(students)))
 ```
@@ -48,14 +48,14 @@ Like this the counter starts from 0 and ends when all the list of variables exec
 
 ### Example 2:
 
-```python
+```Python
 # initializing numbers in to the list
 numbers =[5,6,10,8,89,0,34,77]
 print(list(enumerate(numbers)))
 ```
 output:
 
-```python
+```Python
 [(0, 5), (1, 6), (2, 10), (3, 8), (4, 89), (5, 0), (6, 34), (7, 77)]
 ```
 Like this the counter starts from 0 and ends when all the list of variables executes

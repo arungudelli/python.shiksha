@@ -1,6 +1,6 @@
 ---
-title: "python callable() function syntax,usage and examples"
-description: "The 'callable()' function is a one of the built-in functions in python"
+title: "Python callable() function syntax,usage and examples"
+description: "The 'callable()' function is a one of the built-in functions in Python"
 date: "2022-08-18T10:10:05+09:00"
 draft: false
 link: "callable() Built-in functions"
@@ -13,14 +13,14 @@ weight: 100
 toc: true
 ---
 
-## `callable()` function in python
+## `callable()` function in Python
 
-1. The `callable()` function is a one of the built-in functions in python.
+1. The `callable()` function is a one of the built-in functions in Python.
 2. The `callable()` is used for `Returns True if the specified object is callable, otherwise False`.
 
 ## `callable()` function  Syntax
 
-```python
+```Python
 callable(object)
 ```
 ## `callable()` function parameter
@@ -36,11 +36,11 @@ Note: There may be few cases where `callable()` returns true, but the call to ob
 
 ### `callable()` function Examples:
 
-let's go through couple of examples to understand `callable()` function in python
+let's go through couple of examples to understand `callable()` function in Python
 
 ### Example 1: 
 
-```python
+```Python
 # welcome to Pythonshiksha
 def num1():
   num1 = 5
@@ -53,7 +53,7 @@ print(callable(my_num))
 ```
 output:
 
-```python
+```Python
 True
 <function num2 at 0x2b89e74eaca0>
 False
@@ -63,7 +63,7 @@ and my_num is not called so it will be False.
 
 ### Example 2:
 
-```python
+```Python
 def my_num():
   a = 500
 
@@ -79,13 +79,13 @@ You can change any number in "my_num " the output will be "True" why because "my
 
 ### Example 3:
 
-```python
+```Python
 my_num= 10
 print(callable(my_num))
 ```
 output:
 
-```python
+```Python
 False
 ```
 Try this:

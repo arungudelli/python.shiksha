@@ -60,7 +60,7 @@ We can use Python `sorted()` function to sort the strings.
 
 `sorted()` is a built in function in `Python`, which returns the sorted string without modifying the existing string. 
 
-```python
+```Python
 
 def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
 
@@ -98,7 +98,7 @@ As both strings contains only alphabets, we can count the occurrences of each ch
 3. Then count the occurrences of each letter and store them in corresponding arrays.
 4. Finally compare both arrays count. If both arrays counts are equal then strings are anagram return `true` else return `false`.
 
-```python
+```Python
 
     def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
         
@@ -132,7 +132,7 @@ We created two arrays with size `26` and initialized with all `0`'s.
 ```
 Let's say our source string is `cat`. 
 
-```python
+```Python
 for character in source:
  sourceCharacterCounter[ord(character)-ord('a')] += 1
 
@@ -146,7 +146,7 @@ for character in source:
 
 To understand further print both `sourceAlphabetCounter` and `targetAlphabetCounter` arrays is using `Python`'s `print` function.
 
-```python
+```Python
 
 #CheckIfStringsAreAnagram("anagram", "nagaram")
 print(sourceAlphabetCounter)
@@ -168,7 +168,7 @@ Instead we can create only one counter array, then increase the count of each ch
 
 And if all values in the counter array are zero, then **both strings are anagrams**.
 
-```python
+```Python
 
     def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
         
@@ -195,7 +195,7 @@ Instead of loop through all characters in both strings, we can increase the char
 
 If the count becomes less than `0` we can say that both **strings are not anagram** as destination string have few extra characters. 
 
-```python
+```Python
 
     def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
         
@@ -262,7 +262,7 @@ The most simple way to solve the problem is to use `Python`'s `Counter()` functi
 
 `Counter()` function is part of `collections`.
 
-```python
+```Python
 print(Counter("anagram"))
 
 ## Outpur
@@ -271,7 +271,7 @@ print(Counter("anagram"))
 
 So we can pass both strings to `Counter()` function to check whether they are anagrams or not. 
 
-```python
+```Python
 
     def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
        
