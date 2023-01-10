@@ -1,5 +1,5 @@
 ---
-titlle: "python bytearray() function syntax,usage and examples"
+title: "python bytearray() function syntax,usage and examples"
 description: "The 'bytearray()'function is one of the built-in function in python"
 date: "2022-07-26T11:00:40+09:00"
 draft: false
