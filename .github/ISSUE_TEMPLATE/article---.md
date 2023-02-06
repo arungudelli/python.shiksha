@@ -1,9 +1,17 @@
+---
+name: "Article"
+about: Detailed article
+
+---
+
 
 ## Description
 
 Write a detailed tutorial about concatenate two lists in Python?
 
 ## Stackoverflow link
+
+Write different ways to solve the problem
 
 https://stackoverflow.com/questions/1720421/how-do-i-concatenate-two-lists-in-python
 
