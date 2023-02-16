@@ -9,18 +9,17 @@ images: []
 type: docs
 weight: 1
 ---
-
-In this Tutorial we will write a `Python` program to check if two string are anagrams are not. 
+In this Tutorial we will write a `Python` program to check if two string are anagrams are not.
 
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase.
 
-## Problem Statement 
+## Problem Statement
 
-Given two strings `source` and `target`, write a `Python` function to check whether the given strings are anagrams of each other or not. 
+Given two strings `source` and `target`, write a `Python` function to check whether the given strings are anagrams of each other or not.
 
 If both are anagrams return `true` else `false`.
 
-Examples of Anagrams are 
+Examples of Anagrams are
 
 ```
 //Example 1
@@ -58,7 +57,7 @@ If they are equal then both are anagrams otherwise they are not.
 
 We can use Python `sorted()` function to sort the strings.
 
-`sorted()` is a built in function in `Python`, which returns the sorted string without modifying the existing string. 
+`sorted()` is a built in function in `Python`, which returns the sorted string without modifying the existing string.
 
 ```python
 
@@ -75,9 +74,9 @@ def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
 
 **Time Complexity:**
 
-As we are using `sorted()` function, the worst case it takes `O(nlogn)`. 
+As we are using `sorted()` function, the worst case it takes `O(nlogn)`.
 
-So the Time complexity is `O(nlogn)`. 
+So the Time complexity is `O(nlogn)`.
 
 Where `n` is the length of the string.
 
@@ -85,13 +84,13 @@ Where `n` is the length of the string.
 
 The space complexity is `O(n)`.
 
-## Approach 2: Using Character Frequency Counter 
+## Approach 2: Using Character Frequency Counter
 
 We can check if both strings are anagrams or not without sorting the strings.
 
 As both strings contains only alphabets, we can count the occurrences of each character in two strings and then compare the count.
 
-### Algorithm 
+### Algorithm
 
 1. Check if both strings length equal or not.
 2. Create two counter arrays for both strings, as they contain only alphabets we can create arrays with size `26`.
@@ -101,14 +100,14 @@ As both strings contains only alphabets, we can count the occurrences of each ch
 ```python
 
     def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
-        
+      
         if len(source) != len(target):
             return False
-        
+      
         numberOfAlphabets = 26
         sourceCharacterCounter = [0]*numberOfAlphabets
         targetCharacterCounter = [0]*numberOfAlphabets
-        
+      
         for character in source:
             sourceCharacterCounter[ord(character)-ord('a')] += 1
         for character in target:
@@ -120,9 +119,9 @@ As both strings contains only alphabets, we can count the occurrences of each ch
 
 ```
 
-`ord()` function returns the integer representation of unicode character. 
+`ord()` function returns the integer representation of unicode character.
 
-`ord('a')` is equal to `97`. 
+`ord('a')` is equal to `97`.
 `ord('z')` is equal to `122`.
 
 We created two arrays with size `26` and initialized with all `0`'s.
@@ -130,7 +129,8 @@ We created two arrays with size `26` and initialized with all `0`'s.
 ```
 [0,0,0.....,0] // 26 size
 ```
-Let's say our source string is `cat`. 
+
+Let's say our source string is `cat`.
 
 ```python
 for character in source:
@@ -140,7 +140,7 @@ for character in source:
 # [1,0,1,,,,,,,1,,,,,0] 
 ```
 
-`ord('c')-ord('a')` represents index of character `c`. 
+`ord('c')-ord('a')` represents index of character `c`.
 
 `sourceCharacterCounter[ord('c')-ord('a')]` is nothing but number of occurrences of character `c`.
 
@@ -158,7 +158,7 @@ print(targetAlphabetCounter)
 """
 ```
 
-If both array counts are same then both strings are anagrams. 
+If both array counts are same then both strings are anagrams.
 
 Let's improve the solution further.
 
@@ -171,13 +171,13 @@ And if all values in the counter array are zero, then **both strings are anagram
 ```python
 
     def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
-        
+      
         if len(source) != len(target):
             return False
-        
+      
         numberOfAlphabets = 26
         characterCounter = [0]*numberOfAlphabets
-        
+      
         for index in range(len(source)):
             characterCounter[ord(source[index])-ord('a')] += 1
             characterCounter[ord(target[index])-ord('a')] -= 1
@@ -193,18 +193,18 @@ We will slightly change the implementation further.
 
 Instead of loop through all characters in both strings, we can increase the character count of source string in one loop, and in other loop decrease the destination character count.
 
-If the count becomes less than `0` we can say that both **strings are not anagram** as destination string have few extra characters. 
+If the count becomes less than `0` we can say that both **strings are not anagram** as destination string have few extra characters.
 
 ```python
 
     def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
-        
+      
         if len(source) != len(target):
             return False
-        
+      
         numberOfAlphabets = 26
         characterCounter = [0]*numberOfAlphabets
-        
+      
         for index in range(len(source)):
             characterCounter[ord(source[index])-ord('a')] += 1
 
@@ -212,7 +212,7 @@ If the count becomes less than `0` we can say that both **strings are not anagra
             characterCounter[ord(target[index])-ord('a')] -= 1
             if(characterCounter[ord(target[index])-ord('a')]<0):
                 return False
-        
+      
         return True
 
 ```
@@ -227,9 +227,9 @@ Where `n` is the length of the string.
 
 ## Approach 3: Using Hash Table
 
-If strings contains unicode characters (not only alphabets), we cannot use fixed size integer array. 
+If strings contains unicode characters (not only alphabets), we cannot use fixed size integer array.
 
-Instead of that we should Hash table for the counters.  
+Instead of that we should Hash table for the counters.
 
 In `Python` dictionary implements a hash table.
 
@@ -237,20 +237,20 @@ So we will create two `dictionary` variables to store the character count.
 
 ```go
 func CheckIfStringsAreAnagram(source string, target string) bool {
-    
+  
     if len(source) != len(target) {
         return false
     }
-    
+  
     sourceDictionary, targetDictionary = {}, {}
-    
+  
     for character in source:
         sourceDictionary[character] = sourceDictionary.get(character, 0) + 1
     for character in target:
         targetDictionary[character] = targetDictionary.get(character, 0) + 1
     return sourceDictionary == targetDictionary
-    
-	
+  
+
 }
 ```
 
@@ -269,17 +269,17 @@ print(Counter("anagram"))
 ## Counter({'a': 3, 'n': 1, 'g': 1, 'r': 1, 'm': 1})
 ```
 
-So we can pass both strings to `Counter()` function to check whether they are anagrams or not. 
+So we can pass both strings to `Counter()` function to check whether they are anagrams or not.
 
 ```python
 
     def CheckIfStringsAreAnagram(source: str, target: str) -> bool:
-       
+     
         if len(source) != len(target):
             return False
-        
+      
         from collections import Counter
-        
+      
         return Counter(source)==Counter(target)
 ```
 
@@ -291,14 +291,13 @@ Where `n` is the length of the string.
 
 **Space Complexity is `O(n)`**
 
-
 ## Summary
 
 We learnt different ways to check if two strings are anagrams or not in `Python` language.
 
-In your daily projects you can use built in functions like `sorted()` or `counter()` to check if strings are anagrams or not. 
+In your daily projects you can use built in functions like `sorted()` or `counter()` to check if strings are anagrams or not.
 
 Otherwise use character counting approach.
 
 1. Use frequency counter approach as it's simple and easy to understand.
-2. Use Hash table approach if the strings contains unicode characters. 
+2. Use Hash table approach if the strings contains unicode characters.
