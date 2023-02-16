@@ -12,6 +12,7 @@ weight: 2
 
 The problem is that you are given an array of integers and an integer sum, return indexes of the two numbers
 such that the sum of two numbers is equal to sum.
+
 **Assumptions**
 1. Each input would have exactly one solution,
 2. You should not use the same element twice.
