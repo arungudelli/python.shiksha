@@ -117,5 +117,3 @@ output:
 In this article, we discussed in detail about all the tips and methods with the help of which we can easily remove the final character of a string.
 
 Instead of using `for` loop use `string slicing` method to remove the final character,that will be optimal
-
-Overview of Strings in Python #
