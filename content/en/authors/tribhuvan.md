@@ -1,6 +1,6 @@
 ---
 title: "Tribhuvan Mishra"
-user: "tribhuvan0"
+user: "tribhuvan"
 photo: "/images/authors/TM.jpg"
 linkedin: "Tribhuvan0"
 github: "Tribhuvan0"
