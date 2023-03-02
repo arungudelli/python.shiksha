@@ -1,5 +1,5 @@
 ---
-title: "2 ways to solve Unique Number of Occurrences Problem in Python"
+title: "3 ways to solve Unique Number of Occurrences Problem in Python"
 description: "Given an array of integers, Write a python function to check if the number of occurrences each element in the array is unique. If they are unique return true, or else return false."
 lead: ""
 date: 2023-02-22T14:40:56+01:00
@@ -14,10 +14,11 @@ In this Tutorial we will write a `Python` program to check unique number of occu
 
 For example we have a Python array, and we need to check whether each element has unique number of occurrences.
 
-There are two ways to check if the Occurrence of every element is unique in the Python array.
+There are three ways to check if the Occurrence of every element is unique in the Python array.
 
-1. Using Using dictionary
-2. Using `Counter()`
+1. Using Brute force approach.
+2. Using Using dictionary or HashMap.
+3. Using `Counter()`.
 
 ## Problem Statement
 
@@ -44,9 +45,59 @@ Output: false
 
 The elements 1 and 4 both repeated only one time, that means same number of occurrences should return `false`
 
-## Approach 1: Using dictionary
+## Method 1: Brute force approach
 
-We will discuss two approaches to solve this problem. Initially we will solve it with using dictionary. 
+In this approach we will be using two `for` loops. 
+
+We will iterate from starting index to last index and see if every number is present or not and will store its frequency in another array. 
+
+And after this iteration is done we will simply check new array for any duplicate value.
+
+```python
+    class Solution
+     def uniqueOccurrences(self, arr: List[int]) -> bool: 
+     numberOfElements = len(arr)
+     frequencyArr = [0]*(n + 1);
+ 
+    # count the frequency of each array element
+    for i in range(1,numberOfElements+1):
+        for j in range(0,numberOfElements):
+            if (arr[j] == i):
+                frequencyArr[i - 1]+=1;
+ 
+    # Checking if frequency array for duplicate values
+    for i in range(0, numberOfElements):
+        for j in range(0, numberOfElements):
+            if (i == j or frequencyArr[i] == 0):
+                continue;
+            if (frequencyArr[i] == frequencyArr[j]):
+ 
+                # If any duplicate frequency then return
+                # false
+                return False;
+     
+    # If no duplicate frequency found, then return true
+    return True;
+```
+Second time when we check the frequency array for duplicates then we check `i == j or frequency[i] == 0` because for i == j, the value of 
+frequency[i] and frequency[j] will always be equal hence by using this condition we handle that case.
+
+This approach may not work for negative numbers so avoid using this if the array contains negative numbers.
+
+### Complexity
+
+**Time Complexity is `O(n^2)`**
+
+Where `n` is the length of the array.
+
+**Space Complexity is `O(n)`**
+
+
+## Method 2: Using Using dictionary or Hash Table
+
+In `Python`, dictionary implements a hash table.
+
+We will solve this problem using dictionary in Python. 
 
 The basic approach one can try is to:-
 
@@ -88,7 +139,7 @@ Where `n` is the length of the array.
 **Space Complexity is `O(n)`**
 
 
-## Approach 2: Using `Counter()`.
+## Method 3: Using `Counter()`.
 
 Instead of two `for` loops we can use Python built in function `Counter()` which is part of `collections`.
 
@@ -160,5 +211,5 @@ Where `n` is the length of the array.
 
 ## Summary
 
-In this Python tutorial, we learnt different ways to **to check unique occurrence of values in an array.**
+In this Python tutorial, we learnt different ways **to check if the number of occurrences each element in the array is unique.**
 
